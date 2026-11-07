@@ -1,0 +1,902 @@
+{
+  "schema_version": 3,
+  "product_id": "769972203898",
+  "url": "https://detail.tmall.com/item.htm?id=769972203898",
+  "source": "bounded_specification_collection",
+  "inventory": {
+    "groups_seen": 2,
+    "groups": [
+      {
+        "position": 1,
+        "name": "颜色分类",
+        "options_seen": 11,
+        "options": [
+          {
+            "position": 1,
+            "label": "001微晶白/矿物蓝 【防泼水革面】",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 2,
+            "label": "006正黑 【防泼水革面】",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 3,
+            "label": "108一度灰/瓦砾灰 【防泼水革面】",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 4,
+            "label": "109苍野灰/微晶白 【防泼水革面】",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 5,
+            "label": "002微晶白/矿物蓝 【四季网面】",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 6,
+            "label": "005正黑/微晶白 【四季网面】",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 7,
+            "label": "809浮岩灰/暖雾灰 【四季网面】",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 8,
+            "label": "108苍野灰/榛果色 【四季网面】",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 9,
+            "label": "010微晶白/白露灰/淡灰蓝 【四季网面】",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 10,
+            "label": "111月石灰/云雾灰 【四季网面】",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 11,
+            "label": "001正黑/黑土地 【透气网面】",
+            "image_regions_seen": 1
+          }
+        ]
+      },
+      {
+        "position": 2,
+        "name": "鞋码",
+        "options_seen": 7,
+        "options": [
+          {
+            "position": 1,
+            "label": "39",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 2,
+            "label": "40",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 3,
+            "label": "41",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 4,
+            "label": "42",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 5,
+            "label": "43",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 6,
+            "label": "44",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 7,
+            "label": "45",
+            "image_regions_seen": 0
+          }
+        ]
+      }
+    ]
+  },
+  "inventory_observed_at": "2026-09-29T15:45:02.356Z",
+  "options": [
+    {
+      "group_position": 1,
+      "position": 1,
+      "group": "颜色分类",
+      "label": "001微晶白/矿物蓝 【防泼水革面】",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/349740505/O1CN01Pt6tAdWn9zG2vH2e_!!349740505.jpg_.webp",
+        "loaded": true,
+        "width": 1440,
+        "height": 1440
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 2,
+          "observed_at": "2026-09-29T15:45:03.968Z",
+          "group_position": 1,
+          "position": 1,
+          "label": "001微晶白/矿物蓝 【防泼水革面】",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/349740505/O1CN01Pt6tAdWn9zG2vH2e_!!349740505.jpg_.webp",
+            "loaded": true,
+            "width": 1440,
+            "height": 1440
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 2,
+      "group": "颜色分类",
+      "label": "006正黑 【防泼水革面】",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/349740505/O1CN01xYRWiQ6FlIL2vH2e_!!349740505.jpg_.webp",
+        "loaded": true,
+        "width": 1440,
+        "height": 1440
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 2,
+          "observed_at": "2026-09-29T15:45:03.968Z",
+          "group_position": 1,
+          "position": 2,
+          "label": "006正黑 【防泼水革面】",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/349740505/O1CN01xYRWiQ6FlIL2vH2e_!!349740505.jpg_.webp",
+            "loaded": true,
+            "width": 1440,
+            "height": 1440
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 3,
+      "group": "颜色分类",
+      "label": "108一度灰/瓦砾灰 【防泼水革面】",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i2/349740505/O1CN01cuPgO5SCzpB2vH2e_!!349740505.jpg_.webp",
+        "loaded": true,
+        "width": 1440,
+        "height": 1440
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 2,
+          "observed_at": "2026-09-29T15:45:03.968Z",
+          "group_position": 1,
+          "position": 3,
+          "label": "108一度灰/瓦砾灰 【防泼水革面】",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i2/349740505/O1CN01cuPgO5SCzpB2vH2e_!!349740505.jpg_.webp",
+            "loaded": true,
+            "width": 1440,
+            "height": 1440
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 4,
+      "group": "颜色分类",
+      "label": "109苍野灰/微晶白 【防泼水革面】",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i1/349740505/O1CN01IqwMDf2uTvF2vH2e_!!349740505.jpg_.webp",
+        "loaded": true,
+        "width": 1440,
+        "height": 1440
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 2,
+          "observed_at": "2026-09-29T15:45:03.968Z",
+          "group_position": 1,
+          "position": 4,
+          "label": "109苍野灰/微晶白 【防泼水革面】",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i1/349740505/O1CN01IqwMDf2uTvF2vH2e_!!349740505.jpg_.webp",
+            "loaded": true,
+            "width": 1440,
+            "height": 1440
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 5,
+      "group": "颜色分类",
+      "label": "002微晶白/矿物蓝 【四季网面】",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i1/349740505/O1CN01wsgsx51FbL92L0OCT_!!349740505.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 2,
+          "observed_at": "2026-09-29T15:45:03.968Z",
+          "group_position": 1,
+          "position": 5,
+          "label": "002微晶白/矿物蓝 【四季网面】",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i1/349740505/O1CN01wsgsx51FbL92L0OCT_!!349740505.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 6,
+      "group": "颜色分类",
+      "label": "005正黑/微晶白 【四季网面】",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/349740505/O1CN01bzgdi61FbL9271oFt_!!349740505.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 3,
+          "observed_at": "2026-09-29T15:45:05.544Z",
+          "group_position": 1,
+          "position": 6,
+          "label": "005正黑/微晶白 【四季网面】",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/349740505/O1CN01bzgdi61FbL9271oFt_!!349740505.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 7,
+      "group": "颜色分类",
+      "label": "809浮岩灰/暖雾灰 【四季网面】",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/349740505/O1CN01iO75tH1FbL91jaJBc_!!349740505.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 3,
+          "observed_at": "2026-09-29T15:45:05.544Z",
+          "group_position": 1,
+          "position": 7,
+          "label": "809浮岩灰/暖雾灰 【四季网面】",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/349740505/O1CN01iO75tH1FbL91jaJBc_!!349740505.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 8,
+      "group": "颜色分类",
+      "label": "108苍野灰/榛果色 【四季网面】",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i4/349740505/O1CN01aJuz8p1FbL922khHg_!!349740505.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 3,
+          "observed_at": "2026-09-29T15:45:05.544Z",
+          "group_position": 1,
+          "position": 8,
+          "label": "108苍野灰/榛果色 【四季网面】",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i4/349740505/O1CN01aJuz8p1FbL922khHg_!!349740505.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 9,
+      "group": "颜色分类",
+      "label": "010微晶白/白露灰/淡灰蓝 【四季网面】",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i1/349740505/O1CN012vib3PrI94C1chua_!!349740505.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 3,
+          "observed_at": "2026-09-29T15:45:05.544Z",
+          "group_position": 1,
+          "position": 9,
+          "label": "010微晶白/白露灰/淡灰蓝 【四季网面】",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i1/349740505/O1CN012vib3PrI94C1chua_!!349740505.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 10,
+      "group": "颜色分类",
+      "label": "111月石灰/云雾灰 【四季网面】",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/349740505/O1CN01xAC1TSpDJRD1chua_!!349740505.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 3,
+          "observed_at": "2026-09-29T15:45:05.544Z",
+          "group_position": 1,
+          "position": 10,
+          "label": "111月石灰/云雾灰 【四季网面】",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/349740505/O1CN01xAC1TSpDJRD1chua_!!349740505.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 11,
+      "group": "颜色分类",
+      "label": "001正黑/黑土地 【透气网面】",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i2/349740505/O1CN01kgQnoRkCDOC1chua_!!349740505.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 4,
+          "observed_at": "2026-09-29T15:45:07.140Z",
+          "group_position": 1,
+          "position": 11,
+          "label": "001正黑/黑土地 【透气网面】",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i2/349740505/O1CN01kgQnoRkCDOC1chua_!!349740505.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 2,
+      "position": 1,
+      "group": "鞋码",
+      "label": "39",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 2,
+      "group": "鞋码",
+      "label": "40",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 3,
+      "group": "鞋码",
+      "label": "41",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 4,
+      "group": "鞋码",
+      "label": "42",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 5,
+      "group": "鞋码",
+      "label": "43",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 6,
+      "group": "鞋码",
+      "label": "44",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 7,
+      "group": "鞋码",
+      "label": "45",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    }
+  ],
+  "missing_images": [],
+  "unsupported_image_options": [
+    {
+      "group_position": 2,
+      "position": 1,
+      "label": "39",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 2,
+      "label": "40",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 3,
+      "label": "41",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 4,
+      "label": "42",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 5,
+      "label": "43",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 6,
+      "label": "44",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 7,
+      "label": "45",
+      "reason": "no_supported_image_container"
+    }
+  ],
+  "collection": {
+    "goal": "all_specification_options_and_images_within_budget",
+    "next_read_available": false,
+    "stop_reason": "scanned_image_options_obtained",
+    "content_reads_reserved": 4,
+    "observations_returned": 4,
+    "inventory_reads_reserved": 1,
+    "image_reads_reserved": 3,
+    "budget_basis": {
+      "image_options": 11,
+      "formula": "inventory_read_limit + image_options * reads_per_image_option",
+      "finalized": true
+    },
+    "limits": {
+      "content_reads": 36,
+      "reads_per_image_option": 3,
+      "image_options_per_read": 5,
+      "inventory_reads": 3,
+      "scroll_intents": 11,
+      "scroll_intents_per_option": 1
+    },
+    "loading_actions": []
+  },
+  "coverage": {
+    "status": "partial",
+    "scanned_inventory_complete": true,
+    "groups_omitted": 0,
+    "options_omitted_in_scanned_groups": 0,
+    "options_returned": 18,
+    "image_options_seen": 11,
+    "loaded_image_links": 11,
+    "unresolved_image_options": 0,
+    "unread_image_options": 0,
+    "scanned_supported_image_links_complete": true,
+    "full_option_images": false,
+    "full_sku_matrix": false,
+    "cross_read_image_state_verified": false,
+    "file_downloaded": false,
+    "image_semantics_read": false,
+    "sku_price_binding_verified": false
+  }
+}

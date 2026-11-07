@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "capability": "description_image_readiness",
+  "status": "bounded_complete_partial",
+  "target": {
+    "platform": "taobao",
+    "origin": "https://item.taobao.com",
+    "pathname": "/item.htm",
+    "product_id": "745476354604",
+    "url": "https://item.taobao.com/item.htm?id=745476354604"
+  },
+  "historical_source_task": "detail-loading-2-20260923",
+  "historical_source_unchanged": true,
+  "title": "二手书籍（仓库有千万本图书，能精准快速查找）",
+  "evidence": [
+    {
+      "attempt": 1,
+      "phase": "initial",
+      "observed_at": "2026-10-01T14:54:45.581Z",
+      "description": {
+        "observed": true,
+        "elements_seen": 2,
+        "elements_scanned": 2,
+        "duplicates_omitted": 0,
+        "unsupported_urls_omitted": 0,
+        "items": [
+          {
+            "position": 1,
+            "url": "https://img.alicdn.com/imgextra/i4/1716562307/O1CN014iLA5f1Suer3LT1dm_!!1716562307.png",
+            "loaded": true,
+            "width": 1,
+            "height": 1,
+            "source": "description_image"
+          },
+          {
+            "position": 2,
+            "url": "https://img.alicdn.com/imgextra/i3/O1CN01XU1Y2d1Sk7fIMOkeU_!!6000000002284-2-tps-1125-1446.png",
+            "loaded": true,
+            "width": 1125,
+            "height": 1446,
+            "source": "description_image"
+          }
+        ],
+        "image_text_extracted": false,
+        "text": "",
+        "text_may_be_truncated": true,
+        "videos_seen": 0,
+        "videos_extracted": false,
+        "observation": {
+          "schema_version": 1,
+          "text_container_observed": true,
+          "nodes_scanned": 7,
+          "traversal_truncated": false,
+          "text_truncated": false,
+          "clipped_subtrees_omitted": 0,
+          "control_candidates": [],
+          "controls_truncated": false,
+          "expansion_behavior_verified": false,
+          "limits": {
+            "nodes": 800,
+            "depth": 12,
+            "text_characters": 6000,
+            "controls": 8
+          }
+        },
+        "image_readiness": {
+          "schema_version": 1,
+          "source": "description_image_dom",
+          "region_observed": true,
+          "elements_seen": 2,
+          "elements_scanned": 2,
+          "unscanned_elements": 0,
+          "entries": [
+            {
+              "position": 1,
+              "url": "https://img.alicdn.com/imgextra/i4/1716562307/O1CN014iLA5f1Suer3LT1dm_!!1716562307.png",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 1,
+              "height": 1,
+              "status": "tiny_image_unresolved"
+            },
+            {
+              "position": 2,
+              "url": "https://img.alicdn.com/imgextra/i3/O1CN01XU1Y2d1Sk7fIMOkeU_!!6000000002284-2-tps-1125-1446.png",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 1125,
+              "height": 1446,
+              "status": "normal_size_loaded"
+            }
+          ],
+          "counts": {
+            "normal_size_loaded": 1,
+            "tiny_image_unresolved": 1,
+            "not_loaded": 0,
+            "url_not_observed": 0,
+            "unsupported_url": 0
+          },
+          "full_description_verified": false
+        }
+      },
+      "original_availability": {
+        "region_observed": true,
+        "returned_images": 2,
+        "loaded_returned_images": 2,
+        "not_loaded_returned_images": 0,
+        "unscanned_elements": 0,
+        "content_kind": "image_links_only",
+        "text_characters": 0,
+        "image_text_extracted": false
+      },
+      "viewport": {
+        "height": 952,
+        "width": 1800
+      },
+      "geometry": [
+        {
+          "excluded": false,
+          "height": 912,
+          "in_viewport": false,
+          "position": 1,
+          "width": 912,
+          "x": 100,
+          "y": 1976.59375
+        },
+        {
+          "excluded": false,
+          "height": 1172.21875,
+          "in_viewport": false,
+          "position": 2,
+          "width": 912,
+          "x": 100,
+          "y": 2888.59375
+        }
+      ],
+      "action": {
+        "state": "not_requested"
+      }
+    },
+    {
+      "attempt": 2,
+      "phase": "scroll_guard",
+      "observed_at": "2026-10-01T14:54:45.666Z",
+      "description": {
+        "observed": true,
+        "elements_seen": 2,
+        "elements_scanned": 2,
+        "duplicates_omitted": 0,
+        "unsupported_urls_omitted": 0,
+        "items": [
+          {
+            "position": 1,
+            "url": "https://img.alicdn.com/imgextra/i4/1716562307/O1CN014iLA5f1Suer3LT1dm_!!1716562307.png",
+            "loaded": true,
+            "width": 1,
+            "height": 1,
+            "source": "description_image"
+          },
+          {
+            "position": 2,
+            "url": "https://img.alicdn.com/imgextra/i3/O1CN01XU1Y2d1Sk7fIMOkeU_!!6000000002284-2-tps-1125-1446.png",
+            "loaded": true,
+            "width": 1125,
+            "height": 1446,
+            "source": "description_image"
+          }
+        ],
+        "image_text_extracted": false,
+        "text": "",
+        "text_may_be_truncated": true,
+        "videos_seen": 0,
+        "videos_extracted": false,
+        "observation": {
+          "schema_version": 1,
+          "text_container_observed": true,
+          "nodes_scanned": 7,
+          "traversal_truncated": false,
+          "text_truncated": false,
+          "clipped_subtrees_omitted": 0,
+          "control_candidates": [],
+          "controls_truncated": false,
+          "expansion_behavior_verified": false,
+          "limits": {
+            "nodes": 800,
+            "depth": 12,
+            "text_characters": 6000,
+            "controls": 8
+          }
+        },
+        "image_readiness": {
+          "schema_version": 1,
+          "source": "description_image_dom",
+          "region_observed": true,
+          "elements_seen": 2,
+          "elements_scanned": 2,
+          "unscanned_elements": 0,
+          "entries": [
+            {
+              "position": 1,
+              "url": "https://img.alicdn.com/imgextra/i4/1716562307/O1CN014iLA5f1Suer3LT1dm_!!1716562307.png",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 1,
+              "height": 1,
+              "status": "tiny_image_unresolved"
+            },
+            {
+              "position": 2,
+              "url": "https://img.alicdn.com/imgextra/i3/O1CN01XU1Y2d1Sk7fIMOkeU_!!6000000002284-2-tps-1125-1446.png",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 1125,
+              "height": 1446,
+              "status": "normal_size_loaded"
+            }
+          ],
+          "counts": {
+            "normal_size_loaded": 1,
+            "tiny_image_unresolved": 1,
+            "not_loaded": 0,
+            "url_not_observed": 0,
+            "unsupported_url": 0
+          },
+          "full_description_verified": false
+        }
+      },
+      "original_availability": {
+        "region_observed": true,
+        "returned_images": 2,
+        "loaded_returned_images": 2,
+        "not_loaded_returned_images": 0,
+        "unscanned_elements": 0,
+        "content_kind": "image_links_only",
+        "text_characters": 0,
+        "image_text_extracted": false
+      },
+      "viewport": {
+        "height": 952,
+        "width": 1800
+      },
+      "geometry": [
+        {
+          "excluded": false,
+          "height": 912,
+          "in_viewport": false,
+          "position": 1,
+          "width": 912,
+          "x": 100,
+          "y": 1976.59375
+        },
+        {
+          "excluded": false,
+          "height": 1172.21875,
+          "in_viewport": false,
+          "position": 2,
+          "width": 912,
+          "x": 100,
+          "y": 2888.59375
+        }
+      ],
+      "action": {
+        "position": 1,
+        "state": "scroll_dispatched"
+      }
+    },
+    {
+      "attempt": 3,
+      "phase": "post_scroll",
+      "observed_at": "2026-10-01T14:54:47.263Z",
+      "description": {
+        "observed": true,
+        "elements_seen": 2,
+        "elements_scanned": 2,
+        "duplicates_omitted": 0,
+        "unsupported_urls_omitted": 0,
+        "items": [
+          {
+            "position": 1,
+            "url": "https://img.alicdn.com/imgextra/i4/1716562307/O1CN014iLA5f1Suer3LT1dm_!!1716562307.png",
+            "loaded": true,
+            "width": 1,
+            "height": 1,
+            "source": "description_image"
+          },
+          {
+            "position": 2,
+            "url": "https://img.alicdn.com/imgextra/i3/O1CN01XU1Y2d1Sk7fIMOkeU_!!6000000002284-2-tps-1125-1446.png",
+            "loaded": true,
+            "width": 1125,
+            "height": 1446,
+            "source": "description_image"
+          }
+        ],
+        "image_text_extracted": false,
+        "text": "",
+        "text_may_be_truncated": true,
+        "videos_seen": 0,
+        "videos_extracted": false,
+        "observation": {
+          "schema_version": 1,
+          "text_container_observed": true,
+          "nodes_scanned": 7,
+          "traversal_truncated": false,
+          "text_truncated": false,
+          "clipped_subtrees_omitted": 0,
+          "control_candidates": [],
+          "controls_truncated": false,
+          "expansion_behavior_verified": false,
+          "limits": {
+            "nodes": 800,
+            "depth": 12,
+            "text_characters": 6000,
+            "controls": 8
+          }
+        },
+        "image_readiness": {
+          "schema_version": 1,
+          "source": "description_image_dom",
+          "region_observed": true,
+          "elements_seen": 2,
+          "elements_scanned": 2,
+          "unscanned_elements": 0,
+          "entries": [
+            {
+              "position": 1,
+              "url": "https://img.alicdn.com/imgextra/i4/1716562307/O1CN014iLA5f1Suer3LT1dm_!!1716562307.png",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 1,
+              "height": 1,
+              "status": "tiny_image_unresolved"
+            },
+            {
+              "position": 2,
+              "url": "https://img.alicdn.com/imgextra/i3/O1CN01XU1Y2d1Sk7fIMOkeU_!!6000000002284-2-tps-1125-1446.png",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 1125,
+              "height": 1446,
+              "status": "normal_size_loaded"
+            }
+          ],
+          "counts": {
+            "normal_size_loaded": 1,
+            "tiny_image_unresolved": 1,
+            "not_loaded": 0,
+            "url_not_observed": 0,
+            "unsupported_url": 0
+          },
+          "full_description_verified": false
+        }
+      },
+      "original_availability": {
+        "region_observed": true,
+        "returned_images": 2,
+        "loaded_returned_images": 2,
+        "not_loaded_returned_images": 0,
+        "unscanned_elements": 0,
+        "content_kind": "image_links_only",
+        "text_characters": 0,
+        "image_text_extracted": false
+      },
+      "viewport": {
+        "height": 952,
+        "width": 1800
+      },
+      "geometry": [
+        {
+          "excluded": false,
+          "height": 912,
+          "in_viewport": true,
+          "position": 1,
+          "width": 912,
+          "x": 100,
+          "y": 20.09375
+        },
+        {
+          "excluded": false,
+          "height": 1172.21875,
+          "in_viewport": true,
+          "position": 2,
+          "width": 912,
+          "x": 100,
+          "y": 932.09375
+        }
+      ],
+      "action": {
+        "state": "not_requested"
+      }
+    }
+  ],
+  "budget": {
+    "limits": {
+      "content_attempts": 3,
+      "scrolls": 1,
+      "new_tabs": 1,
+      "identity_reads": 0,
+      "automatic_retries": 2,
+      "retry_delays_ms": [
+        5000,
+        15000
+      ],
+      "wait_budget_ms": 120000,
+      "clicks": 0,
+      "downloads": 0,
+      "replacement_products": 0,
+      "explicit_recoveries": 0
+    },
+    "content_attempts": 3,
+    "address_probes": 1,
+    "new_tabs": 1,
+    "scroll_intents": 1,
+    "scrolls_acknowledged": 1,
+    "automatic_retries": 0,
+    "explicit_recoveries": 0,
+    "wait_reserved_ms": 1500,
+    "clicks": 0,
+    "downloads": 0,
+    "replacement_products": 0
+  },
+  "boundaries": {
+    "full_description_verified": false,
+    "lazy_loading_mechanism_verified": false,
+    "scrolling_load_success_verified": false,
+    "image_contents_read": false,
+    "permanent_scroll_workflow_implemented": false,
+    "sku_id": null,
+    "sku_price_binding_verified": false,
+    "actual_payment_verified": false,
+    "remaining_unresolved_positions": [
+      1
+    ],
+    "scope": "two scanned supported description IMG elements"
+  }
+}

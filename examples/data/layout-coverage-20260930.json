@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-30T06:17:09.375Z",
+  "scope": "basic product title, loaded specification groups, selected markers and displayed prices",
+  "sample_selection": "purposive: fixed summary, multi-group specifications, observed specification container with no groups",
+  "planned_samples": 3,
+  "successful_samples": 3,
+  "sample_parse_rate": 1,
+  "strategy_counts": {
+    "fixed_summary_with_original": 1,
+    "unique_supported_regions": 2
+  },
+  "distinct_supported_strategies": 2,
+  "population_coverage": null,
+  "population_coverage_reason": "purposive_small_sample_without_a_complete_template_inventory",
+  "all_product_fields_verified": false,
+  "full_sku_matrix_verified": false,
+  "samples": [
+    {
+      "product_id": "537601894090",
+      "url": "https://detail.tmall.com/item.htm?id=537601894090",
+      "title": "罗技 M330 无线静音鼠标办公台式笔记本电脑滑鼠轻巧",
+      "observed_at": "2026-09-30T05:53:41.618Z",
+      "status": "verified",
+      "strategy": "fixed_summary_with_original",
+      "evidence_mode": "same_day_prior_live_verification",
+      "evidence_source": "sku-public-sources-20260930/layout-result.json",
+      "groups": [
+        {
+          "name": "颜色分类",
+          "options": 32,
+          "selected": [
+            "M330-黑色*"
+          ]
+        }
+      ],
+      "option_count": 32,
+      "specification_scope": {
+        "schema_version": 1,
+        "region_observed": true,
+        "groups_seen": 1,
+        "groups_returned": 1,
+        "groups_omitted": 0,
+        "groups": [
+          {
+            "group_index": 1,
+            "options_seen": 32,
+            "options_returned": 32,
+            "options_omitted": 0
+          }
+        ],
+        "full_sku_matrix_verified": false
+      },
+      "prices": [
+        {
+          "raw": "店铺优惠后 ￥ 89",
+          "label": "店铺优惠后",
+          "qualifier": "",
+          "kind": "single_displayed",
+          "amount": "89",
+          "minimum": null,
+          "maximum": null,
+          "currency": "CNY",
+          "eligibility_verified": false,
+          "sku_id": null,
+          "sku_price_binding_verified": false
+        },
+        {
+          "raw": "优惠前￥159",
+          "label": "优惠前",
+          "qualifier": "",
+          "kind": "single_displayed",
+          "amount": "159",
+          "minimum": null,
+          "maximum": null,
+          "currency": "CNY",
+          "eligibility_verified": false,
+          "sku_id": null,
+          "sku_price_binding_verified": false
+        }
+      ],
+      "sku_evidence": {
+        "schema_version": 1,
+        "source": "current_product_url",
+        "parameter": "skuId",
+        "status": "candidate_only",
+        "candidate_sku_id": "6270968490579",
+        "sku_properties_present": false,
+        "selection_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "review_preview_count": 2,
+      "product_region_scope": {
+        "schema_version": 1,
+        "source": "scrolling_purchase_panel",
+        "excluded_region": "ItemHeadFixed",
+        "title_regions_seen": 2,
+        "price_regions_seen": 2,
+        "excluded_title_regions": 1,
+        "excluded_price_regions": 1
+      },
+      "platform_template_id": null,
+      "full_sku_matrix_verified": false
+    },
+    {
+      "product_id": "769972203898",
+      "url": "https://detail.tmall.com/item.htm?id=769972203898",
+      "title": "桀骜2|鸿星尔克男鞋运动鞋秋季新款鞋子网面透气休闲鞋增高老爹鞋",
+      "observed_at": "2026-09-30T06:15:18.373Z",
+      "status": "verified",
+      "strategy": "unique_supported_regions",
+      "evidence_mode": "new_live_read",
+      "evidence_source": "layout-coverage-20260930/result.json:769972203898",
+      "groups": [
+        {
+          "name": "颜色分类",
+          "options": 11,
+          "selected": []
+        },
+        {
+          "name": "鞋码",
+          "options": 7,
+          "selected": []
+        }
+      ],
+      "option_count": 18,
+      "specification_scope": {
+        "schema_version": 1,
+        "region_observed": true,
+        "groups_seen": 2,
+        "groups_returned": 2,
+        "groups_omitted": 0,
+        "groups": [
+          {
+            "group_index": 1,
+            "options_seen": 11,
+            "options_returned": 11,
+            "options_omitted": 0
+          },
+          {
+            "group_index": 2,
+            "options_seen": 7,
+            "options_returned": 7,
+            "options_omitted": 0
+          }
+        ],
+        "full_sku_matrix_verified": false
+      },
+      "prices": [
+        {
+          "raw": "店铺优惠后 ￥ 159",
+          "label": "店铺优惠后",
+          "qualifier": "",
+          "kind": "single_displayed",
+          "amount": "159",
+          "minimum": null,
+          "maximum": null,
+          "currency": "CNY",
+          "eligibility_verified": false,
+          "sku_id": null,
+          "sku_price_binding_verified": false
+        },
+        {
+          "raw": "优惠前￥189",
+          "label": "优惠前",
+          "qualifier": "",
+          "kind": "single_displayed",
+          "amount": "189",
+          "minimum": null,
+          "maximum": null,
+          "currency": "CNY",
+          "eligibility_verified": false,
+          "sku_id": null,
+          "sku_price_binding_verified": false
+        }
+      ],
+      "sku_evidence": {
+        "schema_version": 1,
+        "source": "current_product_url",
+        "parameter": "skuId",
+        "status": "parameter_absent",
+        "candidate_sku_id": null,
+        "sku_properties_present": false,
+        "selection_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "review_preview_count": 2,
+      "product_region_scope": null,
+      "platform_template_id": null,
+      "full_sku_matrix_verified": false,
+      "layout_counts": {
+        "fixed_summaries": 0,
+        "price_regions": 1,
+        "purchase_panels": 1,
+        "specification_regions": 1,
+        "title_regions": 1
+      }
+    },
+    {
+      "product_id": "740241861903",
+      "url": "https://item.taobao.com/item.htm?id=740241861903",
+      "title": "二手书自然辩证法概论修订版殷杰郭贵春高等教育出版社2020年版马工程硕士思想政治理论9787040535136教材课本考研参考书正版旧书",
+      "observed_at": "2026-09-30T06:15:37.580Z",
+      "status": "verified",
+      "strategy": "unique_supported_regions",
+      "evidence_mode": "new_live_read",
+      "evidence_source": "layout-coverage-20260930/result.json:740241861903",
+      "groups": [],
+      "option_count": 0,
+      "specification_scope": {
+        "schema_version": 1,
+        "region_observed": true,
+        "groups_seen": 0,
+        "groups_returned": 0,
+        "groups_omitted": 0,
+        "groups": [],
+        "full_sku_matrix_verified": false
+      },
+      "prices": [
+        {
+          "raw": "平台加补后 ￥ 18.59",
+          "label": "平台加补后",
+          "qualifier": "",
+          "kind": "single_displayed",
+          "amount": "18.59",
+          "minimum": null,
+          "maximum": null,
+          "currency": "CNY",
+          "eligibility_verified": false,
+          "sku_id": null,
+          "sku_price_binding_verified": false
+        },
+        {
+          "raw": "优惠前 ￥ 20.19",
+          "label": "优惠前",
+          "qualifier": "",
+          "kind": "single_displayed",
+          "amount": "20.19",
+          "minimum": null,
+          "maximum": null,
+          "currency": "CNY",
+          "eligibility_verified": false,
+          "sku_id": null,
+          "sku_price_binding_verified": false
+        }
+      ],
+      "sku_evidence": {
+        "schema_version": 1,
+        "source": "current_product_url",
+        "parameter": "skuId",
+        "status": "parameter_absent",
+        "candidate_sku_id": null,
+        "sku_properties_present": false,
+        "selection_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "review_preview_count": 2,
+      "product_region_scope": null,
+      "platform_template_id": null,
+      "full_sku_matrix_verified": false,
+      "layout_counts": {
+        "fixed_summaries": 0,
+        "price_regions": 1,
+        "purchase_panels": 1,
+        "specification_regions": 1,
+        "title_regions": 1
+      }
+    }
+  ],
+  "historical_successful_product_count": 9,
+  "historical_successful_products": [
+    {
+      "product_id": "740241861903",
+      "url": "https://item.taobao.com/item.htm?id=740241861903",
+      "title": "二手书自然辩证法概论修订版殷杰郭贵春高等教育出版社2020年版马工程硕士思想政治理论9787040535136教材课本考研参考书正版旧书",
+      "observed_at": "2026-09-23T03:58:36.802Z",
+      "task": "description-book-services-20260923",
+      "kind": "product_services",
+      "specification_group_sizes": [],
+      "prices_observed": 2,
+      "current_layout_verified": false,
+      "platform_template_id": null
+    },
+    {
+      "product_id": "652425951391",
+      "url": "https://detail.tmall.com/item.htm?id=652425951391",
+      "title": "二手书店旧书图书批发二手书按斤卖特价旧书籍清仓包邮便宜畅销书籍出版社学校图书馆办公室名著文学小说库存折扣低价处理图书清仓",
+      "observed_at": "2026-09-23T05:11:19.241Z",
+      "task": "detail-loading-1-20260923",
+      "kind": "product_details",
+      "specification_group_sizes": [
+        1
+      ],
+      "prices_observed": 2,
+      "current_layout_verified": false,
+      "platform_template_id": null
+    },
+    {
+      "product_id": "745476354604",
+      "url": "https://item.taobao.com/item.htm?id=745476354604",
+      "title": "二手书籍（仓库有千万本图书，能精准快速查找）",
+      "observed_at": "2026-09-23T05:11:34.898Z",
+      "task": "detail-loading-2-20260923",
+      "kind": "product_details",
+      "specification_group_sizes": [],
+      "prices_observed": 1,
+      "current_layout_verified": false,
+      "platform_template_id": null
+    },
+    {
+      "product_id": "537601894090",
+      "url": "https://detail.tmall.com/item.htm?id=537601894090",
+      "title": "罗技 M330 无线静音鼠标办公台式笔记本电脑滑鼠轻巧",
+      "observed_at": "2026-09-22T15:27:43.899Z",
+      "task": "specification-inventory-20260922",
+      "kind": "product_details",
+      "specification_group_sizes": [
+        32
+      ],
+      "prices_observed": 2,
+      "current_layout_verified": false,
+      "platform_template_id": null
+    },
+    {
+      "product_id": "1069125756045",
+      "url": "https://item.taobao.com/item.htm?id=1069125756045",
+      "title": "iPhone 17Pro苹果17pro国行iPhone17promax苹果十七pro双卡5G手机",
+      "observed_at": "2026-09-23T03:00:49.348Z",
+      "task": "service-workflow-acceptance-20260923",
+      "kind": "product_services",
+      "specification_group_sizes": [
+        3,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "prices_observed": 2,
+      "current_layout_verified": false,
+      "platform_template_id": null
+    },
+    {
+      "product_id": "635398543460",
+      "url": "https://detail.tmall.com/item.htm?id=635398543460",
+      "title": "罗技M330轻音无线鼠标办公笔记本台式电脑USB即插即用人体工学",
+      "observed_at": "2026-09-22T15:14:31.234Z",
+      "task": "details-layout-sample-20260922",
+      "kind": "product_details",
+      "specification_group_sizes": [
+        1,
+        12
+      ],
+      "prices_observed": 2,
+      "current_layout_verified": false,
+      "platform_template_id": null
+    },
+    {
+      "product_id": "898515922780",
+      "url": "https://detail.tmall.com/item.htm?id=898515922780",
+      "title": "回力纯棉短袖t恤男夏季基础款纯白色二本针冰丝重磅内搭正肩体恤Y",
+      "observed_at": "2026-09-23T03:00:47.062Z",
+      "task": "service-workflow-acceptance-20260923",
+      "kind": "product_services",
+      "specification_group_sizes": [
+        39,
+        8
+      ],
+      "prices_observed": 2,
+      "current_layout_verified": false,
+      "platform_template_id": null
+    },
+    {
+      "product_id": "769972203898",
+      "url": "https://detail.tmall.com/item.htm?id=769972203898",
+      "title": "桀骜2|鸿星尔克男鞋运动鞋秋季新款鞋子网面透气休闲鞋增高老爹鞋",
+      "observed_at": "2026-09-22T16:00:54.544Z",
+      "task": "sku-dynamic-three-20260922",
+      "kind": "product_selection",
+      "specification_group_sizes": [
+        11,
+        7
+      ],
+      "prices_observed": 2,
+      "current_layout_verified": false,
+      "platform_template_id": null
+    },
+    {
+      "product_id": "723636839603",
+      "url": "https://detail.tmall.com/item.htm?id=723636839603",
+      "title": "洁丽雅全棉纯棉床笠单件加厚床垫保护罩床套防滑防尘罩床罩床笠罩",
+      "observed_at": "2026-09-22T16:01:08.352Z",
+      "task": "sku-dynamic-three-20260922",
+      "kind": "product_selection",
+      "specification_group_sizes": [
+        12,
+        8
+      ],
+      "prices_observed": 2,
+      "current_layout_verified": false,
+      "platform_template_id": null
+    }
+  ],
+  "historical_sample_warning": "These are saved successful results; no historical attempt denominator or original DOM template evidence is inferred.",
+  "original_failure_preserved": true,
+  "original_task": "sku-public-sources-20260930",
+  "formal_task_status": "stopped",
+  "budget": {
+    "cumulative_content_attempts": 6,
+    "content_limit": 6,
+    "recoveries": 5,
+    "wait_ms": 65000,
+    "new_tabs": 1
+  },
+  "model_fallback": {
+    "triggered": false,
+    "reason": "all planned live samples parsed with existing deterministic readers",
+    "automatic_proposal_execution_implemented": false
+  },
+  "sku_price_binding_verified": false
+}

@@ -1,0 +1,3256 @@
+{
+  "schema_version": 3,
+  "product_id": "898515922780",
+  "url": "https://detail.tmall.com/item.htm?id=898515922780",
+  "source": "bounded_specification_collection",
+  "inventory": {
+    "groups_seen": 2,
+    "groups": [
+      {
+        "position": 1,
+        "name": "颜色",
+        "options_seen": 39,
+        "options": [
+          {
+            "position": 1,
+            "label": "【220克重磅纯棉】白 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 2,
+            "label": "【220克重磅纯棉】黑色 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 3,
+            "label": "【凉感科技-UPF50+防晒】白色 [40°都清爽]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 4,
+            "label": "【纯棉两件更划算】白色+白色 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 5,
+            "label": "【防晒两件更划算】白色+白色 [40°都清爽]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 6,
+            "label": "【纯棉两件更划算】白色+黑色 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 7,
+            "label": "【纯棉两件更划算】白色+浅米 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 8,
+            "label": "【纯棉两件更划算】白色+冰川蓝 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 9,
+            "label": "【220克重磅纯棉】浅米 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 10,
+            "label": "【220克重磅纯棉】冰川蓝 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 11,
+            "label": "【220克重磅纯棉】棕榈绿 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 12,
+            "label": "【220克重磅纯棉】麻灰 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 13,
+            "label": "【220克重磅纯棉】深灰 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 14,
+            "label": "【220克重磅纯棉】沙色 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 15,
+            "label": "【220克重磅纯棉】酒红 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 16,
+            "label": "【220克重磅纯棉】藏青 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 17,
+            "label": "【220克重磅纯棉】晨绿 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 18,
+            "label": "【220克重磅纯棉】卡其 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 19,
+            "label": "【凉感科技-UPF50+防晒】黑色 [40°都清爽]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 20,
+            "label": "【凉感科技-UPF50+防晒】卡其 [40°都清爽]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 21,
+            "label": "【凉感科技-UPF50+防晒】浅灰 [40°都清爽]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 22,
+            "label": "【凉感科技-UPF50+防晒】水绿 [40°都清爽]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 23,
+            "label": "【凉感科技-UPF50+防晒】深灰 [40°都清爽]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 24,
+            "label": "【凉感科技-UPF50+防晒】冰川蓝 [40°都清爽]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 25,
+            "label": "【纯棉两件更划算】白色+浅紫 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 26,
+            "label": "【纯棉两件更划算】白色+卡其 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 27,
+            "label": "【纯棉两件更划算】白色+棕榈绿 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 28,
+            "label": "【纯棉两件更划算】白色+晨绿 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 29,
+            "label": "【纯棉两件更划算】白色+深灰 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 30,
+            "label": "【纯棉两件更划算】白色+藏青 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 31,
+            "label": "【纯棉两件更划算】白色+麻灰 [透气且有型]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 32,
+            "label": "【防晒两件更划算】白色+黑色 [40°都清爽]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 33,
+            "label": "【防晒两件更划算】白色+卡其 [40°都清爽]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 34,
+            "label": "【防晒两件更划算】白色+浅灰 [40°都清爽]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 35,
+            "label": "【防晒两件更划算】白色+深灰 [40°都清爽]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 36,
+            "label": "【防晒两件更划算】白色+水绿 [40°都清爽]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 37,
+            "label": "【防晒两件更划算】白色+冰川蓝 [40°都清爽]",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 38,
+            "label": "【更多人选择两件装】自由搭配联系客服",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 39,
+            "label": "【UPF50+防晒背心】白色 [40°都清爽]",
+            "image_regions_seen": 1
+          }
+        ]
+      },
+      {
+        "position": 2,
+        "name": "尺码",
+        "options_seen": 8,
+        "options": [
+          {
+            "position": 1,
+            "label": "165/S (收藏加购 优先发货)",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 2,
+            "label": "170/M (权威检测 4级抗起球)",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 3,
+            "label": "175/L (亲肤面料 舒适透气)",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 4,
+            "label": "180/XL (4-5级固色 可机洗)",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 5,
+            "label": "185/2XL (回力正品保障)",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 6,
+            "label": "3XL (推荐体重180-205斤)",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 7,
+            "label": "4XL (推荐体重205-230斤)",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 8,
+            "label": "5XL (推荐体重230-260斤)",
+            "image_regions_seen": 0
+          }
+        ]
+      }
+    ]
+  },
+  "inventory_observed_at": "2026-09-29T15:07:49.794Z",
+  "options": [
+    {
+      "group_position": 1,
+      "position": 1,
+      "group": "颜色",
+      "label": "【220克重磅纯棉】白 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN014u3DZwDrYuJ1chua_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 2,
+          "observed_at": "2026-09-29T15:07:51.413Z",
+          "group_position": 1,
+          "position": 1,
+          "label": "【220克重磅纯棉】白 [透气且有型]",
+          "selected": true,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN014u3DZwDrYuJ1chua_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 2,
+      "group": "颜色",
+      "label": "【220克重磅纯棉】黑色 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i4/2216780549508/O1CN01EuPCHT2K6ipmpjIcd_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 2,
+          "observed_at": "2026-09-29T15:07:51.413Z",
+          "group_position": 1,
+          "position": 2,
+          "label": "【220克重磅纯棉】黑色 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i4/2216780549508/O1CN01EuPCHT2K6ipmpjIcd_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 3,
+      "group": "颜色",
+      "label": "【凉感科技-UPF50+防晒】白色 [40°都清爽]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01PrIUDW2K6iq9GkzV0_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 2,
+          "observed_at": "2026-09-29T15:07:51.413Z",
+          "group_position": 1,
+          "position": 3,
+          "label": "【凉感科技-UPF50+防晒】白色 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01PrIUDW2K6iq9GkzV0_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 4,
+      "group": "颜色",
+      "label": "【纯棉两件更划算】白色+白色 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01abLfEx2K6ipq5KYnd_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 2,
+          "observed_at": "2026-09-29T15:07:51.413Z",
+          "group_position": 1,
+          "position": 4,
+          "label": "【纯棉两件更划算】白色+白色 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01abLfEx2K6ipq5KYnd_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 5,
+      "group": "颜色",
+      "label": "【防晒两件更划算】白色+白色 [40°都清爽]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01sn8ZZ32K6iqDYxdyG_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 2,
+          "observed_at": "2026-09-29T15:07:51.413Z",
+          "group_position": 1,
+          "position": 5,
+          "label": "【防晒两件更划算】白色+白色 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01sn8ZZ32K6iqDYxdyG_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 6,
+      "group": "颜色",
+      "label": "【纯棉两件更划算】白色+黑色 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN01F63wWr2K6ipnvMGNW_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 3,
+          "observed_at": "2026-09-29T15:07:52.996Z",
+          "group_position": 1,
+          "position": 6,
+          "label": "【纯棉两件更划算】白色+黑色 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN01F63wWr2K6ipnvMGNW_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 7,
+      "group": "颜色",
+      "label": "【纯棉两件更划算】白色+浅米 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i4/2216780549508/O1CN01BRrAOs2K6ipmphDmH_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 3,
+          "observed_at": "2026-09-29T15:07:52.996Z",
+          "group_position": 1,
+          "position": 7,
+          "label": "【纯棉两件更划算】白色+浅米 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i4/2216780549508/O1CN01BRrAOs2K6ipmphDmH_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 8,
+      "group": "颜色",
+      "label": "【纯棉两件更划算】白色+冰川蓝 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i4/2216780549508/O1CN01PRrIiz2K6ipolv1SX_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 3,
+          "observed_at": "2026-09-29T15:07:52.996Z",
+          "group_position": 1,
+          "position": 8,
+          "label": "【纯棉两件更划算】白色+冰川蓝 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i4/2216780549508/O1CN01PRrIiz2K6ipolv1SX_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 9,
+      "group": "颜色",
+      "label": "【220克重磅纯棉】浅米 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01QDHMtR2K6ippXwSrK_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 3,
+          "observed_at": "2026-09-29T15:07:52.996Z",
+          "group_position": 1,
+          "position": 9,
+          "label": "【220克重磅纯棉】浅米 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01QDHMtR2K6ippXwSrK_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 10,
+      "group": "颜色",
+      "label": "【220克重磅纯棉】冰川蓝 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN011zLhTq2K6ipnvNbaY_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 3,
+          "observed_at": "2026-09-29T15:07:52.996Z",
+          "group_position": 1,
+          "position": 10,
+          "label": "【220克重磅纯棉】冰川蓝 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN011zLhTq2K6ipnvNbaY_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 11,
+      "group": "颜色",
+      "label": "【220克重磅纯棉】棕榈绿 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01SA01jN2K6ipoieABO_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 4,
+          "observed_at": "2026-09-29T15:07:54.578Z",
+          "group_position": 1,
+          "position": 11,
+          "label": "【220克重磅纯棉】棕榈绿 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01SA01jN2K6ipoieABO_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 12,
+      "group": "颜色",
+      "label": "【220克重磅纯棉】麻灰 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN01q73YSp2K6ippaugUG_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 4,
+          "observed_at": "2026-09-29T15:07:54.578Z",
+          "group_position": 1,
+          "position": 12,
+          "label": "【220克重磅纯棉】麻灰 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN01q73YSp2K6ippaugUG_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 13,
+      "group": "颜色",
+      "label": "【220克重磅纯棉】深灰 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01YSjnRy2K6ipqUmpTo_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 4,
+          "observed_at": "2026-09-29T15:07:54.578Z",
+          "group_position": 1,
+          "position": 13,
+          "label": "【220克重磅纯棉】深灰 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01YSjnRy2K6ipqUmpTo_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 14,
+      "group": "颜色",
+      "label": "【220克重磅纯棉】沙色 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i1/2216780549508/O1CN01fj8GJq2K6ivDSGGSr_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 4,
+          "observed_at": "2026-09-29T15:07:54.578Z",
+          "group_position": 1,
+          "position": 14,
+          "label": "【220克重磅纯棉】沙色 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i1/2216780549508/O1CN01fj8GJq2K6ivDSGGSr_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 15,
+      "group": "颜色",
+      "label": "【220克重磅纯棉】酒红 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i1/2216780549508/O1CN01OPvhCS2K6ipmCLPtn_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 4,
+          "observed_at": "2026-09-29T15:07:54.578Z",
+          "group_position": 1,
+          "position": 15,
+          "label": "【220克重磅纯棉】酒红 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i1/2216780549508/O1CN01OPvhCS2K6ipmCLPtn_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 16,
+      "group": "颜色",
+      "label": "【220克重磅纯棉】藏青 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN019btpCV2K6iphvljXR_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 5,
+          "observed_at": "2026-09-29T15:07:56.151Z",
+          "group_position": 1,
+          "position": 16,
+          "label": "【220克重磅纯棉】藏青 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN019btpCV2K6iphvljXR_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 17,
+      "group": "颜色",
+      "label": "【220克重磅纯棉】晨绿 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i4/2216780549508/O1CN01z15MHH2K6ivlYflJJ_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 5,
+          "observed_at": "2026-09-29T15:07:56.151Z",
+          "group_position": 1,
+          "position": 17,
+          "label": "【220克重磅纯棉】晨绿 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i4/2216780549508/O1CN01z15MHH2K6ivlYflJJ_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 18,
+      "group": "颜色",
+      "label": "【220克重磅纯棉】卡其 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i1/2216780549508/O1CN01zls9632K6ipoxW3nz_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 5,
+          "observed_at": "2026-09-29T15:07:56.151Z",
+          "group_position": 1,
+          "position": 18,
+          "label": "【220克重磅纯棉】卡其 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i1/2216780549508/O1CN01zls9632K6ipoxW3nz_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 19,
+      "group": "颜色",
+      "label": "【凉感科技-UPF50+防晒】黑色 [40°都清爽]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN01s5S7Cd2K6iqFMn5zG_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 5,
+          "observed_at": "2026-09-29T15:07:56.151Z",
+          "group_position": 1,
+          "position": 19,
+          "label": "【凉感科技-UPF50+防晒】黑色 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN01s5S7Cd2K6iqFMn5zG_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 20,
+      "group": "颜色",
+      "label": "【凉感科技-UPF50+防晒】卡其 [40°都清爽]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01JqME2i2K6iqGHgUdh_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 5,
+          "observed_at": "2026-09-29T15:07:56.151Z",
+          "group_position": 1,
+          "position": 20,
+          "label": "【凉感科技-UPF50+防晒】卡其 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01JqME2i2K6iqGHgUdh_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 21,
+      "group": "颜色",
+      "label": "【凉感科技-UPF50+防晒】浅灰 [40°都清爽]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN013inOuS2K6iqGgazn5_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 6,
+          "observed_at": "2026-09-29T15:07:57.707Z",
+          "group_position": 1,
+          "position": 21,
+          "label": "【凉感科技-UPF50+防晒】浅灰 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN013inOuS2K6iqGgazn5_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 22,
+      "group": "颜色",
+      "label": "【凉感科技-UPF50+防晒】水绿 [40°都清爽]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01GeNgh82K6iqFLMUW1_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 6,
+          "observed_at": "2026-09-29T15:07:57.707Z",
+          "group_position": 1,
+          "position": 22,
+          "label": "【凉感科技-UPF50+防晒】水绿 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01GeNgh82K6iqFLMUW1_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 23,
+      "group": "颜色",
+      "label": "【凉感科技-UPF50+防晒】深灰 [40°都清爽]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01y1cogw2K6iqEErYBO_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 6,
+          "observed_at": "2026-09-29T15:07:57.707Z",
+          "group_position": 1,
+          "position": 23,
+          "label": "【凉感科技-UPF50+防晒】深灰 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01y1cogw2K6iqEErYBO_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 24,
+      "group": "颜色",
+      "label": "【凉感科技-UPF50+防晒】冰川蓝 [40°都清爽]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i1/2216780549508/O1CN01autzcB2K6iqDe80Yu_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 6,
+          "observed_at": "2026-09-29T15:07:57.707Z",
+          "group_position": 1,
+          "position": 24,
+          "label": "【凉感科技-UPF50+防晒】冰川蓝 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i1/2216780549508/O1CN01autzcB2K6iqDe80Yu_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 25,
+      "group": "颜色",
+      "label": "【纯棉两件更划算】白色+浅紫 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i1/2216780549508/O1CN01kakTyB2K6ivQuQthx_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 6,
+          "observed_at": "2026-09-29T15:07:57.707Z",
+          "group_position": 1,
+          "position": 25,
+          "label": "【纯棉两件更划算】白色+浅紫 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i1/2216780549508/O1CN01kakTyB2K6ivQuQthx_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 26,
+      "group": "颜色",
+      "label": "【纯棉两件更划算】白色+卡其 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 3,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i1/2216780549508/O1CN01Dl26Sd2K6ipp91ctJ_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 7,
+          "observed_at": "2026-09-29T15:07:59.294Z",
+          "group_position": 1,
+          "position": 26,
+          "label": "【纯棉两件更划算】白色+卡其 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        },
+        {
+          "read": 10,
+          "observed_at": "2026-09-29T15:08:04.055Z",
+          "group_position": 1,
+          "position": 26,
+          "label": "【纯棉两件更划算】白色+卡其 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          },
+          "source_timing": "before_scroll"
+        },
+        {
+          "read": 11,
+          "observed_at": "2026-09-29T15:08:05.629Z",
+          "group_position": 1,
+          "position": 26,
+          "label": "【纯棉两件更划算】白色+卡其 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i1/2216780549508/O1CN01Dl26Sd2K6ipp91ctJ_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 27,
+      "group": "颜色",
+      "label": "【纯棉两件更划算】白色+棕榈绿 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 2,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i4/2216780549508/O1CN0188tP6I2K6ipolugeq_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 7,
+          "observed_at": "2026-09-29T15:07:59.294Z",
+          "group_position": 1,
+          "position": 27,
+          "label": "【纯棉两件更划算】白色+棕榈绿 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        },
+        {
+          "read": 12,
+          "observed_at": "2026-09-29T15:08:07.247Z",
+          "group_position": 1,
+          "position": 27,
+          "label": "【纯棉两件更划算】白色+棕榈绿 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i4/2216780549508/O1CN0188tP6I2K6ipolugeq_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          },
+          "source_timing": "read_only"
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 28,
+      "group": "颜色",
+      "label": "【纯棉两件更划算】白色+晨绿 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 2,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01V6GA4u2K6ivkvIzwF_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 7,
+          "observed_at": "2026-09-29T15:07:59.294Z",
+          "group_position": 1,
+          "position": 28,
+          "label": "【纯棉两件更划算】白色+晨绿 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        },
+        {
+          "read": 13,
+          "observed_at": "2026-09-29T15:08:08.839Z",
+          "group_position": 1,
+          "position": 28,
+          "label": "【纯棉两件更划算】白色+晨绿 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01V6GA4u2K6ivkvIzwF_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          },
+          "source_timing": "read_only"
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 29,
+      "group": "颜色",
+      "label": "【纯棉两件更划算】白色+深灰 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 2,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i1/2216780549508/O1CN01kigtjN2K6iphvjWJE_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 7,
+          "observed_at": "2026-09-29T15:07:59.294Z",
+          "group_position": 1,
+          "position": 29,
+          "label": "【纯棉两件更划算】白色+深灰 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        },
+        {
+          "read": 14,
+          "observed_at": "2026-09-29T15:08:10.420Z",
+          "group_position": 1,
+          "position": 29,
+          "label": "【纯棉两件更划算】白色+深灰 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i1/2216780549508/O1CN01kigtjN2K6iphvjWJE_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          },
+          "source_timing": "read_only"
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 30,
+      "group": "颜色",
+      "label": "【纯棉两件更划算】白色+藏青 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 2,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i4/2216780549508/O1CN01Qv6rcX2K6ipoxWGK4_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 7,
+          "observed_at": "2026-09-29T15:07:59.294Z",
+          "group_position": 1,
+          "position": 30,
+          "label": "【纯棉两件更划算】白色+藏青 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        },
+        {
+          "read": 15,
+          "observed_at": "2026-09-29T15:08:12.002Z",
+          "group_position": 1,
+          "position": 30,
+          "label": "【纯棉两件更划算】白色+藏青 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i4/2216780549508/O1CN01Qv6rcX2K6ipoxWGK4_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          },
+          "source_timing": "read_only"
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 31,
+      "group": "颜色",
+      "label": "【纯棉两件更划算】白色+麻灰 [透气且有型]",
+      "image_regions_seen": 1,
+      "attempts": 2,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN012nuc4Y2K6ipolw1o3_!!2216780549508.png_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 8,
+          "observed_at": "2026-09-29T15:08:00.883Z",
+          "group_position": 1,
+          "position": 31,
+          "label": "【纯棉两件更划算】白色+麻灰 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        },
+        {
+          "read": 16,
+          "observed_at": "2026-09-29T15:08:13.585Z",
+          "group_position": 1,
+          "position": 31,
+          "label": "【纯棉两件更划算】白色+麻灰 [透气且有型]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN012nuc4Y2K6ipolw1o3_!!2216780549508.png_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          },
+          "source_timing": "read_only"
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 32,
+      "group": "颜色",
+      "label": "【防晒两件更划算】白色+黑色 [40°都清爽]",
+      "image_regions_seen": 1,
+      "attempts": 2,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01pCZ74u2K6iqHWypl9_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 8,
+          "observed_at": "2026-09-29T15:08:00.883Z",
+          "group_position": 1,
+          "position": 32,
+          "label": "【防晒两件更划算】白色+黑色 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        },
+        {
+          "read": 17,
+          "observed_at": "2026-09-29T15:08:15.161Z",
+          "group_position": 1,
+          "position": 32,
+          "label": "【防晒两件更划算】白色+黑色 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01pCZ74u2K6iqHWypl9_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          },
+          "source_timing": "read_only"
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 33,
+      "group": "颜色",
+      "label": "【防晒两件更划算】白色+卡其 [40°都清爽]",
+      "image_regions_seen": 1,
+      "attempts": 2,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01kZNPdv2K6iqGdrkTh_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 8,
+          "observed_at": "2026-09-29T15:08:00.883Z",
+          "group_position": 1,
+          "position": 33,
+          "label": "【防晒两件更划算】白色+卡其 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        },
+        {
+          "read": 18,
+          "observed_at": "2026-09-29T15:08:16.747Z",
+          "group_position": 1,
+          "position": 33,
+          "label": "【防晒两件更划算】白色+卡其 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01kZNPdv2K6iqGdrkTh_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          },
+          "source_timing": "read_only"
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 34,
+      "group": "颜色",
+      "label": "【防晒两件更划算】白色+浅灰 [40°都清爽]",
+      "image_regions_seen": 1,
+      "attempts": 2,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01GNFgt42K6iqG5I0gK_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 8,
+          "observed_at": "2026-09-29T15:08:00.883Z",
+          "group_position": 1,
+          "position": 34,
+          "label": "【防晒两件更划算】白色+浅灰 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        },
+        {
+          "read": 19,
+          "observed_at": "2026-09-29T15:08:18.306Z",
+          "group_position": 1,
+          "position": 34,
+          "label": "【防晒两件更划算】白色+浅灰 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01GNFgt42K6iqG5I0gK_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          },
+          "source_timing": "read_only"
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 35,
+      "group": "颜色",
+      "label": "【防晒两件更划算】白色+深灰 [40°都清爽]",
+      "image_regions_seen": 1,
+      "attempts": 2,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN01OdBLif2K6iqDYwyOs_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 8,
+          "observed_at": "2026-09-29T15:08:00.883Z",
+          "group_position": 1,
+          "position": 35,
+          "label": "【防晒两件更划算】白色+深灰 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        },
+        {
+          "read": 20,
+          "observed_at": "2026-09-29T15:08:19.891Z",
+          "group_position": 1,
+          "position": 35,
+          "label": "【防晒两件更划算】白色+深灰 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN01OdBLif2K6iqDYwyOs_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          },
+          "source_timing": "read_only"
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 36,
+      "group": "颜色",
+      "label": "【防晒两件更划算】白色+水绿 [40°都清爽]",
+      "image_regions_seen": 1,
+      "attempts": 3,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01j8D6sr2K6iq9GnTVi_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 9,
+          "observed_at": "2026-09-29T15:08:02.463Z",
+          "group_position": 1,
+          "position": 36,
+          "label": "【防晒两件更划算】白色+水绿 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        },
+        {
+          "read": 21,
+          "observed_at": "2026-09-29T15:08:21.485Z",
+          "group_position": 1,
+          "position": 36,
+          "label": "【防晒两件更划算】白色+水绿 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          },
+          "source_timing": "before_scroll"
+        },
+        {
+          "read": 22,
+          "observed_at": "2026-09-29T15:08:23.061Z",
+          "group_position": 1,
+          "position": 36,
+          "label": "【防晒两件更划算】白色+水绿 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01j8D6sr2K6iq9GnTVi_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 37,
+      "group": "颜色",
+      "label": "【防晒两件更划算】白色+冰川蓝 [40°都清爽]",
+      "image_regions_seen": 1,
+      "attempts": 2,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN01NPw8Wu2K6iqFxR4ga_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 9,
+          "observed_at": "2026-09-29T15:08:02.463Z",
+          "group_position": 1,
+          "position": 37,
+          "label": "【防晒两件更划算】白色+冰川蓝 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        },
+        {
+          "read": 23,
+          "observed_at": "2026-09-29T15:08:24.640Z",
+          "group_position": 1,
+          "position": 37,
+          "label": "【防晒两件更划算】白色+冰川蓝 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN01NPw8Wu2K6iqFxR4ga_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          },
+          "source_timing": "read_only"
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 38,
+      "group": "颜色",
+      "label": "【更多人选择两件装】自由搭配联系客服",
+      "image_regions_seen": 1,
+      "attempts": 2,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN01GJ4XZs2K6iqGgNZO3_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 9,
+          "observed_at": "2026-09-29T15:08:02.463Z",
+          "group_position": 1,
+          "position": 38,
+          "label": "【更多人选择两件装】自由搭配联系客服",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        },
+        {
+          "read": 24,
+          "observed_at": "2026-09-29T15:08:26.217Z",
+          "group_position": 1,
+          "position": 38,
+          "label": "【更多人选择两件装】自由搭配联系客服",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN01GJ4XZs2K6iqGgNZO3_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          },
+          "source_timing": "read_only"
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 39,
+      "group": "颜色",
+      "label": "【UPF50+防晒背心】白色 [40°都清爽]",
+      "image_regions_seen": 1,
+      "attempts": 2,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i4/2216780549508/O1CN0183xHj42K6iwCrxoyn_!!2216780549508.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 9,
+          "observed_at": "2026-09-29T15:08:02.463Z",
+          "group_position": 1,
+          "position": 39,
+          "label": "【UPF50+防晒背心】白色 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+            "loaded": true,
+            "width": 2,
+            "height": 2
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        },
+        {
+          "read": 25,
+          "observed_at": "2026-09-29T15:08:27.773Z",
+          "group_position": 1,
+          "position": 39,
+          "label": "【UPF50+防晒背心】白色 [40°都清爽]",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i4/2216780549508/O1CN0183xHj42K6iwCrxoyn_!!2216780549508.jpg_.webp",
+            "loaded": true,
+            "width": 800,
+            "height": 800
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          },
+          "source_timing": "read_only"
+        }
+      ]
+    },
+    {
+      "group_position": 2,
+      "position": 1,
+      "group": "尺码",
+      "label": "165/S (收藏加购 优先发货)",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 2,
+      "group": "尺码",
+      "label": "170/M (权威检测 4级抗起球)",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 3,
+      "group": "尺码",
+      "label": "175/L (亲肤面料 舒适透气)",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 4,
+      "group": "尺码",
+      "label": "180/XL (4-5级固色 可机洗)",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 5,
+      "group": "尺码",
+      "label": "185/2XL (回力正品保障)",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 6,
+      "group": "尺码",
+      "label": "3XL (推荐体重180-205斤)",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 7,
+      "group": "尺码",
+      "label": "4XL (推荐体重205-230斤)",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 8,
+      "group": "尺码",
+      "label": "5XL (推荐体重230-260斤)",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    }
+  ],
+  "missing_images": [],
+  "unsupported_image_options": [
+    {
+      "group_position": 2,
+      "position": 1,
+      "label": "165/S (收藏加购 优先发货)",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 2,
+      "label": "170/M (权威检测 4级抗起球)",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 3,
+      "label": "175/L (亲肤面料 舒适透气)",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 4,
+      "label": "180/XL (4-5级固色 可机洗)",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 5,
+      "label": "185/2XL (回力正品保障)",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 6,
+      "label": "3XL (推荐体重180-205斤)",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 7,
+      "label": "4XL (推荐体重205-230斤)",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 8,
+      "label": "5XL (推荐体重230-260斤)",
+      "reason": "no_supported_image_container"
+    }
+  ],
+  "collection": {
+    "goal": "all_specification_options_and_images_within_budget",
+    "next_read_available": false,
+    "stop_reason": "scanned_image_options_obtained",
+    "content_reads_reserved": 25,
+    "observations_returned": 25,
+    "inventory_reads_reserved": 1,
+    "image_reads_reserved": 24,
+    "budget_basis": {
+      "image_options": 39,
+      "formula": "inventory_read_limit + image_options * reads_per_image_option",
+      "finalized": true
+    },
+    "limits": {
+      "content_reads": 120,
+      "reads_per_image_option": 3,
+      "image_options_per_read": 5,
+      "inventory_reads": 3,
+      "scroll_intents": 39,
+      "scroll_intents_per_option": 1
+    },
+    "loading_actions": [
+      {
+        "read": 10,
+        "position": {
+          "group_position": 1,
+          "position": 26
+        },
+        "expected_image": {
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+          "width": 2,
+          "height": 2
+        },
+        "observation": {
+          "action": "scrolled",
+          "reason": "offscreen_tiny_image",
+          "geometry": {
+            "image_box": {
+              "x": 1065,
+              "y": 980,
+              "width": 32,
+              "height": 32
+            },
+            "viewport": {
+              "width": 1800,
+              "height": 952
+            },
+            "clip_ancestors": 5,
+            "intersection": {
+              "width": 32,
+              "height": 0
+            },
+            "fully_in_view": false
+          },
+          "action_observed_at": "2026-09-29T15:08:04.056Z"
+        },
+        "acknowledgement": "received",
+        "after_read": 11
+      },
+      {
+        "read": 12,
+        "position": {
+          "group_position": 1,
+          "position": 27
+        },
+        "expected_image": {
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+          "width": 2,
+          "height": 2
+        },
+        "observation": {
+          "action": "skipped",
+          "reason": "source_changed",
+          "geometry": null,
+          "action_observed_at": null
+        },
+        "acknowledgement": "received",
+        "after_read": null
+      },
+      {
+        "read": 13,
+        "position": {
+          "group_position": 1,
+          "position": 28
+        },
+        "expected_image": {
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+          "width": 2,
+          "height": 2
+        },
+        "observation": {
+          "action": "skipped",
+          "reason": "source_changed",
+          "geometry": null,
+          "action_observed_at": null
+        },
+        "acknowledgement": "received",
+        "after_read": null
+      },
+      {
+        "read": 14,
+        "position": {
+          "group_position": 1,
+          "position": 29
+        },
+        "expected_image": {
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+          "width": 2,
+          "height": 2
+        },
+        "observation": {
+          "action": "skipped",
+          "reason": "source_changed",
+          "geometry": null,
+          "action_observed_at": null
+        },
+        "acknowledgement": "received",
+        "after_read": null
+      },
+      {
+        "read": 15,
+        "position": {
+          "group_position": 1,
+          "position": 30
+        },
+        "expected_image": {
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+          "width": 2,
+          "height": 2
+        },
+        "observation": {
+          "action": "skipped",
+          "reason": "source_changed",
+          "geometry": null,
+          "action_observed_at": null
+        },
+        "acknowledgement": "received",
+        "after_read": null
+      },
+      {
+        "read": 16,
+        "position": {
+          "group_position": 1,
+          "position": 31
+        },
+        "expected_image": {
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+          "width": 2,
+          "height": 2
+        },
+        "observation": {
+          "action": "skipped",
+          "reason": "source_changed",
+          "geometry": null,
+          "action_observed_at": null
+        },
+        "acknowledgement": "received",
+        "after_read": null
+      },
+      {
+        "read": 17,
+        "position": {
+          "group_position": 1,
+          "position": 32
+        },
+        "expected_image": {
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+          "width": 2,
+          "height": 2
+        },
+        "observation": {
+          "action": "skipped",
+          "reason": "source_changed",
+          "geometry": null,
+          "action_observed_at": null
+        },
+        "acknowledgement": "received",
+        "after_read": null
+      },
+      {
+        "read": 18,
+        "position": {
+          "group_position": 1,
+          "position": 33
+        },
+        "expected_image": {
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+          "width": 2,
+          "height": 2
+        },
+        "observation": {
+          "action": "skipped",
+          "reason": "source_changed",
+          "geometry": null,
+          "action_observed_at": null
+        },
+        "acknowledgement": "received",
+        "after_read": null
+      },
+      {
+        "read": 19,
+        "position": {
+          "group_position": 1,
+          "position": 34
+        },
+        "expected_image": {
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+          "width": 2,
+          "height": 2
+        },
+        "observation": {
+          "action": "skipped",
+          "reason": "source_changed",
+          "geometry": null,
+          "action_observed_at": null
+        },
+        "acknowledgement": "received",
+        "after_read": null
+      },
+      {
+        "read": 20,
+        "position": {
+          "group_position": 1,
+          "position": 35
+        },
+        "expected_image": {
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+          "width": 2,
+          "height": 2
+        },
+        "observation": {
+          "action": "skipped",
+          "reason": "source_changed",
+          "geometry": null,
+          "action_observed_at": null
+        },
+        "acknowledgement": "received",
+        "after_read": null
+      },
+      {
+        "read": 21,
+        "position": {
+          "group_position": 1,
+          "position": 36
+        },
+        "expected_image": {
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+          "width": 2,
+          "height": 2
+        },
+        "observation": {
+          "action": "scrolled",
+          "reason": "offscreen_tiny_image",
+          "geometry": {
+            "image_box": {
+              "x": 1065,
+              "y": 980,
+              "width": 32,
+              "height": 32
+            },
+            "viewport": {
+              "width": 1800,
+              "height": 952
+            },
+            "clip_ancestors": 5,
+            "intersection": {
+              "width": 32,
+              "height": 0
+            },
+            "fully_in_view": false
+          },
+          "action_observed_at": "2026-09-29T15:08:21.486Z"
+        },
+        "acknowledgement": "received",
+        "after_read": 22
+      },
+      {
+        "read": 23,
+        "position": {
+          "group_position": 1,
+          "position": 37
+        },
+        "expected_image": {
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+          "width": 2,
+          "height": 2
+        },
+        "observation": {
+          "action": "skipped",
+          "reason": "source_changed",
+          "geometry": null,
+          "action_observed_at": null
+        },
+        "acknowledgement": "received",
+        "after_read": null
+      },
+      {
+        "read": 24,
+        "position": {
+          "group_position": 1,
+          "position": 38
+        },
+        "expected_image": {
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+          "width": 2,
+          "height": 2
+        },
+        "observation": {
+          "action": "skipped",
+          "reason": "source_changed",
+          "geometry": null,
+          "action_observed_at": null
+        },
+        "acknowledgement": "received",
+        "after_read": null
+      },
+      {
+        "read": 25,
+        "position": {
+          "group_position": 1,
+          "position": 39
+        },
+        "expected_image": {
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+          "width": 2,
+          "height": 2
+        },
+        "observation": {
+          "action": "skipped",
+          "reason": "source_changed",
+          "geometry": null,
+          "action_observed_at": null
+        },
+        "acknowledgement": "received",
+        "after_read": null
+      }
+    ]
+  },
+  "coverage": {
+    "status": "partial",
+    "scanned_inventory_complete": true,
+    "groups_omitted": 0,
+    "options_omitted_in_scanned_groups": 0,
+    "options_returned": 47,
+    "image_options_seen": 39,
+    "loaded_image_links": 39,
+    "unresolved_image_options": 0,
+    "unread_image_options": 0,
+    "scanned_supported_image_links_complete": true,
+    "full_option_images": false,
+    "full_sku_matrix": false,
+    "cross_read_image_state_verified": false,
+    "file_downloaded": false,
+    "image_semantics_read": false,
+    "sku_price_binding_verified": false
+  }
+}

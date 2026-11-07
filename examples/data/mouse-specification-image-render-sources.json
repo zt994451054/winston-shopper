@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "source": "bounded_option_render_source_diagnostic",
+  "product_id": "537601894090",
+  "url": "https://detail.tmall.com/item.htm?id=537601894090",
+  "observed_at": "2026-09-29T01:37:29.369Z",
+  "request": {
+    "group_position": 1,
+    "group_name": "颜色分类",
+    "options_seen": 32,
+    "position": 19,
+    "label": "M330-蓝色+快捷键鼠标垫*"
+  },
+  "baseline": {
+    "schema_version": 1,
+    "source": "bounded_specification_image_source_diagnostic",
+    "product_id": "537601894090",
+    "url": "https://detail.tmall.com/item.htm?id=537601894090",
+    "observed_at": "2026-09-29T01:37:29.369Z",
+    "observations": [
+      {
+        "group_position": 1,
+        "group_name": "颜色分类",
+        "options_seen": 32,
+        "position": 19,
+        "label": "M330-蓝色+快捷键鼠标垫*",
+        "current_src": {
+          "status": "candidate",
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+        },
+        "attributes": {
+          "src": {
+            "status": "candidate",
+            "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+          },
+          "data-src": {
+            "status": "absent",
+            "url": null
+          },
+          "data-lazy-src": {
+            "status": "absent",
+            "url": null
+          },
+          "data-original": {
+            "status": "absent",
+            "url": null
+          },
+          "data-ks-lazyload": {
+            "status": "absent",
+            "url": null
+          }
+        },
+        "srcset": {
+          "status": "absent",
+          "candidates": []
+        },
+        "loading": null,
+        "current_resource": {
+          "loaded": true,
+          "width": 2,
+          "height": 2
+        },
+        "association": {
+          "source": "same_option_unique_img_attributes",
+          "option_binding_verified": true,
+          "alternate_source_loaded_verified": false,
+          "sku_id": null,
+          "sku_price_binding_verified": false
+        }
+      }
+    ],
+    "coverage": {
+      "hidden_application_state_read": false,
+      "image_urls_rewritten": false,
+      "source_elements_read": false,
+      "wrapper_attributes_read": false,
+      "scrolling": false,
+      "selection": false,
+      "downloaded": false
+    }
+  },
+  "nodes": [
+    {
+      "position": 1,
+      "tag": "DIV",
+      "role": "option",
+      "declaration_only": false,
+      "styles": [
+        {
+          "pseudo": "element",
+          "background_image": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          },
+          "content": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          }
+        },
+        {
+          "pseudo": "::before",
+          "background_image": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          },
+          "content": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          }
+        },
+        {
+          "pseudo": "::after",
+          "background_image": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          },
+          "content": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          }
+        }
+      ],
+      "attributes": {
+        "data-src": {
+          "status": "absent",
+          "url": null
+        },
+        "data-lazy-src": {
+          "status": "absent",
+          "url": null
+        },
+        "data-original": {
+          "status": "absent",
+          "url": null
+        },
+        "data-ks-lazyload": {
+          "status": "absent",
+          "url": null
+        }
+      },
+      "srcset": {
+        "status": "absent",
+        "candidates": []
+      },
+      "svg_image_href": {
+        "status": "absent",
+        "url": null
+      },
+      "image": null
+    },
+    {
+      "position": 2,
+      "tag": "DIV",
+      "role": "image_container",
+      "declaration_only": false,
+      "styles": [
+        {
+          "pseudo": "element",
+          "background_image": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          },
+          "content": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          }
+        },
+        {
+          "pseudo": "::before",
+          "background_image": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          },
+          "content": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          }
+        },
+        {
+          "pseudo": "::after",
+          "background_image": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          },
+          "content": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          }
+        }
+      ],
+      "attributes": {
+        "data-src": {
+          "status": "absent",
+          "url": null
+        },
+        "data-lazy-src": {
+          "status": "absent",
+          "url": null
+        },
+        "data-original": {
+          "status": "absent",
+          "url": null
+        },
+        "data-ks-lazyload": {
+          "status": "absent",
+          "url": null
+        }
+      },
+      "srcset": {
+        "status": "absent",
+        "candidates": []
+      },
+      "svg_image_href": {
+        "status": "absent",
+        "url": null
+      },
+      "image": null
+    },
+    {
+      "position": 3,
+      "tag": "IMG",
+      "role": "img",
+      "declaration_only": false,
+      "styles": [
+        {
+          "pseudo": "element",
+          "background_image": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          },
+          "content": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          }
+        },
+        {
+          "pseudo": "::before",
+          "background_image": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          },
+          "content": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          }
+        },
+        {
+          "pseudo": "::after",
+          "background_image": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          },
+          "content": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          }
+        }
+      ],
+      "attributes": {
+        "data-src": {
+          "status": "absent",
+          "url": null
+        },
+        "data-lazy-src": {
+          "status": "absent",
+          "url": null
+        },
+        "data-original": {
+          "status": "absent",
+          "url": null
+        },
+        "data-ks-lazyload": {
+          "status": "absent",
+          "url": null
+        }
+      },
+      "srcset": {
+        "status": "absent",
+        "candidates": []
+      },
+      "svg_image_href": {
+        "status": "absent",
+        "url": null
+      },
+      "image": {
+        "current_src": {
+          "status": "candidate",
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+        },
+        "src": {
+          "status": "candidate",
+          "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+        },
+        "width": 2,
+        "height": 2,
+        "loaded": true
+      }
+    },
+    {
+      "position": 4,
+      "tag": "SPAN",
+      "role": "other",
+      "declaration_only": false,
+      "styles": [
+        {
+          "pseudo": "element",
+          "background_image": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          },
+          "content": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          }
+        },
+        {
+          "pseudo": "::before",
+          "background_image": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          },
+          "content": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          }
+        },
+        {
+          "pseudo": "::after",
+          "background_image": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          },
+          "content": {
+            "status": "none",
+            "urls": [],
+            "unresolved": false
+          }
+        }
+      ],
+      "attributes": {
+        "data-src": {
+          "status": "absent",
+          "url": null
+        },
+        "data-lazy-src": {
+          "status": "absent",
+          "url": null
+        },
+        "data-original": {
+          "status": "absent",
+          "url": null
+        },
+        "data-ks-lazyload": {
+          "status": "absent",
+          "url": null
+        }
+      },
+      "srcset": {
+        "status": "absent",
+        "candidates": []
+      },
+      "svg_image_href": {
+        "status": "absent",
+        "url": null
+      },
+      "image": null
+    }
+  ],
+  "scope": {
+    "nodes_seen": 4,
+    "eligible_nodes": 4,
+    "excluded_nodes": 0,
+    "nodes_scanned": 4,
+    "nodes_omitted": 0
+  },
+  "candidates": {
+    "distinct_supported_urls": [
+      "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+    ],
+    "different_from_current": [],
+    "rendered_image_verified": false,
+    "fully_parsed": true
+  },
+  "coverage": {
+    "full_render_sources": false,
+    "hidden_application_state_read": false,
+    "scrolling": false,
+    "downloaded": false,
+    "sku_id": null,
+    "sku_price_binding_verified": false
+  }
+}

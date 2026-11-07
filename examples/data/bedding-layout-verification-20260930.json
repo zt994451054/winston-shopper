@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "live_platform_observation": true,
+  "source_task": "layout-assistance-bedding-20260930",
+  "verification_scope": "one_product_basic_snapshot",
+  "layout_path": "unique_supported_regions",
+  "layout_path_basis": "Production snapshot passed without product_region_scope; known unique-region validation was used.",
+  "model_assistance_triggered": false,
+  "layout_evidence_saved": false,
+  "page_actions": {
+    "new_tabs": 1,
+    "identity_binding_reads": 1,
+    "content_attempts": 1,
+    "automatic_retries": 0,
+    "wait_reserved_ms": 0,
+    "clicks": 0,
+    "scrolls": 0,
+    "downloads": 0
+  },
+  "limitations": [
+    "Not a full product-details or specification-image collection.",
+    "No real unknown layout was encountered.",
+    "No full SKU matrix, selected combination or direct SKU-price binding was verified.",
+    "Starting prices are not verified payable amounts.",
+    "No platform-wide coverage claim."
+  ],
+  "snapshot": {
+    "product_id": "723636839603",
+    "url": "https://detail.tmall.com/item.htm?id=723636839603",
+    "title": "洁丽雅全棉纯棉床笠单件加厚床垫保护罩床套防滑防尘罩床罩床笠罩",
+    "source": "loaded_product_dom",
+    "observed_at": "2026-09-30T11:03:40.985Z",
+    "page_state": "supported_regions_observed",
+    "login_verified": false,
+    "specification_groups": [
+      {
+        "name": "颜色分类",
+        "options": [
+          {
+            "label": "粉色花花【精梳全棉 亲肤透气可裸睡】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "简约-蓝【精梳全棉 亲肤透气可裸睡】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "绿茵【精梳全棉 亲肤透气可裸睡】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "甜心小熊【精梳全棉 亲肤透气可裸睡】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "奶油布丁【精梳全棉 亲肤透气可裸睡】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "砂糖橘【精梳全棉 亲肤透气可裸睡】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "繁花簇【精梳全棉 亲肤透气可裸睡】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "暮洛星【精梳全棉 亲肤透气可裸睡】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "睡梦熊【精梳全棉 亲肤透气可裸睡】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "小猫钓鱼【精梳全棉 亲肤透气可裸睡】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "小小宇航员【精梳全棉 亲肤透气可裸睡】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "学院格小熊【精梳全棉 亲肤透气可裸睡】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          }
+        ]
+      },
+      {
+        "name": "床单/床笠尺寸",
+        "options": [
+          {
+            "label": "床笠：90x200cm常规【适合4-15cm内厚度使用】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "床笠：120x200cm常规【适合4-25cm内厚度使用】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "床笠：150x200cm常规【适合5-28cm内厚度使用】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "床笠：180x200cm常规【适合5-28cm内厚度使用】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "90X200cm床笠两件套【加同款枕套一只】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "120x200cm床笠两件套【加同款枕套一只】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "150x200cm床笠三件套【加同款枕套一对】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "180x200cm床笠三件套【加同款枕套一对】",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          }
+        ]
+      }
+    ],
+    "prices": [
+      {
+        "raw": "秒杀价 ￥ 49 起",
+        "label": "秒杀价",
+        "qualifier": "起",
+        "kind": "starting_from",
+        "amount": null,
+        "minimum": "49",
+        "maximum": null,
+        "currency": "CNY",
+        "eligibility_verified": false,
+        "sku_id": null,
+        "sku_price_binding_verified": false
+      },
+      {
+        "raw": "优惠前￥49.1起",
+        "label": "优惠前",
+        "qualifier": "起",
+        "kind": "starting_from",
+        "amount": null,
+        "minimum": "49.1",
+        "maximum": null,
+        "currency": "CNY",
+        "eligibility_verified": false,
+        "sku_id": null,
+        "sku_price_binding_verified": false
+      }
+    ],
+    "review_previews": [
+      {
+        "observation_index": 1,
+        "body": "床笠的整体质量与做工都还可以，有优惠活动期间买价格实惠，发货速度也挺快的。",
+        "date_text": "2026-08-27",
+        "review_id": null,
+        "text_may_be_truncated": true
+      },
+      {
+        "observation_index": 2,
+        "body": "不错呢很姑娘喜欢这个花色，质量也还好",
+        "date_text": "2026-09-11",
+        "review_id": null,
+        "text_may_be_truncated": true
+      }
+    ],
+    "coverage": {
+      "status": "partial",
+      "specifications": "loaded_options_only",
+      "prices": "displayed_conditions_unverified",
+      "reviews": "preview_only"
+    },
+    "missing": [
+      "platform_sku_ids",
+      "verified_sku_price_mapping",
+      "full_review_list"
+    ],
+    "limits": {
+      "groups": 8,
+      "options_per_group": 100,
+      "prices": 6,
+      "review_previews": 5,
+      "review_characters": 2000
+    },
+    "sku_evidence": {
+      "schema_version": 1,
+      "source": "current_product_url",
+      "parameter": "skuId",
+      "status": "parameter_absent",
+      "candidate_sku_id": null,
+      "sku_properties_present": false,
+      "selection_binding_verified": false,
+      "sku_price_binding_verified": false
+    },
+    "specification_scope": {
+      "schema_version": 1,
+      "region_observed": true,
+      "groups_seen": 2,
+      "groups_returned": 2,
+      "groups_omitted": 0,
+      "groups": [
+        {
+          "group_index": 1,
+          "options_seen": 12,
+          "options_returned": 12,
+          "options_omitted": 0
+        },
+        {
+          "group_index": 2,
+          "options_seen": 8,
+          "options_returned": 8,
+          "options_omitted": 0
+        }
+      ],
+      "full_sku_matrix_verified": false
+    }
+  }
+}

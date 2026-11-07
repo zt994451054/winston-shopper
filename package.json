@@ -1,0 +1,12 @@
+{
+  "name": "winston-shopper",
+  "version": "2.0.4",
+  "private": true,
+  "type": "module",
+  "description": "Agent-independent public shopping snapshots with bounded retries and resumable tasks",
+  "engines": { "node": ">=22.0.0" },
+  "scripts": {
+    "test": "node --test",
+    "doctor": "node scripts/shopping.mjs doctor"
+  }
+}

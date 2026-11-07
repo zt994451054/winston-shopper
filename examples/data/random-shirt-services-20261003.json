@@ -1,0 +1,1043 @@
+{
+  "schema_version": 1,
+  "capability": "service_terms",
+  "task": "random-services-20261003",
+  "result": {
+    "product_id": "1040479270864",
+    "url": "https://detail.tmall.com/item.htm?id=1040479270864",
+    "title": "正肩假两件短袖t恤女2026新款夏季爆款时尚半袖上衣高端洋气女装",
+    "source": "loaded_product_dom",
+    "observed_at": "2026-10-03T07:21:15.207Z",
+    "page_state": "supported_regions_observed",
+    "login_verified": false,
+    "specification_groups": [
+      {
+        "name": "主要颜色",
+        "options": [
+          {
+            "label": "宝蓝色 （送运费险）",
+            "selected": true,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "深花灰 （送运费险）",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "清水绿 （送运费险）",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "白色 （送运费险）",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "藕粉色 （送运费险）",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          }
+        ]
+      },
+      {
+        "name": "尺码",
+        "options": [
+          {
+            "label": "M 85-105斤",
+            "selected": true,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "L 106-115斤",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "XL 116-125斤",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "2XL 126-135斤",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "3XL 136-150斤",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          },
+          {
+            "label": "4XL 151-165斤",
+            "selected": null,
+            "disabled": null,
+            "sku_id": null
+          }
+        ]
+      }
+    ],
+    "prices": [
+      {
+        "raw": "店铺优惠后 ￥ 79.9",
+        "label": "店铺优惠后",
+        "qualifier": "",
+        "kind": "single_displayed",
+        "amount": "79.9",
+        "minimum": null,
+        "maximum": null,
+        "currency": "CNY",
+        "eligibility_verified": false,
+        "sku_id": null,
+        "sku_price_binding_verified": false
+      },
+      {
+        "raw": "优惠前￥99.9",
+        "label": "优惠前",
+        "qualifier": "",
+        "kind": "single_displayed",
+        "amount": "99.9",
+        "minimum": null,
+        "maximum": null,
+        "currency": "CNY",
+        "eligibility_verified": false,
+        "sku_id": null,
+        "sku_price_binding_verified": false
+      }
+    ],
+    "review_previews": [
+      {
+        "observation_index": 1,
+        "body": "很正的藏青宝蓝色，实物比拍出的效果更好看，棉加莱卡面料很柔软且有弹性，比预想的好，假领搭的浅蓝色让整件T恤色调有层次，穿着显瘦，价格很合适。",
+        "date_text": "2026-05-15",
+        "review_id": null,
+        "text_may_be_truncated": true
+      },
+      {
+        "observation_index": 2,
+        "body": "衣服面料穿着很舒服，版型设计好看，尺码标准，客服耐心周到；物流很快，包装很好；还会回购的。",
+        "date_text": "2026-04-18",
+        "review_id": null,
+        "text_may_be_truncated": true
+      }
+    ],
+    "coverage": {
+      "status": "partial",
+      "specifications": "loaded_options_only",
+      "prices": "displayed_conditions_unverified",
+      "reviews": "preview_only"
+    },
+    "missing": [
+      "platform_sku_ids",
+      "verified_sku_price_mapping",
+      "full_review_list"
+    ],
+    "limits": {
+      "groups": 8,
+      "options_per_group": 100,
+      "prices": 6,
+      "review_previews": 5,
+      "review_characters": 2000
+    },
+    "sku_evidence": {
+      "schema_version": 1,
+      "source": "current_product_url",
+      "parameter": "skuId",
+      "status": "candidate_only",
+      "candidate_sku_id": "6061568261869",
+      "sku_properties_present": false,
+      "selection_binding_verified": false,
+      "sku_price_binding_verified": false
+    },
+    "specification_scope": {
+      "schema_version": 1,
+      "region_observed": true,
+      "groups_seen": 2,
+      "groups_returned": 2,
+      "groups_omitted": 0,
+      "groups": [
+        {
+          "group_index": 1,
+          "options_seen": 5,
+          "options_returned": 5,
+          "options_omitted": 0
+        },
+        {
+          "group_index": 2,
+          "options_seen": 6,
+          "options_returned": 6,
+          "options_omitted": 0
+        }
+      ],
+      "full_sku_matrix_verified": false
+    },
+    "details": {
+      "schema_version": 2,
+      "source": "loaded_product_detail_regions",
+      "shop": {
+        "name": "轩凌子旗舰店",
+        "url": "https://shop102177154.taobao.com/category.htm",
+        "source": "shop_header"
+      },
+      "attributes": {
+        "observed": true,
+        "rows_seen": 33,
+        "items": [
+          {
+            "name": "克重范围",
+            "value": "210-230g",
+            "source": "emphasis_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "面料",
+            "value": "精梳棉",
+            "source": "emphasis_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "适用体型",
+            "value": "通用型",
+            "source": "emphasis_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "领型设计",
+            "value": "圆领",
+            "source": "emphasis_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "材质成分",
+            "value": "棉92%,聚氨酯弹性纤维(氨纶)8%",
+            "source": "emphasis_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "款式",
+            "value": "套头",
+            "source": "emphasis_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "风格",
+            "value": "休闲风",
+            "source": "emphasis_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "衣长类型",
+            "value": "常规款",
+            "source": "emphasis_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "版型分类",
+            "value": "修身型",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "吊牌价",
+            "value": "299元",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "图案文化",
+            "value": "经典",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "是否商场同款",
+            "value": "否",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "结构细节",
+            "value": "无帽",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "适用季节",
+            "value": "夏季",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "上市年份季节",
+            "value": "2026年夏季",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "袖长",
+            "value": "短袖",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "尺码",
+            "value": "4XL 3XL 2XL M L XL",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "主要颜色",
+            "value": "宝蓝色 白色 深花灰 清水绿 藕粉色",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "款式细节",
+            "value": "假两件 刺绣/绣花",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "品牌",
+            "value": "xanLEER/轩凌子",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "适用场景",
+            "value": "逛街 通勤 日常",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "适用人群",
+            "value": "女士",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "袖型",
+            "value": "常规",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "工艺",
+            "value": "拼接 刺绣",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "货号",
+            "value": "S82620059",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "适用年龄",
+            "value": "35-39周岁",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "里料",
+            "value": "棉",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "厚薄",
+            "value": "常规",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "功能",
+            "value": "柔软舒适 抗皱保型 亲肤透气 抗起球",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "适用性别",
+            "value": "女士",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "衣门襟",
+            "value": "套头",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "图案",
+            "value": "刺绣",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          },
+          {
+            "name": "是否有胸垫",
+            "value": "否",
+            "source": "general_parameters",
+            "text_may_be_truncated": true
+          }
+        ]
+      },
+      "gallery": {
+        "observed": true,
+        "elements_seen": 5,
+        "elements_scanned": 5,
+        "duplicates_omitted": 0,
+        "unsupported_urls_omitted": 0,
+        "items": [
+          {
+            "position": 1,
+            "url": "https://gw.alicdn.com/imgextra/O1CN01jWgCjphywTI2vHAO_!!1579401901-0-picasso.jpg_q50.jpg_.webp",
+            "loaded": true,
+            "width": 1440,
+            "height": 1920,
+            "source": "gallery_thumbnail"
+          },
+          {
+            "position": 2,
+            "url": "https://img.alicdn.com/imgextra/i2/1579401901/O1CN018wfS2s1Pui3OH3f1P_!!1579401901.jpg_q50.jpg_.webp",
+            "loaded": true,
+            "width": 1440,
+            "height": 1920,
+            "source": "gallery_thumbnail"
+          },
+          {
+            "position": 3,
+            "url": "https://img.alicdn.com/imgextra/i4/1579401901/O1CN01BHSgm81Pui3OqWZ3M_!!1579401901.jpg_q50.jpg_.webp",
+            "loaded": true,
+            "width": 1440,
+            "height": 1920,
+            "source": "gallery_thumbnail"
+          },
+          {
+            "position": 4,
+            "url": "https://img.alicdn.com/imgextra/i2/1579401901/O1CN01ZsUzH01Pui3QRbrKT_!!1579401901.jpg_q50.jpg_.webp",
+            "loaded": true,
+            "width": 1440,
+            "height": 1920,
+            "source": "gallery_thumbnail"
+          },
+          {
+            "position": 5,
+            "url": "https://img.alicdn.com/imgextra/i4/1579401901/O1CN01TX6ldg1Pui3PCZWLz_!!1579401901.jpg_q50.jpg_.webp",
+            "loaded": true,
+            "width": 1440,
+            "height": 1920,
+            "source": "gallery_thumbnail"
+          }
+        ],
+        "image_text_extracted": false
+      },
+      "description": {
+        "observed": true,
+        "elements_seen": 21,
+        "elements_scanned": 21,
+        "duplicates_omitted": 0,
+        "unsupported_urls_omitted": 0,
+        "items": [
+          {
+            "position": 1,
+            "url": "https://img.alicdn.com/imgextra/i4/1579401901/O1CN01ANCZl01Pui3OH3zpj_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 1456,
+            "source": "description_image"
+          },
+          {
+            "position": 2,
+            "url": "https://img.alicdn.com/imgextra/i1/1579401901/O1CN01qqxqnB1Pui3Ot8ru2_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 1196,
+            "source": "description_image"
+          },
+          {
+            "position": 3,
+            "url": "https://img.alicdn.com/imgextra/i3/1579401901/O1CN01jFG3Gl1Pui3OVkuIZ_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 1338,
+            "source": "description_image"
+          },
+          {
+            "position": 4,
+            "url": "https://img.alicdn.com/imgextra/i1/1579401901/O1CN01HKrgpw1Pui3OjKMIg_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 743,
+            "source": "description_image"
+          },
+          {
+            "position": 5,
+            "url": "https://img.alicdn.com/imgextra/i4/1579401901/O1CN01cznqhk1Pui3Oex5gN_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 1226,
+            "source": "description_image"
+          },
+          {
+            "position": 6,
+            "url": "https://img.alicdn.com/imgextra/i4/1579401901/O1CN01GjAg1S1Pui3OqY6i2_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 570,
+            "source": "description_image"
+          },
+          {
+            "position": 7,
+            "url": "https://img.alicdn.com/imgextra/i4/1579401901/O1CN01g1gQu41Pui3Ot8bH7_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 1005,
+            "source": "description_image"
+          },
+          {
+            "position": 8,
+            "url": "https://img.alicdn.com/imgextra/i2/1579401901/O1CN01CMyEbF1Pui3OezN1S_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 1142,
+            "source": "description_image"
+          },
+          {
+            "position": 9,
+            "url": "https://img.alicdn.com/imgextra/i1/1579401901/O1CN01Azm4EJ1Pui3OjLplS_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 588,
+            "source": "description_image"
+          },
+          {
+            "position": 10,
+            "url": "https://img.alicdn.com/imgextra/i1/1579401901/O1CN017lq4pS1Pui3OjLMfV_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 1252,
+            "source": "description_image"
+          },
+          {
+            "position": 11,
+            "url": "https://img.alicdn.com/imgextra/i1/1579401901/O1CN01WiTbCG1Pui3Ot8bG9_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 1302,
+            "source": "description_image"
+          },
+          {
+            "position": 12,
+            "url": "https://img.alicdn.com/imgextra/i3/1579401901/O1CN01QkIWKr1Pui3P2cjAf_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 1302,
+            "source": "description_image"
+          },
+          {
+            "position": 13,
+            "url": "https://img.alicdn.com/imgextra/i2/1579401901/O1CN01Tzmzg41Pui3OH4rsL_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 1254,
+            "source": "description_image"
+          },
+          {
+            "position": 14,
+            "url": "https://img.alicdn.com/imgextra/i2/1579401901/O1CN01j7uvtf1Pui3OZc0l6_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 1332,
+            "source": "description_image"
+          },
+          {
+            "position": 15,
+            "url": "https://img.alicdn.com/imgextra/i2/1579401901/O1CN01K8Ofk91Pui3OnzRyt_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 1254,
+            "source": "description_image"
+          },
+          {
+            "position": 16,
+            "url": "https://img.alicdn.com/imgextra/i3/1579401901/O1CN019Z5Asv1Pui3OqWtrh_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 1200,
+            "source": "description_image"
+          },
+          {
+            "position": 17,
+            "url": "https://img.alicdn.com/imgextra/i2/1579401901/O1CN01xZMeSL1Pui3OOUPVH_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 1332,
+            "source": "description_image"
+          },
+          {
+            "position": 18,
+            "url": "https://img.alicdn.com/imgextra/i1/1579401901/O1CN01zWMbeA1Pui3Onzmod_!!1579401901.png",
+            "loaded": true,
+            "width": 790,
+            "height": 1100,
+            "source": "description_image"
+          },
+          {
+            "position": 19,
+            "url": "https://img.alicdn.com/imgextra/i1/1579401901/O1CN015ZXmzk1Pui3JtJY32_!!1579401901.png",
+            "loaded": true,
+            "width": 790,
+            "height": 1339,
+            "source": "description_image"
+          },
+          {
+            "position": 20,
+            "url": "https://img.alicdn.com/imgextra/i4/1579401901/O1CN011YTsdb1Pui3Ov8Y82_!!1579401901.jpg",
+            "loaded": true,
+            "width": 790,
+            "height": 1448,
+            "source": "description_image"
+          },
+          {
+            "position": 21,
+            "url": "https://img.alicdn.com/imgextra/i3/O1CN01XU1Y2d1Sk7fIMOkeU_!!6000000002284-2-tps-1125-1446.png",
+            "loaded": true,
+            "width": 1125,
+            "height": 1446,
+            "source": "description_image"
+          }
+        ],
+        "image_text_extracted": false,
+        "text": "",
+        "text_may_be_truncated": true,
+        "videos_seen": 0,
+        "videos_extracted": false,
+        "observation": {
+          "schema_version": 1,
+          "text_container_observed": true,
+          "nodes_scanned": 26,
+          "traversal_truncated": false,
+          "text_truncated": false,
+          "clipped_subtrees_omitted": 0,
+          "control_candidates": [],
+          "controls_truncated": false,
+          "expansion_behavior_verified": false,
+          "limits": {
+            "nodes": 800,
+            "depth": 12,
+            "text_characters": 6000,
+            "controls": 8
+          }
+        },
+        "image_readiness": {
+          "schema_version": 1,
+          "source": "description_image_dom",
+          "region_observed": true,
+          "elements_seen": 21,
+          "elements_scanned": 21,
+          "unscanned_elements": 0,
+          "entries": [
+            {
+              "position": 1,
+              "url": "https://img.alicdn.com/imgextra/i4/1579401901/O1CN01ANCZl01Pui3OH3zpj_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1456,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 2,
+              "url": "https://img.alicdn.com/imgextra/i1/1579401901/O1CN01qqxqnB1Pui3Ot8ru2_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1196,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 3,
+              "url": "https://img.alicdn.com/imgextra/i3/1579401901/O1CN01jFG3Gl1Pui3OVkuIZ_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1338,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 4,
+              "url": "https://img.alicdn.com/imgextra/i1/1579401901/O1CN01HKrgpw1Pui3OjKMIg_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 743,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 5,
+              "url": "https://img.alicdn.com/imgextra/i4/1579401901/O1CN01cznqhk1Pui3Oex5gN_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1226,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 6,
+              "url": "https://img.alicdn.com/imgextra/i4/1579401901/O1CN01GjAg1S1Pui3OqY6i2_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 570,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 7,
+              "url": "https://img.alicdn.com/imgextra/i4/1579401901/O1CN01g1gQu41Pui3Ot8bH7_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1005,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 8,
+              "url": "https://img.alicdn.com/imgextra/i2/1579401901/O1CN01CMyEbF1Pui3OezN1S_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1142,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 9,
+              "url": "https://img.alicdn.com/imgextra/i1/1579401901/O1CN01Azm4EJ1Pui3OjLplS_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 588,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 10,
+              "url": "https://img.alicdn.com/imgextra/i1/1579401901/O1CN017lq4pS1Pui3OjLMfV_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1252,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 11,
+              "url": "https://img.alicdn.com/imgextra/i1/1579401901/O1CN01WiTbCG1Pui3Ot8bG9_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1302,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 12,
+              "url": "https://img.alicdn.com/imgextra/i3/1579401901/O1CN01QkIWKr1Pui3P2cjAf_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1302,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 13,
+              "url": "https://img.alicdn.com/imgextra/i2/1579401901/O1CN01Tzmzg41Pui3OH4rsL_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1254,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 14,
+              "url": "https://img.alicdn.com/imgextra/i2/1579401901/O1CN01j7uvtf1Pui3OZc0l6_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1332,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 15,
+              "url": "https://img.alicdn.com/imgextra/i2/1579401901/O1CN01K8Ofk91Pui3OnzRyt_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1254,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 16,
+              "url": "https://img.alicdn.com/imgextra/i3/1579401901/O1CN019Z5Asv1Pui3OqWtrh_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1200,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 17,
+              "url": "https://img.alicdn.com/imgextra/i2/1579401901/O1CN01xZMeSL1Pui3OOUPVH_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1332,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 18,
+              "url": "https://img.alicdn.com/imgextra/i1/1579401901/O1CN01zWMbeA1Pui3Onzmod_!!1579401901.png",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1100,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 19,
+              "url": "https://img.alicdn.com/imgextra/i1/1579401901/O1CN015ZXmzk1Pui3JtJY32_!!1579401901.png",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1339,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 20,
+              "url": "https://img.alicdn.com/imgextra/i4/1579401901/O1CN011YTsdb1Pui3Ov8Y82_!!1579401901.jpg",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 790,
+              "height": 1448,
+              "status": "normal_size_loaded"
+            },
+            {
+              "position": 21,
+              "url": "https://img.alicdn.com/imgextra/i3/O1CN01XU1Y2d1Sk7fIMOkeU_!!6000000002284-2-tps-1125-1446.png",
+              "url_state": "supported",
+              "loaded": true,
+              "width": 1125,
+              "height": 1446,
+              "status": "normal_size_loaded"
+            }
+          ],
+          "counts": {
+            "normal_size_loaded": 21,
+            "tiny_image_unresolved": 0,
+            "not_loaded": 0,
+            "url_not_observed": 0,
+            "unsupported_url": 0
+          },
+          "full_description_verified": false
+        }
+      },
+      "services": {
+        "observed": true,
+        "labels": [
+          "15天价保",
+          "假一赔四",
+          "极速退款",
+          "7天无理由退换",
+          "上门取退"
+        ],
+        "conditions_verified": false,
+        "terms": {
+          "schema_version": 1,
+          "panel_observed": true,
+          "entry_expanded": true,
+          "items_seen": 5,
+          "items_returned": 5,
+          "items": [
+            {
+              "label": "15天价保",
+              "header_text": "15天价保 更多",
+              "body_text": "付款后15天内降价，可通过“手机淘宝首页搜索-价保中心”申请补差，部分特定场景除外",
+              "body_truncated": false,
+              "body_clipped": false,
+              "additional_entry_labels": [
+                "更多"
+              ]
+            },
+            {
+              "label": "假一赔四",
+              "header_text": "假一赔四 查看",
+              "body_text": "若消费者收到商品非“正品”，商家需额外向消费者支付商品实际成交金额的四倍作为赔偿",
+              "body_truncated": false,
+              "body_clipped": false,
+              "additional_entry_labels": [
+                "查看"
+              ]
+            },
+            {
+              "label": "极速退款",
+              "header_text": "极速退款",
+              "body_text": "满足相应条件时，信誉良好的用户在退货寄出后，享受极速退款到账。",
+              "body_truncated": false,
+              "body_clipped": false,
+              "additional_entry_labels": []
+            },
+            {
+              "label": "7天无理由退换",
+              "header_text": "7天无理由退换",
+              "body_text": "满足相应条件（剪标/使用/洗涤后不支持）时，消费者可申请“7天无理由退换货”",
+              "body_truncated": false,
+              "body_clipped": false,
+              "additional_entry_labels": []
+            },
+            {
+              "label": "上门取退",
+              "header_text": "上门取退",
+              "body_text": "预约上门取件，最快1小时上门，取件后极速退款到账",
+              "body_truncated": false,
+              "body_clipped": false,
+              "additional_entry_labels": []
+            }
+          ],
+          "association_basis": "expanded_entry_and_matching_labels",
+          "full_terms_verified": false,
+          "eligibility_verified": false
+        }
+      },
+      "shipping": {
+        "observed": true,
+        "freight_labels": [
+          "快递: 免运费，可加价选顺丰"
+        ],
+        "conditions_verified": false,
+        "dispatch": {
+          "schema_version": 1,
+          "observed": true,
+          "labels_seen": 1,
+          "labels_returned": 1,
+          "labels_omitted": 0,
+          "labels": [
+            {
+              "text": "预计8小时内发货，后天送达",
+              "text_truncated": false
+            }
+          ],
+          "source": "delivery_shipping_label",
+          "address_read": false,
+          "arrival_time": null,
+          "conditions_verified": false,
+          "limits": {
+            "labels": 5,
+            "label_characters": 200
+          }
+        }
+      },
+      "coverage": {
+        "status": "partial",
+        "attribute_scope": "loaded_rows",
+        "image_scope": "links_only",
+        "service_scope": "displayed_labels",
+        "full_description": false
+      },
+      "missing": [
+        "image_text_not_extracted",
+        "unloaded_or_folded_regions",
+        "full_service_terms",
+        "address_specific_delivery",
+        "video_contents"
+      ],
+      "limits": {
+        "parameters": 100,
+        "parameter_value_characters": 1500,
+        "gallery_images": 20,
+        "description_images": 60,
+        "description_text_characters": 6000,
+        "service_labels": 20,
+        "freight_labels": 5
+      },
+      "purchase": {
+        "schema_version": 1,
+        "observed": true,
+        "labels_seen": 1,
+        "labels_returned": 1,
+        "labels_omitted": 0,
+        "labels": [
+          {
+            "text": "有货",
+            "text_truncated": false
+          }
+        ],
+        "source": "sku_quantity_tip",
+        "stock_quantity": null,
+        "purchase_limit": null,
+        "sku_id": null,
+        "availability_verified": false,
+        "limits": {
+          "labels": 5,
+          "label_characters": 200
+        }
+      },
+      "availability": {
+        "parameters": {
+          "region_observed": true,
+          "returned_rows": 33,
+          "unscanned_rows": 0
+        },
+        "gallery": {
+          "region_observed": true,
+          "returned_images": 5,
+          "loaded_returned_images": 5,
+          "not_loaded_returned_images": 0,
+          "unscanned_elements": 0
+        },
+        "description": {
+          "region_observed": true,
+          "returned_images": 21,
+          "loaded_returned_images": 21,
+          "not_loaded_returned_images": 0,
+          "unscanned_elements": 0,
+          "content_kind": "image_links_only",
+          "text_characters": 0,
+          "image_text_extracted": false
+        },
+        "unloaded_or_folded_content_verified": false
+      }
+    },
+    "service_evidence": {
+      "status": "panel_observed",
+      "actions_reserved": 1,
+      "observations_reserved": 2,
+      "acknowledgement_error": null
+    }
+  },
+  "budget": {
+    "observations_reserved": 2,
+    "observation_limit": 8,
+    "actions_reserved": 1,
+    "action_limit": 1,
+    "automatic_retries": 0,
+    "fault_wait_reserved_ms": 0
+  },
+  "boundaries": {
+    "full_terms_verified": false,
+    "eligibility_verified": false,
+    "secondary_entries_clicked": false,
+    "independent_click_count_recorded": false,
+    "images_downloaded": false,
+    "sku_price_binding_verified": false,
+    "payment_verified": false
+  }
+}

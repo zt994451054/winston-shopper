@@ -1,0 +1,6 @@
+{
+  "name": "consumer-shopping-playwright-backend",
+  "private": true,
+  "description": "Pinned browser connection for consumer-shopping-skill",
+  "dependencies": { "@playwright/mcp": "0.0.84" }
+}

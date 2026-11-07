@@ -1,0 +1,531 @@
+{
+  "schema_version": 3,
+  "product_id": "1040479270864",
+  "url": "https://detail.tmall.com/item.htm?id=1040479270864",
+  "source": "bounded_specification_collection",
+  "inventory": {
+    "groups_seen": 2,
+    "groups": [
+      {
+        "position": 1,
+        "name": "主要颜色",
+        "options_seen": 5,
+        "options": [
+          {
+            "position": 1,
+            "label": "宝蓝色 （送运费险）",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 2,
+            "label": "深花灰 （送运费险）",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 3,
+            "label": "清水绿 （送运费险）",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 4,
+            "label": "白色 （送运费险）",
+            "image_regions_seen": 1
+          },
+          {
+            "position": 5,
+            "label": "藕粉色 （送运费险）",
+            "image_regions_seen": 1
+          }
+        ]
+      },
+      {
+        "position": 2,
+        "name": "尺码",
+        "options_seen": 6,
+        "options": [
+          {
+            "position": 1,
+            "label": "M 85-105斤",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 2,
+            "label": "L 106-115斤",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 3,
+            "label": "XL 116-125斤",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 4,
+            "label": "2XL 126-135斤",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 5,
+            "label": "3XL 136-150斤",
+            "image_regions_seen": 0
+          },
+          {
+            "position": 6,
+            "label": "4XL 151-165斤",
+            "image_regions_seen": 0
+          }
+        ]
+      }
+    ]
+  },
+  "inventory_observed_at": "2026-10-03T07:18:02.021Z",
+  "options": [
+    {
+      "group_position": 1,
+      "position": 1,
+      "group": "主要颜色",
+      "label": "宝蓝色 （送运费险）",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i3/1579401901/O1CN01H8BOeg1Pui3P0KEgm_!!1579401901.jpg_.webp",
+        "loaded": true,
+        "width": 1440,
+        "height": 1440
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 2,
+          "observed_at": "2026-10-03T07:18:03.583Z",
+          "group_position": 1,
+          "position": 1,
+          "label": "宝蓝色 （送运费险）",
+          "selected": true,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i3/1579401901/O1CN01H8BOeg1Pui3P0KEgm_!!1579401901.jpg_.webp",
+            "loaded": true,
+            "width": 1440,
+            "height": 1440
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 2,
+      "group": "主要颜色",
+      "label": "深花灰 （送运费险）",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i2/1579401901/O1CN01A78mt21Pui3P4zG75_!!1579401901.jpg_.webp",
+        "loaded": true,
+        "width": 1440,
+        "height": 1440
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 2,
+          "observed_at": "2026-10-03T07:18:03.583Z",
+          "group_position": 1,
+          "position": 2,
+          "label": "深花灰 （送运费险）",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i2/1579401901/O1CN01A78mt21Pui3P4zG75_!!1579401901.jpg_.webp",
+            "loaded": true,
+            "width": 1440,
+            "height": 1440
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 3,
+      "group": "主要颜色",
+      "label": "清水绿 （送运费险）",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i1/1579401901/O1CN01pAvNf61Pui3P4xJYF_!!1579401901.jpg_.webp",
+        "loaded": true,
+        "width": 1440,
+        "height": 1440
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 2,
+          "observed_at": "2026-10-03T07:18:03.583Z",
+          "group_position": 1,
+          "position": 3,
+          "label": "清水绿 （送运费险）",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i1/1579401901/O1CN01pAvNf61Pui3P4xJYF_!!1579401901.jpg_.webp",
+            "loaded": true,
+            "width": 1440,
+            "height": 1440
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 4,
+      "group": "主要颜色",
+      "label": "白色 （送运费险）",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i2/1579401901/O1CN01XENE1C1Pui3P7dcgq_!!1579401901.jpg_.webp",
+        "loaded": true,
+        "width": 1440,
+        "height": 1440
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 2,
+          "observed_at": "2026-10-03T07:18:03.583Z",
+          "group_position": 1,
+          "position": 4,
+          "label": "白色 （送运费险）",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i2/1579401901/O1CN01XENE1C1Pui3P7dcgq_!!1579401901.jpg_.webp",
+            "loaded": true,
+            "width": 1440,
+            "height": 1440
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 1,
+      "position": 5,
+      "group": "主要颜色",
+      "label": "藕粉色 （送运费险）",
+      "image_regions_seen": 1,
+      "attempts": 1,
+      "image_status": "loaded_image_link",
+      "image": {
+        "regions_seen": 1,
+        "elements_seen": 1,
+        "status": "observed",
+        "url": "https://gw.alicdn.com/bao/uploaded/i2/1579401901/O1CN01SRuzg71Pui3PQasuQ_!!1579401901.jpg_.webp",
+        "loaded": true,
+        "width": 1440,
+        "height": 1440
+      },
+      "association": {
+        "source": "option_image_wrapper_dom",
+        "option_binding_verified": true,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": [
+        {
+          "read": 2,
+          "observed_at": "2026-10-03T07:18:03.583Z",
+          "group_position": 1,
+          "position": 5,
+          "label": "藕粉色 （送运费险）",
+          "selected": null,
+          "disabled": null,
+          "image": {
+            "regions_seen": 1,
+            "elements_seen": 1,
+            "status": "observed",
+            "url": "https://gw.alicdn.com/bao/uploaded/i2/1579401901/O1CN01SRuzg71Pui3PQasuQ_!!1579401901.jpg_.webp",
+            "loaded": true,
+            "width": 1440,
+            "height": 1440
+          },
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "group_position": 2,
+      "position": 1,
+      "group": "尺码",
+      "label": "M 85-105斤",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 2,
+      "group": "尺码",
+      "label": "L 106-115斤",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 3,
+      "group": "尺码",
+      "label": "XL 116-125斤",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 4,
+      "group": "尺码",
+      "label": "2XL 126-135斤",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 5,
+      "group": "尺码",
+      "label": "3XL 136-150斤",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    },
+    {
+      "group_position": 2,
+      "position": 6,
+      "group": "尺码",
+      "label": "4XL 151-165斤",
+      "image_regions_seen": 0,
+      "attempts": 0,
+      "image_status": "no_supported_image_container",
+      "image": null,
+      "association": {
+        "source": null,
+        "option_binding_verified": false,
+        "sku_id": null,
+        "sku_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "observations": []
+    }
+  ],
+  "missing_images": [],
+  "unsupported_image_options": [
+    {
+      "group_position": 2,
+      "position": 1,
+      "label": "M 85-105斤",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 2,
+      "label": "L 106-115斤",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 3,
+      "label": "XL 116-125斤",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 4,
+      "label": "2XL 126-135斤",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 5,
+      "label": "3XL 136-150斤",
+      "reason": "no_supported_image_container"
+    },
+    {
+      "group_position": 2,
+      "position": 6,
+      "label": "4XL 151-165斤",
+      "reason": "no_supported_image_container"
+    }
+  ],
+  "collection": {
+    "goal": "all_specification_options_and_images_within_budget",
+    "next_read_available": false,
+    "stop_reason": "scanned_image_options_obtained",
+    "content_reads_reserved": 2,
+    "observations_returned": 2,
+    "inventory_reads_reserved": 1,
+    "image_reads_reserved": 1,
+    "budget_basis": {
+      "image_options": 5,
+      "formula": "inventory_read_limit + image_options * reads_per_image_option",
+      "finalized": true
+    },
+    "limits": {
+      "content_reads": 18,
+      "reads_per_image_option": 3,
+      "image_options_per_read": 5,
+      "inventory_reads": 3,
+      "scroll_intents": 5,
+      "scroll_intents_per_option": 1
+    },
+    "loading_actions": []
+  },
+  "coverage": {
+    "status": "partial",
+    "scanned_inventory_complete": true,
+    "groups_omitted": 0,
+    "options_omitted_in_scanned_groups": 0,
+    "options_returned": 11,
+    "image_options_seen": 5,
+    "loaded_image_links": 5,
+    "unresolved_image_options": 0,
+    "unread_image_options": 0,
+    "scanned_supported_image_links_complete": true,
+    "full_option_images": false,
+    "full_sku_matrix": false,
+    "cross_read_image_state_verified": false,
+    "file_downloaded": false,
+    "image_semantics_read": false,
+    "sku_price_binding_verified": false
+  }
+}

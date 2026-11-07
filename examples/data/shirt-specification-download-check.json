@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "status": "sample_downloads_verified",
+  "source_task": "specification-loading-shirt-20260929",
+  "product_id": "898515922780",
+  "sampled_options": [
+    1,
+    26,
+    36
+  ],
+  "downloaded_samples": 3,
+  "total_observed_color_links": 39,
+  "unsampled_color_links": 36,
+  "request_budget": {
+    "reserved": 3,
+    "limit": 6,
+    "explicit_retries": 0
+  },
+  "samples": [
+    {
+      "position": 1,
+      "source": {
+        "product_id": "898515922780",
+        "product_url": "https://detail.tmall.com/item.htm?id=898515922780",
+        "observed_at": "2026-09-29T15:07:51.413Z",
+        "region": "specification",
+        "position": 1,
+        "image_url": "https://gw.alicdn.com/bao/uploaded/i2/2216780549508/O1CN014u3DZwDrYuJ1chua_!!2216780549508.png_.webp",
+        "specification_image_evidence": {
+          "group_position": 1,
+          "group": "颜色",
+          "option_position": 1,
+          "label": "【220克重磅纯棉】白 [透气且有型]",
+          "read": 2,
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      },
+      "bytes": 19732,
+      "format": "webp",
+      "width": 800,
+      "height": 800,
+      "sha256": "25d96504c8b845ebac40c89fa3da76234c391b3a7b860b3a83cc1f6726ce8754",
+      "downloaded_at": "2026-09-29T15:22:16.926Z",
+      "cached_on_recheck": true,
+      "image_semantics_read": false
+    },
+    {
+      "position": 26,
+      "source": {
+        "product_id": "898515922780",
+        "product_url": "https://detail.tmall.com/item.htm?id=898515922780",
+        "observed_at": "2026-09-29T15:08:05.629Z",
+        "region": "specification",
+        "position": 26,
+        "image_url": "https://gw.alicdn.com/bao/uploaded/i1/2216780549508/O1CN01Dl26Sd2K6ipp91ctJ_!!2216780549508.png_.webp",
+        "specification_image_evidence": {
+          "group_position": 1,
+          "group": "颜色",
+          "option_position": 26,
+          "label": "【纯棉两件更划算】白色+卡其 [透气且有型]",
+          "read": 11,
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      },
+      "bytes": 20926,
+      "format": "webp",
+      "width": 800,
+      "height": 800,
+      "sha256": "f5825c976b8926daabe9fc3fb131eedcc912c4fff5c727ef133d89e9bc496ef8",
+      "downloaded_at": "2026-09-29T15:22:18.957Z",
+      "cached_on_recheck": true,
+      "image_semantics_read": false
+    },
+    {
+      "position": 36,
+      "source": {
+        "product_id": "898515922780",
+        "product_url": "https://detail.tmall.com/item.htm?id=898515922780",
+        "observed_at": "2026-09-29T15:08:23.061Z",
+        "region": "specification",
+        "position": 36,
+        "image_url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01j8D6sr2K6iq9GnTVi_!!2216780549508.jpg_.webp",
+        "specification_image_evidence": {
+          "group_position": 1,
+          "group": "颜色",
+          "option_position": 36,
+          "label": "【防晒两件更划算】白色+水绿 [40°都清爽]",
+          "read": 22,
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      },
+      "bytes": 13822,
+      "format": "webp",
+      "width": 800,
+      "height": 800,
+      "sha256": "48fb71c02deee5d77392204b23204f1dd8631e4d2a2c7f34d991127944342448",
+      "downloaded_at": "2026-09-29T15:22:21.032Z",
+      "cached_on_recheck": true,
+      "image_semantics_read": false
+    }
+  ],
+  "image_semantics_read": false,
+  "all_option_downloads_verified": false
+}

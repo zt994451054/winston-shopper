@@ -1,0 +1,823 @@
+{
+  "product_id": "1069125756045",
+  "url": "https://item.taobao.com/item.htm?id=1069125756045",
+  "title": "iPhone 17Pro苹果17pro国行iPhone17promax苹果十七pro双卡5G手机",
+  "source": "loaded_product_dom",
+  "observed_at": "2026-09-22T15:27:45.569Z",
+  "page_state": "supported_regions_observed",
+  "login_verified": false,
+  "specification_groups": [
+    {
+      "name": "机身颜色",
+      "options": [
+        {
+          "label": "星宇橙色",
+          "selected": true,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "深蓝色",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "银色",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        }
+      ]
+    },
+    {
+      "name": "存储容量",
+      "options": [
+        {
+          "label": "256GB",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "512GB",
+          "selected": true,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "1TB",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        }
+      ]
+    },
+    {
+      "name": "网络类型",
+      "options": [
+        {
+          "label": "5G全网通",
+          "selected": true,
+          "disabled": null,
+          "sku_id": null
+        }
+      ]
+    },
+    {
+      "name": "套餐类型",
+      "options": [
+        {
+          "label": "套餐一 17Pro 国行",
+          "selected": true,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "套餐二 17ProMax国行",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        }
+      ]
+    },
+    {
+      "name": "版本类型",
+      "options": [
+        {
+          "label": "中国大陆",
+          "selected": true,
+          "disabled": null,
+          "sku_id": null
+        }
+      ]
+    },
+    {
+      "name": "发货方式",
+      "options": [
+        {
+          "label": "仓库直发",
+          "selected": true,
+          "disabled": null,
+          "sku_id": null
+        }
+      ]
+    }
+  ],
+  "prices": [
+    {
+      "raw": "店铺优惠后 ￥ 8549",
+      "label": "店铺优惠后",
+      "qualifier": "",
+      "kind": "single_displayed",
+      "amount": "8549",
+      "minimum": null,
+      "maximum": null,
+      "currency": "CNY",
+      "eligibility_verified": false,
+      "sku_id": null,
+      "sku_price_binding_verified": false
+    },
+    {
+      "raw": "优惠前 ￥ 9549",
+      "label": "优惠前",
+      "qualifier": "",
+      "kind": "single_displayed",
+      "amount": "9549",
+      "minimum": null,
+      "maximum": null,
+      "currency": "CNY",
+      "eligibility_verified": false,
+      "sku_id": null,
+      "sku_price_binding_verified": false
+    }
+  ],
+  "review_previews": [
+    {
+      "observation_index": 1,
+      "body": "显示效果不错。 拿在手里挺轻的。 运行速度挺快的。",
+      "date_text": "2026-09-06",
+      "review_id": null,
+      "text_may_be_truncated": true
+    },
+    {
+      "observation_index": 2,
+      "body": "手感很好，用起来很流。",
+      "date_text": "2026-09-15",
+      "review_id": null,
+      "text_may_be_truncated": true
+    }
+  ],
+  "coverage": {
+    "status": "partial",
+    "specifications": "loaded_options_only",
+    "prices": "displayed_conditions_unverified",
+    "reviews": "preview_only"
+  },
+  "missing": [
+    "platform_sku_ids",
+    "verified_sku_price_mapping",
+    "full_review_list"
+  ],
+  "limits": {
+    "groups": 8,
+    "options_per_group": 100,
+    "prices": 6,
+    "review_previews": 5,
+    "review_characters": 2000
+  },
+  "sku_evidence": {
+    "schema_version": 1,
+    "source": "current_product_url",
+    "parameter": "skuId",
+    "status": "candidate_only",
+    "candidate_sku_id": "6116816957620",
+    "sku_properties_present": false,
+    "selection_binding_verified": false,
+    "sku_price_binding_verified": false
+  },
+  "specification_scope": {
+    "schema_version": 1,
+    "region_observed": true,
+    "groups_seen": 6,
+    "groups_returned": 6,
+    "groups_omitted": 0,
+    "groups": [
+      {
+        "group_index": 1,
+        "options_seen": 3,
+        "options_returned": 3,
+        "options_omitted": 0
+      },
+      {
+        "group_index": 2,
+        "options_seen": 3,
+        "options_returned": 3,
+        "options_omitted": 0
+      },
+      {
+        "group_index": 3,
+        "options_seen": 1,
+        "options_returned": 1,
+        "options_omitted": 0
+      },
+      {
+        "group_index": 4,
+        "options_seen": 2,
+        "options_returned": 2,
+        "options_omitted": 0
+      },
+      {
+        "group_index": 5,
+        "options_seen": 1,
+        "options_returned": 1,
+        "options_omitted": 0
+      },
+      {
+        "group_index": 6,
+        "options_seen": 1,
+        "options_returned": 1,
+        "options_omitted": 0
+      }
+    ],
+    "full_sku_matrix_verified": false
+  },
+  "details": {
+    "schema_version": 2,
+    "source": "loaded_product_detail_regions",
+    "shop": {
+      "name": "iPhone Store 果粉店",
+      "url": "https://shop182365289.taobao.com/category.htm",
+      "source": "shop_header"
+    },
+    "attributes": {
+      "observed": true,
+      "rows_seen": 37,
+      "items": [
+        {
+          "name": "分辨率",
+          "value": "2622x1206",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "长焦像素",
+          "value": "48百万像素",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "超广角像素",
+          "value": "48百万像素",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "3C证书编号",
+          "value": "2025011606806290",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "有线充电功率",
+          "value": "40W",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "CPU型号",
+          "value": "A19 Pro 芯片",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "屏幕刷新率",
+          "value": "120Hz",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "屏幕尺寸",
+          "value": "6.3英寸",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "主摄像素",
+          "value": "4800万",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "上市时间",
+          "value": "2025-09",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "售后服务",
+          "value": "店铺保修",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "是否支持无线充电",
+          "value": "是",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "发货方式",
+          "value": "仓库直发",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "保修期",
+          "value": "12个月",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "耳机插头类型",
+          "value": "TYPE-C",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "Apple型号",
+          "value": "iphone 17 pro",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "操作系统",
+          "value": "iOS",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "套餐类型",
+          "value": "套餐二,套餐一",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "前置摄像头像素",
+          "value": "18百万像素",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "电池容量",
+          "value": "4823mAh",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "网络类型",
+          "value": "5G全网通",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "解锁方式",
+          "value": "面部识别",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "存储容量",
+          "value": "512GB,1TB,256GB",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "无线充电功率",
+          "value": "40W",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "电信设备进网许可证编号",
+          "value": "02-8573-252312",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "机身颜色",
+          "value": "银色,深蓝色,星宇橙色",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "品牌",
+          "value": "Apple/苹果",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "是否支持NFC",
+          "value": "是",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "CPU品牌",
+          "value": "Apple/苹果",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "CPU核心数",
+          "value": "六核",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "最大光圈",
+          "value": "F2.8",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "屏幕材质",
+          "value": "超视网膜 XDR 显示屏",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "接口类型",
+          "value": "Type-C",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "版本类型",
+          "value": "中国大陆",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "是否支持eSIM",
+          "value": "不支持eSIM",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "蓝牙版本",
+          "value": "6.0",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "后壳材质",
+          "value": "超瓷晶面板",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        }
+      ]
+    },
+    "gallery": {
+      "observed": true,
+      "elements_seen": 6,
+      "elements_scanned": 6,
+      "duplicates_omitted": 1,
+      "unsupported_urls_omitted": 0,
+      "items": [
+        {
+          "position": 1,
+          "url": "https://img.alicdn.com/imgextra/i4/2211351408444/O1CN01hHRT7i2CFPX9Usaa6_!!2211351408444.jpg_q50.jpg_.webp",
+          "loaded": true,
+          "width": 800,
+          "height": 800,
+          "source": "gallery_thumbnail"
+        },
+        {
+          "position": 3,
+          "url": "https://img.alicdn.com/imgextra/i4/2211351408444/O1CN01Dg2sDs2CFPW1mQMuG_!!2211351408444.jpg_q50.jpg_.webp",
+          "loaded": true,
+          "width": 1280,
+          "height": 1280,
+          "source": "gallery_thumbnail"
+        },
+        {
+          "position": 4,
+          "url": "https://img.alicdn.com/imgextra/i4/2211351408444/O1CN01gXETiH2CFPW1etVmI_!!2211351408444.jpg_q50.jpg_.webp",
+          "loaded": true,
+          "width": 1280,
+          "height": 1280,
+          "source": "gallery_thumbnail"
+        },
+        {
+          "position": 5,
+          "url": "https://img.alicdn.com/imgextra/i1/2211351408444/O1CN01kTo3Sr2CFPW1euqtK_!!2211351408444.jpg_q50.jpg_.webp",
+          "loaded": true,
+          "width": 1280,
+          "height": 1280,
+          "source": "gallery_thumbnail"
+        },
+        {
+          "position": 6,
+          "url": "https://img.alicdn.com/imgextra/i3/2211351408444/O1CN01uKDsta2CFPW1XPGBC_!!2211351408444.jpg_q50.jpg_.webp",
+          "loaded": true,
+          "width": 1280,
+          "height": 1280,
+          "source": "gallery_thumbnail"
+        }
+      ],
+      "image_text_extracted": false
+    },
+    "description": {
+      "observed": true,
+      "elements_seen": 27,
+      "elements_scanned": 27,
+      "duplicates_omitted": 0,
+      "unsupported_urls_omitted": 0,
+      "items": [
+        {
+          "position": 1,
+          "url": "https://img.alicdn.com/imgextra/i4/2211351408444/O1CN01ktM3pj2CFPW1XTULl_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 2158,
+          "height": 2873,
+          "source": "description_image"
+        },
+        {
+          "position": 2,
+          "url": "https://img.alicdn.com/imgextra/i2/2211351408444/O1CN01YAmtaQ2CFPW1uSXA0_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 800,
+          "height": 800,
+          "source": "description_image"
+        },
+        {
+          "position": 3,
+          "url": "https://img.alicdn.com/imgextra/i2/2211351408444/O1CN01YBP39n2CFPW1jG9qQ_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 685,
+          "source": "description_image"
+        },
+        {
+          "position": 4,
+          "url": "https://img.alicdn.com/imgextra/i4/2211351408444/O1CN01Rqn8lb2CFPW34qM96_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 2480,
+          "height": 2368,
+          "source": "description_image"
+        },
+        {
+          "position": 5,
+          "url": "https://img.alicdn.com/imgextra/i2/2211351408444/O1CN01C60aDh2CFPW1mLLrc_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 2480,
+          "height": 852,
+          "source": "description_image"
+        },
+        {
+          "position": 6,
+          "url": "https://img.alicdn.com/imgextra/i4/2211351408444/O1CN01eaK9eT2CFPW1uSjf9_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 2480,
+          "height": 2700,
+          "source": "description_image"
+        },
+        {
+          "position": 7,
+          "url": "https://img.alicdn.com/imgextra/i2/2211351408444/O1CN01KPFIKj2CFPW34pcOW~crop,0,0,750,1500~_!!2211351408444.png",
+          "loaded": true,
+          "width": 750,
+          "height": 1500,
+          "source": "description_image"
+        },
+        {
+          "position": 8,
+          "url": "https://img.alicdn.com/imgextra/i2/2211351408444/O1CN01KPFIKj2CFPW34pcOW~crop,0,1500,750,88~_!!2211351408444.png",
+          "loaded": true,
+          "width": 750,
+          "height": 88,
+          "source": "description_image"
+        },
+        {
+          "position": 9,
+          "url": "https://img.alicdn.com/imgextra/i2/2211351408444/O1CN01WF08Uj2CFPW1EwHBW_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 950,
+          "height": 1600,
+          "source": "description_image"
+        },
+        {
+          "position": 10,
+          "url": "https://img.alicdn.com/imgextra/i2/2211351408444/O1CN01NlqB3z2CFPW1ezLgd_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 730,
+          "source": "description_image"
+        },
+        {
+          "position": 11,
+          "url": "https://img.alicdn.com/imgextra/i3/2211351408444/O1CN015CeQ3f2CFPW1Etzny_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 1120,
+          "source": "description_image"
+        },
+        {
+          "position": 12,
+          "url": "https://img.alicdn.com/imgextra/i4/2211351408444/O1CN01At9zIB2CFPW1XVERq_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 1000,
+          "source": "description_image"
+        },
+        {
+          "position": 13,
+          "url": "https://img.alicdn.com/imgextra/i3/2211351408444/O1CN01e0qUEa2CFPW1XSx4S_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 1208,
+          "source": "description_image"
+        },
+        {
+          "position": 14,
+          "url": "https://img.alicdn.com/imgextra/i2/2211351408444/O1CN01F7lO8k2CFPW1LBv7x_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 923,
+          "source": "description_image"
+        },
+        {
+          "position": 15,
+          "url": "https://img.alicdn.com/imgextra/i3/2211351408444/O1CN01RTOWOn2CFPVwqkN2f_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 760,
+          "source": "description_image"
+        },
+        {
+          "position": 16,
+          "url": "https://img.alicdn.com/imgextra/i3/2211351408444/O1CN01r42HvQ2CFPW1yytBD_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 1152,
+          "source": "description_image"
+        },
+        {
+          "position": 17,
+          "url": "https://img.alicdn.com/imgextra/i2/2211351408444/O1CN01nFcmnR2CFPW27hgU9_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 1224,
+          "source": "description_image"
+        },
+        {
+          "position": 18,
+          "url": "https://img.alicdn.com/imgextra/i4/2211351408444/O1CN0137A2Wq2CFPW34rIK7_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 1228,
+          "source": "description_image"
+        },
+        {
+          "position": 19,
+          "url": "https://img.alicdn.com/imgextra/i1/2211351408444/O1CN01bqE0xL2CFPW1mM1QI_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 952,
+          "source": "description_image"
+        },
+        {
+          "position": 20,
+          "url": "https://img.alicdn.com/imgextra/i1/2211351408444/O1CN01iWzYXf2CFPW1EvfnX_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 1192,
+          "source": "description_image"
+        },
+        {
+          "position": 21,
+          "url": "https://img.alicdn.com/imgextra/i3/2211351408444/O1CN0182UGb72CFPW1z9PMf_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 1181,
+          "source": "description_image"
+        },
+        {
+          "position": 22,
+          "url": "https://img.alicdn.com/imgextra/i1/2211351408444/O1CN01bmozXi2CFPW1XU1bd_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 1324,
+          "source": "description_image"
+        },
+        {
+          "position": 23,
+          "url": "https://img.alicdn.com/imgextra/i2/2211351408444/O1CN01l4OVUc2CFPW34pcP3_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 1388,
+          "source": "description_image"
+        },
+        {
+          "position": 24,
+          "url": "https://img.alicdn.com/imgextra/i3/2211351408444/O1CN01hxeb2C2CFPW1Xh1QJ_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 1340,
+          "source": "description_image"
+        },
+        {
+          "position": 25,
+          "url": "https://img.alicdn.com/imgextra/i4/2211351408444/O1CN01XkaFD32CFPW1gse36_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 1120,
+          "source": "description_image"
+        },
+        {
+          "position": 26,
+          "url": "https://img.alicdn.com/imgextra/i2/2211351408444/O1CN01mlYiNj2CFPX9jT1Y8_!!2211351408444.jpg",
+          "loaded": true,
+          "width": 1200,
+          "height": 1680,
+          "source": "description_image"
+        },
+        {
+          "position": 27,
+          "url": "https://img.alicdn.com/imgextra/i3/O1CN01XU1Y2d1Sk7fIMOkeU_!!6000000002284-2-tps-1125-1446.png",
+          "loaded": true,
+          "width": 1125,
+          "height": 1446,
+          "source": "description_image"
+        }
+      ],
+      "image_text_extracted": false,
+      "text": "",
+      "text_may_be_truncated": true,
+      "videos_seen": 0,
+      "videos_extracted": false,
+      "observation": {
+        "schema_version": 1,
+        "text_container_observed": true,
+        "nodes_scanned": 32,
+        "traversal_truncated": false,
+        "text_truncated": false,
+        "clipped_subtrees_omitted": 0,
+        "control_candidates": [],
+        "controls_truncated": false,
+        "expansion_behavior_verified": false,
+        "limits": {
+          "nodes": 800,
+          "depth": 12,
+          "text_characters": 6000,
+          "controls": 8
+        }
+      }
+    },
+    "services": {
+      "observed": true,
+      "labels": [
+        "退货宝",
+        "7天无理由退货",
+        "极速退款"
+      ],
+      "conditions_verified": false
+    },
+    "shipping": {
+      "observed": true,
+      "freight_labels": [
+        "快递: 免运费"
+      ],
+      "conditions_verified": false
+    },
+    "coverage": {
+      "status": "partial",
+      "attribute_scope": "loaded_rows",
+      "image_scope": "links_only",
+      "service_scope": "displayed_labels",
+      "full_description": false
+    },
+    "missing": [
+      "image_text_not_extracted",
+      "unloaded_or_folded_regions",
+      "full_service_terms",
+      "address_specific_delivery",
+      "video_contents"
+    ],
+    "limits": {
+      "parameters": 100,
+      "parameter_value_characters": 1500,
+      "gallery_images": 20,
+      "description_images": 60,
+      "description_text_characters": 6000,
+      "service_labels": 20,
+      "freight_labels": 5
+    },
+    "availability": {
+      "parameters": {
+        "region_observed": true,
+        "returned_rows": 37,
+        "unscanned_rows": 0
+      },
+      "gallery": {
+        "region_observed": true,
+        "returned_images": 5,
+        "loaded_returned_images": 5,
+        "not_loaded_returned_images": 0,
+        "unscanned_elements": 0
+      },
+      "description": {
+        "region_observed": true,
+        "returned_images": 27,
+        "loaded_returned_images": 27,
+        "not_loaded_returned_images": 0,
+        "unscanned_elements": 0,
+        "content_kind": "image_links_only",
+        "text_characters": 0,
+        "image_text_extracted": false
+      },
+      "unloaded_or_folded_content_verified": false
+    }
+  }
+}

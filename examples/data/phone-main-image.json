@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product_id": "1069125756045",
+  "product_url": "https://item.taobao.com/item.htm?id=1069125756045",
+  "source": "visible_main_image_dom",
+  "observed_at": "2026-09-24T01:41:18.299Z",
+  "image": {
+    "url": "https://img.alicdn.com/imgextra/i4/2211351408444/O1CN01Dg2sDs2CFPW1mQMuG_!!2211351408444.jpg_.webp",
+    "width": 1280,
+    "height": 1280,
+    "displayed_width": 615,
+    "displayed_height": 615,
+    "loaded": true,
+    "source": "mainPic_within_unique_mainPicWrap"
+  },
+  "selected_thumbnail_url": "https://img.alicdn.com/imgextra/i4/2211351408444/O1CN01Dg2sDs2CFPW1mQMuG_!!2211351408444.jpg_q50.jpg_.webp",
+  "association": {
+    "selected_marker_verified": true,
+    "before_after_changed": true,
+    "two_matching_observations": true,
+    "sku_id": null,
+    "sku_binding_verified": false
+  },
+  "coverage": {
+    "status": "partial",
+    "selected_static_images": 1,
+    "all_gallery_images": false,
+    "file_downloaded": false,
+    "image_semantics_read": false,
+    "original_resolution_verified": false,
+    "video_read": false
+  },
+  "ui_restore": {
+    "reason": "previous_skill_review_task_left_panel_open",
+    "close_actions": 1,
+    "closed_confirmations": 2,
+    "close_is_gallery_prerequisite": false
+  }
+}

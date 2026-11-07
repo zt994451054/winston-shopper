@@ -1,0 +1,749 @@
+{
+  "product_id": "537601894090",
+  "url": "https://detail.tmall.com/item.htm?id=537601894090",
+  "title": "罗技 M330 无线静音鼠标办公台式笔记本电脑滑鼠轻巧",
+  "source": "loaded_product_dom",
+  "observed_at": "2026-09-22T15:27:43.899Z",
+  "page_state": "supported_regions_observed",
+  "login_verified": false,
+  "specification_groups": [
+    {
+      "name": "颜色分类",
+      "options": [
+        {
+          "label": "M330-黑色*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-白色*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-灰色*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-蓝色*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-黑色+短款鼠标垫*",
+          "selected": true,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-黑色+忙着发财鼠标垫*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-黑色+快捷键鼠标垫*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-黑色+皮质鼠标垫黑*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-白色+短款鼠标垫*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-白色+忙着发财鼠标垫*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-白色+快捷键鼠标垫*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-白色+皮质鼠标垫白*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-灰色+短款鼠标垫*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-灰色+忙着发财鼠标垫*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-灰色+快捷键鼠标垫*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-灰色+皮质鼠标垫白*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-蓝色+短款鼠标垫*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-蓝色+忙着发财鼠标垫*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-蓝色+快捷键鼠标垫*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330-蓝色+皮质鼠标垫黑*",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330 蓝色+鼠标掌托",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330 灰色+鼠标掌托",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330 黑色+鼠标掌托",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330 白色+鼠标掌托",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330 蓝色+猫爪平板支架",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330 灰色+猫爪平板支架",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330 黑色+猫爪平板支架",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330 白色+猫爪平板支架",
+          "selected": null,
+          "disabled": null,
+          "sku_id": null
+        },
+        {
+          "label": "M330 蓝色+显示器支架",
+          "selected": null,
+          "disabled": true,
+          "sku_id": null
+        },
+        {
+          "label": "M330 灰色+显示器支架",
+          "selected": null,
+          "disabled": true,
+          "sku_id": null
+        },
+        {
+          "label": "M330 黑色+显示器支架",
+          "selected": null,
+          "disabled": true,
+          "sku_id": null
+        },
+        {
+          "label": "M330 白色+显示器支架",
+          "selected": null,
+          "disabled": true,
+          "sku_id": null
+        }
+      ]
+    }
+  ],
+  "prices": [
+    {
+      "raw": "店铺优惠后 ￥ 95",
+      "label": "店铺优惠后",
+      "qualifier": "",
+      "kind": "single_displayed",
+      "amount": "95",
+      "minimum": null,
+      "maximum": null,
+      "currency": "CNY",
+      "eligibility_verified": false,
+      "sku_id": null,
+      "sku_price_binding_verified": false
+    },
+    {
+      "raw": "优惠前￥185",
+      "label": "优惠前",
+      "qualifier": "",
+      "kind": "single_displayed",
+      "amount": "185",
+      "minimum": null,
+      "maximum": null,
+      "currency": "CNY",
+      "eligibility_verified": false,
+      "sku_id": null,
+      "sku_price_binding_verified": false
+    }
+  ],
+  "review_previews": [
+    {
+      "observation_index": 1,
+      "body": "之前用的M275，这一款比275更轻，按键是没有声音的。灰色还蛮好看推荐 无线连接很稳，用着特别顺手。",
+      "date_text": "2026-08-24",
+      "review_id": null,
+      "text_may_be_truncated": true
+    },
+    {
+      "observation_index": 2,
+      "body": "鼠标还可以，不卡顿，但白色稍微有点不耐脏。物流速度还挺快的",
+      "date_text": "2026-09-17",
+      "review_id": null,
+      "text_may_be_truncated": true
+    }
+  ],
+  "coverage": {
+    "status": "partial",
+    "specifications": "loaded_options_only",
+    "prices": "displayed_conditions_unverified",
+    "reviews": "preview_only"
+  },
+  "missing": [
+    "platform_sku_ids",
+    "verified_sku_price_mapping",
+    "full_review_list"
+  ],
+  "limits": {
+    "groups": 8,
+    "options_per_group": 100,
+    "prices": 6,
+    "review_previews": 5,
+    "review_characters": 2000
+  },
+  "sku_evidence": {
+    "schema_version": 1,
+    "source": "current_product_url",
+    "parameter": "skuId",
+    "status": "candidate_only",
+    "candidate_sku_id": "6270968490583",
+    "sku_properties_present": false,
+    "selection_binding_verified": false,
+    "sku_price_binding_verified": false
+  },
+  "specification_scope": {
+    "schema_version": 1,
+    "region_observed": true,
+    "groups_seen": 1,
+    "groups_returned": 1,
+    "groups_omitted": 0,
+    "groups": [
+      {
+        "group_index": 1,
+        "options_seen": 32,
+        "options_returned": 32,
+        "options_omitted": 0
+      }
+    ],
+    "full_sku_matrix_verified": false
+  },
+  "details": {
+    "schema_version": 2,
+    "source": "loaded_product_detail_regions",
+    "shop": {
+      "name": "罗技官方旗舰店",
+      "url": "https://shop61880113.taobao.com/category.htm",
+      "source": "shop_header"
+    },
+    "attributes": {
+      "observed": true,
+      "rows_seen": 15,
+      "items": [
+        {
+          "name": "连接方式",
+          "value": ":2.4G无线",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "无线技术",
+          "value": "2.4GHz",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "是否支持人体工程学",
+          "value": "否",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "品牌",
+          "value": "Logitech/罗技",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "罗技无线型号",
+          "value": "M330",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "售后服务",
+          "value": "全国联保",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "工作方式",
+          "value": "光电",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "无线距离",
+          "value": "10m",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "生产企业",
+          "value": "罗技（苏州）科技有限公司",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "保修期",
+          "value": "12个月",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "适用场景",
+          "value": "办公",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "成色",
+          "value": "全新",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "是否盒装正品",
+          "value": "是",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "电池型号",
+          "value": "5号电池",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "颜色分类",
+          "value": "M330-黑色* M330-白色* M330-灰色* M330-蓝色* M330-黑色+短款鼠标垫* M330-黑色+忙着发财鼠标垫* M330-黑色+快捷键鼠标垫* M330-黑色+皮质鼠标垫黑* M330-白色+短款鼠标垫* M330-白色+忙着发财鼠标垫* M330-白色+快捷键鼠标垫* M330-白色+皮质鼠标垫白* M330-灰色+短款鼠标垫* M330-灰色+忙着发财鼠标垫* M330-灰色+快捷键鼠标垫* M330-灰色+皮质鼠标垫白* M330-蓝色+短款鼠标垫* M330-蓝色+忙着发财鼠标垫* M330-蓝色+快捷键鼠标垫* M330-蓝色+皮质鼠标垫黑* M330 蓝色+鼠标掌托 M330 灰色+鼠标掌托 M330 黑色+鼠标掌托 M330 白色+鼠标掌托 M330 蓝色+猫爪平板支架 M330 灰色+猫爪平板支架 M330 黑色+猫爪平板支架 M330 白色+猫爪平板支架 M330 蓝色+显示器支架 M330 灰色+显示器支架 M330 黑色+显示器支架 M330 白色+显示器支架",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        }
+      ]
+    },
+    "gallery": {
+      "observed": true,
+      "elements_seen": 6,
+      "elements_scanned": 6,
+      "duplicates_omitted": 1,
+      "unsupported_urls_omitted": 0,
+      "items": [
+        {
+          "position": 1,
+          "url": "https://gw.alicdn.com/imgextra/O1CN01mWwq84dzMNK1chua_!!428722076-0-picasso.jpg_q50.jpg_.webp",
+          "loaded": true,
+          "width": 800,
+          "height": 800,
+          "source": "gallery_thumbnail"
+        },
+        {
+          "position": 3,
+          "url": "https://gw.alicdn.com/imgextra/O1CN01Gs7V7k1RCqkkg6uaz_!!428722076.jpg_q50.jpg_.webp",
+          "loaded": true,
+          "width": 800,
+          "height": 800,
+          "source": "gallery_thumbnail"
+        },
+        {
+          "position": 4,
+          "url": "https://gw.alicdn.com/imgextra/O1CN01YBsKsw1RCrB0QY9O2_!!428722076.jpg_q50.jpg_.webp",
+          "loaded": true,
+          "width": 800,
+          "height": 800,
+          "source": "gallery_thumbnail"
+        },
+        {
+          "position": 5,
+          "url": "https://gw.alicdn.com/imgextra/O1CN01SOdfZJ1RCrAvWyFt7_!!428722076.jpg_q50.jpg_.webp",
+          "loaded": true,
+          "width": 800,
+          "height": 800,
+          "source": "gallery_thumbnail"
+        },
+        {
+          "position": 6,
+          "url": "https://gw.alicdn.com/imgextra/O1CN01XwR2FQ1RCrChsLaJI_!!428722076.jpg_q50.jpg_.webp",
+          "loaded": true,
+          "width": 750,
+          "height": 750,
+          "source": "gallery_thumbnail"
+        }
+      ],
+      "image_text_extracted": false
+    },
+    "description": {
+      "observed": true,
+      "elements_seen": 25,
+      "elements_scanned": 25,
+      "duplicates_omitted": 0,
+      "unsupported_urls_omitted": 0,
+      "items": [
+        {
+          "position": 1,
+          "url": "https://img.alicdn.com/imgextra/i2/428722076/O1CN01TjVO8j1RCrOddhWW0_!!428722076.jpg",
+          "loaded": true,
+          "width": 1240,
+          "height": 2480,
+          "source": "description_image"
+        },
+        {
+          "position": 2,
+          "url": "https://img.alicdn.com/imgextra/i4/428722076/O1CN01ePtep11RCrOddgeTi_!!428722076.jpg",
+          "loaded": true,
+          "width": 1240,
+          "height": 468,
+          "source": "description_image"
+        },
+        {
+          "position": 3,
+          "url": "https://img.alicdn.com/imgextra/i3/428722076/O1CN01PpSRTk1RCrOZz5zrP_!!428722076.jpg",
+          "loaded": true,
+          "width": 2480,
+          "height": 2324,
+          "source": "description_image"
+        },
+        {
+          "position": 4,
+          "url": "https://img.alicdn.com/imgextra/i3/428722076/O1CN01RrOKbT1RCqte27NMT_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 2322,
+          "source": "description_image"
+        },
+        {
+          "position": 5,
+          "url": "https://img.alicdn.com/imgextra/i4/428722076/O1CN01hw5Z631RCr5pBI0Nu_!!428722076.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 1000,
+          "source": "description_image"
+        },
+        {
+          "position": 6,
+          "url": "https://img.alicdn.com/imgextra/i3/428722076/O1CN01zoD2OK1RCqtbujkR0_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 586,
+          "source": "description_image"
+        },
+        {
+          "position": 7,
+          "url": "https://img.alicdn.com/imgextra/i3/428722076/O1CN01klH8M21RCqtSHmPLT_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 2322,
+          "source": "description_image"
+        },
+        {
+          "position": 8,
+          "url": "https://img.alicdn.com/imgextra/i2/428722076/O1CN01kuo9XN1RCqtasEoH8_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 593,
+          "source": "description_image"
+        },
+        {
+          "position": 9,
+          "url": "https://img.alicdn.com/imgextra/i4/428722076/O1CN01AbVVgx1RCqte29zWt_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 2322,
+          "source": "description_image"
+        },
+        {
+          "position": 10,
+          "url": "https://img.alicdn.com/imgextra/i2/428722076/O1CN01WSyGx91RCqtgz7AOr_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 593,
+          "source": "description_image"
+        },
+        {
+          "position": 11,
+          "url": "https://img.alicdn.com/imgextra/i1/428722076/O1CN01wtB3rx1RCqthVrNm7_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 2322,
+          "source": "description_image"
+        },
+        {
+          "position": 12,
+          "url": "https://img.alicdn.com/imgextra/i2/428722076/O1CN01uayIBf1RCqtYLp2aZ_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 590,
+          "source": "description_image"
+        },
+        {
+          "position": 13,
+          "url": "https://img.alicdn.com/imgextra/i3/428722076/O1CN01ilqeYk1RCqtbBz0kd_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 2322,
+          "source": "description_image"
+        },
+        {
+          "position": 14,
+          "url": "https://img.alicdn.com/imgextra/i1/428722076/O1CN01iiBW6K1RCqtcBRyJo_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 588,
+          "source": "description_image"
+        },
+        {
+          "position": 15,
+          "url": "https://img.alicdn.com/imgextra/i4/428722076/O1CN01HbclLJ1RCqtahl1Kw_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 2322,
+          "source": "description_image"
+        },
+        {
+          "position": 16,
+          "url": "https://img.alicdn.com/imgextra/i4/428722076/O1CN01rO3fCO1RCqtdGrUbN_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 593,
+          "source": "description_image"
+        },
+        {
+          "position": 17,
+          "url": "https://img.alicdn.com/imgextra/i4/428722076/O1CN01cliYab1RCqtfRj1UT_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 2322,
+          "source": "description_image"
+        },
+        {
+          "position": 18,
+          "url": "https://img.alicdn.com/imgextra/i1/428722076/O1CN01Qy8EDE1RCqtasF94M_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 588,
+          "source": "description_image"
+        },
+        {
+          "position": 19,
+          "url": "https://img.alicdn.com/imgextra/i4/428722076/O1CN01fbfhwX1RCrOZjLvIe_!!428722076.jpg",
+          "loaded": true,
+          "width": 2480,
+          "height": 3836,
+          "source": "description_image"
+        },
+        {
+          "position": 20,
+          "url": "https://img.alicdn.com/imgextra/i4/428722076/O1CN01MRc4ft1RCqtYLouHR_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 327,
+          "source": "description_image"
+        },
+        {
+          "position": 21,
+          "url": "https://img.alicdn.com/imgextra/i1/428722076/O1CN0197KNJb1RCqyhXdhUj_!!428722076.jpg",
+          "loaded": true,
+          "width": 750,
+          "height": 1145,
+          "source": "description_image"
+        },
+        {
+          "position": 22,
+          "url": "https://img.alicdn.com/imgextra/i3/428722076/O1CN01HngOG71RCqte5UlVo_!!428722076.jpg",
+          "loaded": true,
+          "width": 1500,
+          "height": 15,
+          "source": "description_image"
+        },
+        {
+          "position": 23,
+          "url": "https://img.alicdn.com/imgextra/i4/428722076/O1CN01VvPHz41RCrOMzrQit_!!428722076.jpg",
+          "loaded": true,
+          "width": 1240,
+          "height": 2480,
+          "source": "description_image"
+        },
+        {
+          "position": 24,
+          "url": "https://img.alicdn.com/imgextra/i4/428722076/O1CN01eOxBRO1RCrOMWEFW5_!!428722076.jpg",
+          "loaded": true,
+          "width": 1240,
+          "height": 128,
+          "source": "description_image"
+        },
+        {
+          "position": 25,
+          "url": "https://img.alicdn.com/imgextra/i3/O1CN01XU1Y2d1Sk7fIMOkeU_!!6000000002284-2-tps-1125-1446.png",
+          "loaded": true,
+          "width": 1125,
+          "height": 1446,
+          "source": "description_image"
+        }
+      ],
+      "image_text_extracted": false,
+      "text": "",
+      "text_may_be_truncated": true,
+      "videos_seen": 1,
+      "videos_extracted": false,
+      "observation": {
+        "schema_version": 1,
+        "text_container_observed": true,
+        "nodes_scanned": 32,
+        "traversal_truncated": false,
+        "text_truncated": false,
+        "clipped_subtrees_omitted": 0,
+        "control_candidates": [],
+        "controls_truncated": false,
+        "expansion_behavior_verified": false,
+        "limits": {
+          "nodes": 800,
+          "depth": 12,
+          "text_characters": 6000,
+          "controls": 8
+        }
+      }
+    },
+    "services": {
+      "observed": true,
+      "labels": [
+        "7天价保",
+        "退货宝",
+        "365天只换不修",
+        "假一赔四",
+        "极速退款",
+        "7天无理由退换"
+      ],
+      "conditions_verified": false
+    },
+    "shipping": {
+      "observed": true,
+      "freight_labels": [
+        "快递: 免运费"
+      ],
+      "conditions_verified": false
+    },
+    "coverage": {
+      "status": "partial",
+      "attribute_scope": "loaded_rows",
+      "image_scope": "links_only",
+      "service_scope": "displayed_labels",
+      "full_description": false
+    },
+    "missing": [
+      "image_text_not_extracted",
+      "unloaded_or_folded_regions",
+      "full_service_terms",
+      "address_specific_delivery",
+      "video_contents"
+    ],
+    "limits": {
+      "parameters": 100,
+      "parameter_value_characters": 1500,
+      "gallery_images": 20,
+      "description_images": 60,
+      "description_text_characters": 6000,
+      "service_labels": 20,
+      "freight_labels": 5
+    },
+    "availability": {
+      "parameters": {
+        "region_observed": true,
+        "returned_rows": 15,
+        "unscanned_rows": 0
+      },
+      "gallery": {
+        "region_observed": true,
+        "returned_images": 5,
+        "loaded_returned_images": 5,
+        "not_loaded_returned_images": 0,
+        "unscanned_elements": 0
+      },
+      "description": {
+        "region_observed": true,
+        "returned_images": 25,
+        "loaded_returned_images": 25,
+        "not_loaded_returned_images": 0,
+        "unscanned_elements": 0,
+        "content_kind": "image_links_only",
+        "text_characters": 0,
+        "image_text_extracted": false
+      },
+      "unloaded_or_folded_content_verified": false
+    }
+  }
+}

@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "source": "bounded_specification_image_viewport_comparison",
+  "product_id": "537601894090",
+  "url": "https://detail.tmall.com/item.htm?id=537601894090",
+  "request": {
+    "group_position": 1,
+    "group_name": "颜色分类",
+    "options_seen": 32,
+    "position": 19,
+    "label": "M330-蓝色+快捷键鼠标垫*"
+  },
+  "observations": [
+    {
+      "stage": "before",
+      "snapshot": {
+        "schema_version": 1,
+        "source": "bounded_specification_image_viewport_probe",
+        "observation": {
+          "schema_version": 1,
+          "source": "bounded_specification_image_source_diagnostic",
+          "product_id": "537601894090",
+          "url": "https://detail.tmall.com/item.htm?id=537601894090",
+          "observed_at": "2026-09-29T00:51:34.709Z",
+          "observations": [
+            {
+              "group_position": 1,
+              "group_name": "颜色分类",
+              "options_seen": 32,
+              "position": 19,
+              "label": "M330-蓝色+快捷键鼠标垫*",
+              "current_src": {
+                "status": "candidate",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+              },
+              "attributes": {
+                "src": {
+                  "status": "candidate",
+                  "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+                },
+                "data-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-lazy-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-original": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-ks-lazyload": {
+                  "status": "absent",
+                  "url": null
+                }
+              },
+              "srcset": {
+                "status": "absent",
+                "candidates": []
+              },
+              "loading": null,
+              "current_resource": {
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "same_option_unique_img_attributes",
+                "option_binding_verified": true,
+                "alternate_source_loaded_verified": false,
+                "sku_id": null,
+                "sku_price_binding_verified": false
+              }
+            }
+          ],
+          "coverage": {
+            "hidden_application_state_read": false,
+            "image_urls_rewritten": false,
+            "source_elements_read": false,
+            "wrapper_attributes_read": false,
+            "scrolling": false,
+            "selection": false,
+            "downloaded": false
+          }
+        },
+        "selection_marked_positions": [
+          1
+        ],
+        "geometry": {
+          "clip_ancestors": 5,
+          "fully_in_view": false,
+          "image_box": {
+            "height": 32,
+            "width": 32,
+            "x": 1065,
+            "y": 1003
+          },
+          "intersection": {
+            "height": 0,
+            "width": 32
+          },
+          "occlusion_checked": false,
+          "viewport": {
+            "height": 952,
+            "width": 1800
+          }
+        },
+        "action": "not_requested",
+        "source_timing": "read_only_in_this_command",
+        "sku_id": null,
+        "sku_price_binding_verified": false
+      }
+    },
+    {
+      "stage": "scroll",
+      "snapshot": {
+        "schema_version": 1,
+        "source": "bounded_specification_image_viewport_probe",
+        "observation": {
+          "schema_version": 1,
+          "source": "bounded_specification_image_source_diagnostic",
+          "product_id": "537601894090",
+          "url": "https://detail.tmall.com/item.htm?id=537601894090",
+          "observed_at": "2026-09-29T00:51:36.322Z",
+          "observations": [
+            {
+              "group_position": 1,
+              "group_name": "颜色分类",
+              "options_seen": 32,
+              "position": 19,
+              "label": "M330-蓝色+快捷键鼠标垫*",
+              "current_src": {
+                "status": "candidate",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+              },
+              "attributes": {
+                "src": {
+                  "status": "candidate",
+                  "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+                },
+                "data-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-lazy-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-original": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-ks-lazyload": {
+                  "status": "absent",
+                  "url": null
+                }
+              },
+              "srcset": {
+                "status": "absent",
+                "candidates": []
+              },
+              "loading": null,
+              "current_resource": {
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "same_option_unique_img_attributes",
+                "option_binding_verified": true,
+                "alternate_source_loaded_verified": false,
+                "sku_id": null,
+                "sku_price_binding_verified": false
+              }
+            }
+          ],
+          "coverage": {
+            "hidden_application_state_read": false,
+            "image_urls_rewritten": false,
+            "source_elements_read": false,
+            "wrapper_attributes_read": false,
+            "scrolling": false,
+            "selection": false,
+            "downloaded": false
+          }
+        },
+        "selection_marked_positions": [
+          1
+        ],
+        "geometry": {
+          "clip_ancestors": 5,
+          "fully_in_view": false,
+          "image_box": {
+            "height": 32,
+            "width": 32,
+            "x": 1065,
+            "y": 1003
+          },
+          "intersection": {
+            "height": 0,
+            "width": 32
+          },
+          "occlusion_checked": false,
+          "viewport": {
+            "height": 952,
+            "width": 1800
+          }
+        },
+        "action": "scroll_dispatched",
+        "after_scroll_geometry": {
+          "clip_ancestors": 5,
+          "fully_in_view": true,
+          "image_box": {
+            "height": 32,
+            "width": 32,
+            "x": 1065,
+            "y": 460
+          },
+          "intersection": {
+            "height": 32,
+            "width": 32
+          },
+          "occlusion_checked": false,
+          "viewport": {
+            "height": 952,
+            "width": 1800
+          }
+        },
+        "source_timing": "before_scroll_in_this_command",
+        "sku_id": null,
+        "sku_price_binding_verified": false
+      }
+    },
+    {
+      "stage": "after-1",
+      "snapshot": {
+        "schema_version": 1,
+        "source": "bounded_specification_image_viewport_probe",
+        "observation": {
+          "schema_version": 1,
+          "source": "bounded_specification_image_source_diagnostic",
+          "product_id": "537601894090",
+          "url": "https://detail.tmall.com/item.htm?id=537601894090",
+          "observed_at": "2026-09-29T00:51:37.877Z",
+          "observations": [
+            {
+              "group_position": 1,
+              "group_name": "颜色分类",
+              "options_seen": 32,
+              "position": 19,
+              "label": "M330-蓝色+快捷键鼠标垫*",
+              "current_src": {
+                "status": "candidate",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+              },
+              "attributes": {
+                "src": {
+                  "status": "candidate",
+                  "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+                },
+                "data-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-lazy-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-original": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-ks-lazyload": {
+                  "status": "absent",
+                  "url": null
+                }
+              },
+              "srcset": {
+                "status": "absent",
+                "candidates": []
+              },
+              "loading": null,
+              "current_resource": {
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "same_option_unique_img_attributes",
+                "option_binding_verified": true,
+                "alternate_source_loaded_verified": false,
+                "sku_id": null,
+                "sku_price_binding_verified": false
+              }
+            }
+          ],
+          "coverage": {
+            "hidden_application_state_read": false,
+            "image_urls_rewritten": false,
+            "source_elements_read": false,
+            "wrapper_attributes_read": false,
+            "scrolling": false,
+            "selection": false,
+            "downloaded": false
+          }
+        },
+        "selection_marked_positions": [
+          1
+        ],
+        "geometry": {
+          "clip_ancestors": 5,
+          "fully_in_view": true,
+          "image_box": {
+            "height": 32,
+            "width": 32,
+            "x": 1065,
+            "y": 460
+          },
+          "intersection": {
+            "height": 32,
+            "width": 32
+          },
+          "occlusion_checked": false,
+          "viewport": {
+            "height": 952,
+            "width": 1800
+          }
+        },
+        "action": "not_requested",
+        "source_timing": "read_only_in_this_command",
+        "sku_id": null,
+        "sku_price_binding_verified": false
+      }
+    },
+    {
+      "stage": "after-2",
+      "snapshot": {
+        "schema_version": 1,
+        "source": "bounded_specification_image_viewport_probe",
+        "observation": {
+          "schema_version": 1,
+          "source": "bounded_specification_image_source_diagnostic",
+          "product_id": "537601894090",
+          "url": "https://detail.tmall.com/item.htm?id=537601894090",
+          "observed_at": "2026-09-29T00:51:39.453Z",
+          "observations": [
+            {
+              "group_position": 1,
+              "group_name": "颜色分类",
+              "options_seen": 32,
+              "position": 19,
+              "label": "M330-蓝色+快捷键鼠标垫*",
+              "current_src": {
+                "status": "candidate",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+              },
+              "attributes": {
+                "src": {
+                  "status": "candidate",
+                  "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+                },
+                "data-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-lazy-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-original": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-ks-lazyload": {
+                  "status": "absent",
+                  "url": null
+                }
+              },
+              "srcset": {
+                "status": "absent",
+                "candidates": []
+              },
+              "loading": null,
+              "current_resource": {
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "same_option_unique_img_attributes",
+                "option_binding_verified": true,
+                "alternate_source_loaded_verified": false,
+                "sku_id": null,
+                "sku_price_binding_verified": false
+              }
+            }
+          ],
+          "coverage": {
+            "hidden_application_state_read": false,
+            "image_urls_rewritten": false,
+            "source_elements_read": false,
+            "wrapper_attributes_read": false,
+            "scrolling": false,
+            "selection": false,
+            "downloaded": false
+          }
+        },
+        "selection_marked_positions": [
+          1
+        ],
+        "geometry": {
+          "clip_ancestors": 5,
+          "fully_in_view": true,
+          "image_box": {
+            "height": 32,
+            "width": 32,
+            "x": 1065,
+            "y": 460
+          },
+          "intersection": {
+            "height": 32,
+            "width": 32
+          },
+          "occlusion_checked": false,
+          "viewport": {
+            "height": 952,
+            "width": 1800
+          }
+        },
+        "action": "not_requested",
+        "source_timing": "read_only_in_this_command",
+        "sku_id": null,
+        "sku_price_binding_verified": false
+      }
+    }
+  ],
+  "comparison": {
+    "after_observations_consistent": true,
+    "loaded_resource_changed_confirmed": false,
+    "entered_view_observed": true,
+    "selection_markers_consistent": true
+  },
+  "coverage": {
+    "other_missing_options_read": false,
+    "full_specification_images": false,
+    "implementation_mechanism_verified": false,
+    "sku_id": null,
+    "sku_price_binding_verified": false,
+    "pixels_interpreted": false,
+    "file_downloaded": false,
+    "scroll_restored": false
+  }
+}

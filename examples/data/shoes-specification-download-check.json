@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "status": "sample_downloads_verified",
+  "source_task": "specification-collection-shoes-20260929",
+  "product_id": "769972203898",
+  "sampled_options": [
+    1,
+    11
+  ],
+  "downloaded_samples": 2,
+  "total_observed_color_links": 11,
+  "unsampled_color_links": 9,
+  "request_budget": {
+    "reserved": 2,
+    "limit": 6,
+    "explicit_retries": 0
+  },
+  "image_semantics_read": false,
+  "all_option_downloads_verified": false,
+  "samples": [
+    {
+      "position": 1,
+      "source": {
+        "product_id": "769972203898",
+        "product_url": "https://detail.tmall.com/item.htm?id=769972203898",
+        "observed_at": "2026-09-29T15:45:03.968Z",
+        "region": "specification",
+        "position": 1,
+        "image_url": "https://gw.alicdn.com/bao/uploaded/i3/349740505/O1CN01Pt6tAdWn9zG2vH2e_!!349740505.jpg_.webp",
+        "specification_image_evidence": {
+          "group_position": 1,
+          "group": "颜色分类",
+          "option_position": 1,
+          "label": "001微晶白/矿物蓝 【防泼水革面】",
+          "read": 2,
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      },
+      "bytes": 386984,
+      "format": "webp",
+      "width": 1440,
+      "height": 1440,
+      "sha256": "0a44762a7de487658b064ac60081e2ff40693e3d3c9ed74386842101507224af",
+      "downloaded_at": "2026-09-29T15:45:40.284Z",
+      "cached_on_recheck": true,
+      "image_semantics_read": false
+    },
+    {
+      "position": 11,
+      "source": {
+        "product_id": "769972203898",
+        "product_url": "https://detail.tmall.com/item.htm?id=769972203898",
+        "observed_at": "2026-09-29T15:45:07.140Z",
+        "region": "specification",
+        "position": 11,
+        "image_url": "https://gw.alicdn.com/bao/uploaded/i2/349740505/O1CN01kgQnoRkCDOC1chua_!!349740505.png_.webp",
+        "specification_image_evidence": {
+          "group_position": 1,
+          "group": "颜色分类",
+          "option_position": 11,
+          "label": "001正黑/黑土地 【透气网面】",
+          "read": 4,
+          "association": {
+            "source": "option_image_wrapper_dom",
+            "option_binding_verified": true,
+            "sku_id": null,
+            "sku_binding_verified": false,
+            "sku_price_binding_verified": false
+          }
+        }
+      },
+      "bytes": 87660,
+      "format": "webp",
+      "width": 800,
+      "height": 800,
+      "sha256": "a04edfb6c8962535b431254a3f3306a4177d89c969a8ecfd3d4557fa3d52aff6",
+      "downloaded_at": "2026-09-29T15:45:42.202Z",
+      "cached_on_recheck": true,
+      "image_semantics_read": false
+    }
+  ]
+}

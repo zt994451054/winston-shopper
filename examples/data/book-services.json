@@ -1,0 +1,365 @@
+{
+  "product_id": "740241861903",
+  "url": "https://item.taobao.com/item.htm?id=740241861903",
+  "title": "二手书自然辩证法概论修订版殷杰郭贵春高等教育出版社2020年版马工程硕士思想政治理论9787040535136教材课本考研参考书正版旧书",
+  "source": "loaded_product_dom",
+  "observed_at": "2026-09-23T03:58:36.802Z",
+  "page_state": "supported_regions_observed",
+  "login_verified": false,
+  "specification_groups": [],
+  "prices": [
+    {
+      "raw": "平台加补后 ￥ 18.59",
+      "label": "平台加补后",
+      "qualifier": "",
+      "kind": "single_displayed",
+      "amount": "18.59",
+      "minimum": null,
+      "maximum": null,
+      "currency": "CNY",
+      "eligibility_verified": false,
+      "sku_id": null,
+      "sku_price_binding_verified": false
+    },
+    {
+      "raw": "优惠促销 ￥ 20.19",
+      "label": "优惠促销",
+      "qualifier": "",
+      "kind": "single_displayed",
+      "amount": "20.19",
+      "minimum": null,
+      "maximum": null,
+      "currency": "CNY",
+      "eligibility_verified": false,
+      "sku_id": null,
+      "sku_price_binding_verified": false
+    }
+  ],
+  "review_previews": [
+    {
+      "observation_index": 1,
+      "body": "不错，挺新的。上面有些字迹，但是不影响",
+      "date_text": "2026-09-05",
+      "review_id": null,
+      "text_may_be_truncated": true
+    },
+    {
+      "observation_index": 2,
+      "body": "正版版本，纸张品质好，发货速度很快真的买二手书挺划算的，我感觉当然买电子版的更划算了，只不过我喜欢用纸质的",
+      "date_text": "2026-07-19",
+      "review_id": null,
+      "text_may_be_truncated": true
+    }
+  ],
+  "coverage": {
+    "status": "partial",
+    "specifications": "not_observed",
+    "prices": "displayed_conditions_unverified",
+    "reviews": "preview_only"
+  },
+  "missing": [
+    "platform_sku_ids",
+    "verified_sku_price_mapping",
+    "full_review_list",
+    "specification_region"
+  ],
+  "limits": {
+    "groups": 8,
+    "options_per_group": 100,
+    "prices": 6,
+    "review_previews": 5,
+    "review_characters": 2000
+  },
+  "sku_evidence": {
+    "schema_version": 1,
+    "source": "current_product_url",
+    "parameter": "skuId",
+    "status": "parameter_absent",
+    "candidate_sku_id": null,
+    "sku_properties_present": false,
+    "selection_binding_verified": false,
+    "sku_price_binding_verified": false
+  },
+  "specification_scope": {
+    "schema_version": 1,
+    "region_observed": true,
+    "groups_seen": 0,
+    "groups_returned": 0,
+    "groups_omitted": 0,
+    "groups": [],
+    "full_sku_matrix_verified": false
+  },
+  "details": {
+    "schema_version": 2,
+    "source": "loaded_product_detail_regions",
+    "shop": {
+      "name": "旧书云 四川旧书城",
+      "url": "https://shop313316165.taobao.com/category.htm",
+      "source": "shop_header"
+    },
+    "attributes": {
+      "observed": true,
+      "rows_seen": 12,
+      "items": [
+        {
+          "name": "出版时间",
+          "value": "2010-01",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "作者",
+          "value": "殷杰郭贵春",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "正：副书名",
+          "value": "自然辩证法概论 修订版",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "出版社名称",
+          "value": "高等教育出版社",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "ISBN编号",
+          "value": "9787040535136",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "定价",
+          "value": "42.0",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "是否是套装",
+          "value": "否",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "书名",
+          "value": "自然辩证法概论 修订版",
+          "source": "emphasis_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "主题",
+          "value": "二手大学教材",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "开本",
+          "value": "16开",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "页数",
+          "value": "1",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        },
+        {
+          "name": "包册数",
+          "value": "1",
+          "source": "general_parameters",
+          "text_may_be_truncated": true
+        }
+      ]
+    },
+    "gallery": {
+      "observed": true,
+      "elements_seen": 6,
+      "elements_scanned": 6,
+      "duplicates_omitted": 1,
+      "unsupported_urls_omitted": 0,
+      "items": [
+        {
+          "position": 1,
+          "url": "https://img.alicdn.com/imgextra/i2/3214048543/O1CN01Nn1wVg2CykTErdyDD_!!3214048543.jpg_q50.jpg_.webp",
+          "loaded": true,
+          "width": 600,
+          "height": 600,
+          "source": "gallery_thumbnail"
+        },
+        {
+          "position": 3,
+          "url": "https://img.alicdn.com/imgextra/i1/3214048543/O1CN01zjVRaC2CykObaHLBE_!!3214048543.jpg_q50.jpg_.webp",
+          "loaded": true,
+          "width": 800,
+          "height": 800,
+          "source": "gallery_thumbnail"
+        },
+        {
+          "position": 4,
+          "url": "https://img.alicdn.com/imgextra/i1/3214048543/O1CN0164XOAH2CykOl9r5Tl_!!3214048543.jpg_q50.jpg_.webp",
+          "loaded": true,
+          "width": 1280,
+          "height": 1280,
+          "source": "gallery_thumbnail"
+        },
+        {
+          "position": 5,
+          "url": "https://img.alicdn.com/imgextra/i1/3214048543/O1CN01J7NNMB2CykOqK3kit_!!3214048543.jpg_q50.jpg_.webp",
+          "loaded": true,
+          "width": 1280,
+          "height": 1280,
+          "source": "gallery_thumbnail"
+        },
+        {
+          "position": 6,
+          "url": "https://img.alicdn.com/imgextra/i2/3214048543/O1CN01eZC7Ah2CykOqK7Anf_!!3214048543.jpg_q50.jpg_.webp",
+          "loaded": true,
+          "width": 1280,
+          "height": 1280,
+          "source": "gallery_thumbnail"
+        }
+      ],
+      "image_text_extracted": false
+    },
+    "description": {
+      "observed": true,
+      "elements_seen": 1,
+      "elements_scanned": 1,
+      "duplicates_omitted": 0,
+      "unsupported_urls_omitted": 0,
+      "items": [
+        {
+          "position": 1,
+          "url": "https://img.alicdn.com/imgextra/i3/O1CN01XU1Y2d1Sk7fIMOkeU_!!6000000002284-2-tps-1125-1446.png",
+          "loaded": true,
+          "width": 1125,
+          "height": 1446,
+          "source": "description_image"
+        }
+      ],
+      "image_text_extracted": false,
+      "text": "基本信息  书名:自然辩证法概论 修订版  定价：42.00元  作者:殷杰郭贵春  出版社：高等教育出版社  出版日期：  ISBN：9787040535136  字数：  页码：  版次：  装帧：平装  开本：16开  商品重量：  编辑推荐  暂无相关内容  内容提要    本书是以马克思主义自然辩证法理论的教育为主线，帮助硕士生掌握辩证唯物主义的自然观、科学观、技术观、工程观及其方法论，了解自然界发展和科学、技术、工程发展的一般规律，理解科学、技术、工程在社会发展中的作用，认识中国马克思主义科学技术观与创新型国家建设的重大意义，培养硕士生的创新精神和创新能力的一门思想政治理论课。    目录  暂无相关内容  作者介绍  暂无相关内容  序言  暂无相关内容",
+      "text_may_be_truncated": true,
+      "videos_seen": 0,
+      "videos_extracted": false,
+      "observation": {
+        "schema_version": 1,
+        "text_container_observed": true,
+        "nodes_scanned": 76,
+        "traversal_truncated": false,
+        "text_truncated": false,
+        "clipped_subtrees_omitted": 0,
+        "control_candidates": [],
+        "controls_truncated": false,
+        "expansion_behavior_verified": false,
+        "limits": {
+          "nodes": 800,
+          "depth": 12,
+          "text_characters": 6000,
+          "controls": 8
+        }
+      }
+    },
+    "services": {
+      "observed": true,
+      "labels": [
+        "退货宝",
+        "7天无理由退货"
+      ],
+      "conditions_verified": false,
+      "terms": {
+        "schema_version": 1,
+        "panel_observed": true,
+        "entry_expanded": true,
+        "items_seen": 2,
+        "items_returned": 2,
+        "items": [
+          {
+            "label": "退货宝",
+            "header_text": "退货宝",
+            "body_text": "退货运费险保障，若选择上门取件，自动抵扣3公斤内运费，使用快递柜寄件或者驿站自寄自动抵扣1公斤内运费；若选择自行寄回，参照1公斤标准补偿，具体以“订单详情-退货宝”为准",
+            "body_truncated": false,
+            "body_clipped": false,
+            "additional_entry_labels": []
+          },
+          {
+            "label": "7天无理由退货",
+            "header_text": "7天无理由退货",
+            "body_text": "满足7天无理由退货申请的前提下，包邮商品需要买家承担退货邮费，非包邮商品需要买家承担发货和退货邮费。",
+            "body_truncated": false,
+            "body_clipped": false,
+            "additional_entry_labels": []
+          }
+        ],
+        "association_basis": "expanded_entry_and_matching_labels",
+        "full_terms_verified": false,
+        "eligibility_verified": false
+      }
+    },
+    "shipping": {
+      "observed": true,
+      "freight_labels": [
+        "快递: 免运费"
+      ],
+      "conditions_verified": false
+    },
+    "coverage": {
+      "status": "partial",
+      "attribute_scope": "loaded_rows",
+      "image_scope": "links_only",
+      "service_scope": "displayed_labels",
+      "full_description": false
+    },
+    "missing": [
+      "image_text_not_extracted",
+      "unloaded_or_folded_regions",
+      "full_service_terms",
+      "address_specific_delivery",
+      "video_contents"
+    ],
+    "limits": {
+      "parameters": 100,
+      "parameter_value_characters": 1500,
+      "gallery_images": 20,
+      "description_images": 60,
+      "description_text_characters": 6000,
+      "service_labels": 20,
+      "freight_labels": 5
+    },
+    "availability": {
+      "parameters": {
+        "region_observed": true,
+        "returned_rows": 12,
+        "unscanned_rows": 0
+      },
+      "gallery": {
+        "region_observed": true,
+        "returned_images": 5,
+        "loaded_returned_images": 5,
+        "not_loaded_returned_images": 0,
+        "unscanned_elements": 0
+      },
+      "description": {
+        "region_observed": true,
+        "returned_images": 1,
+        "loaded_returned_images": 1,
+        "not_loaded_returned_images": 0,
+        "unscanned_elements": 0,
+        "content_kind": "text_and_image_links",
+        "text_characters": 338,
+        "image_text_extracted": false
+      },
+      "unloaded_or_folded_content_verified": false
+    }
+  },
+  "service_evidence": {
+    "status": "panel_observed",
+    "actions_reserved": 1,
+    "observations_reserved": 2,
+    "acknowledgement_error": null
+  }
+}

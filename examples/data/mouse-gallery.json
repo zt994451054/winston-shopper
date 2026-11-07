@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "product_id": "537601894090",
+  "url": "https://detail.tmall.com/item.htm?id=537601894090",
+  "observed_at": "2026-09-28T09:59:51.434Z",
+  "source": "loaded_gallery_thumbnail_dom",
+  "gallery": {
+    "observed": true,
+    "elements_seen": 6,
+    "elements_scanned": 6,
+    "duplicates_omitted": 1,
+    "unsupported_urls_omitted": 0,
+    "items": [
+      {
+        "position": 1,
+        "url": "https://gw.alicdn.com/imgextra/O1CN01mWwq84dzMNK1chua_!!428722076-0-picasso.jpg_q50.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800,
+        "source": "gallery_thumbnail"
+      },
+      {
+        "position": 3,
+        "url": "https://gw.alicdn.com/imgextra/O1CN01Gs7V7k1RCqkkg6uaz_!!428722076.jpg_q50.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800,
+        "source": "gallery_thumbnail"
+      },
+      {
+        "position": 4,
+        "url": "https://gw.alicdn.com/imgextra/O1CN01YBsKsw1RCrB0QY9O2_!!428722076.jpg_q50.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800,
+        "source": "gallery_thumbnail"
+      },
+      {
+        "position": 5,
+        "url": "https://gw.alicdn.com/imgextra/O1CN01SOdfZJ1RCrAvWyFt7_!!428722076.jpg_q50.jpg_.webp",
+        "loaded": true,
+        "width": 800,
+        "height": 800,
+        "source": "gallery_thumbnail"
+      },
+      {
+        "position": 6,
+        "url": "https://gw.alicdn.com/imgextra/O1CN01XwR2FQ1RCrChsLaJI_!!428722076.jpg_q50.jpg_.webp",
+        "loaded": true,
+        "width": 750,
+        "height": 750,
+        "source": "gallery_thumbnail"
+      }
+    ],
+    "image_text_extracted": false
+  },
+  "availability": {
+    "region_observed": true,
+    "returned_images": 5,
+    "loaded_returned_images": 5,
+    "not_loaded_returned_images": 0,
+    "unscanned_elements": 0,
+    "content_kind": "image_links_observed"
+  },
+  "association": {
+    "sku_id": null,
+    "sku_binding_verified": false
+  },
+  "coverage": {
+    "status": "partial",
+    "full_gallery": false,
+    "current_main_image_read": false,
+    "selected_image_relation_verified": false,
+    "original_resolution_verified": false,
+    "file_downloaded": false,
+    "image_semantics_read": false,
+    "video_read": false
+  },
+  "missing": [],
+  "limits": {
+    "gallery_images": 20
+  }
+}

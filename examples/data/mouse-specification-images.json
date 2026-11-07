@@ -1,0 +1,1137 @@
+{
+  "schema_version": 1,
+  "product_id": "537601894090",
+  "url": "https://detail.tmall.com/item.htm?id=537601894090",
+  "source": "specification_option_image_batches",
+  "batches": [
+    {
+      "schema_version": 1,
+      "product_id": "537601894090",
+      "url": "https://detail.tmall.com/item.htm?id=537601894090",
+      "observed_at": "2026-09-28T15:40:12.851Z",
+      "source": "loaded_specification_option_image_dom",
+      "groups": [
+        {
+          "position": 1,
+          "name": "颜色分类",
+          "options_seen": 32,
+          "options_scanned": 32,
+          "image_options_seen": 32,
+          "image_options_sampled": 5,
+          "image_options_omitted": 27,
+          "options": [
+            {
+              "position": 1,
+              "label": "M330-黑色*",
+              "selected": true,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i4/428722076/O1CN0151KMMW1RCrHOWYobd_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 2,
+              "label": "M330-白色*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i2/428722076/O1CN01d6ZUPY1RCrHPJGfQ5_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 3,
+              "label": "M330-灰色*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i3/428722076/O1CN01fISKHj1RCrNIMYNsG_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 4,
+              "label": "M330-蓝色*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i4/428722076/O1CN013NXffU1RCrHNkGsfp_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 5,
+              "label": "M330-黑色+短款鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i3/428722076/O1CN01C5kX1Q1RCrHPL3JE2_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            }
+          ]
+        }
+      ],
+      "scope": {
+        "groups_seen": 1,
+        "groups_scanned": 1,
+        "groups_omitted": 0,
+        "options_seen_in_scanned_groups": 32,
+        "options_scanned": 32,
+        "options_unscanned_in_scanned_groups": 0,
+        "image_options_seen": 32,
+        "image_options_sampled": 5,
+        "image_options_omitted": 27
+      },
+      "availability": {
+        "returned_images": 5,
+        "loaded_returned_images": 5,
+        "not_loaded_returned_images": 0,
+        "sampled_options_without_supported_image": 0
+      },
+      "coverage": {
+        "status": "partial",
+        "full_option_images": false,
+        "full_sku_matrix": false,
+        "selected_combination_verified": false,
+        "current_main_image_read": false,
+        "original_resolution_verified": false,
+        "file_downloaded": false,
+        "image_semantics_read": false,
+        "video_read": false
+      },
+      "missing": [],
+      "limits": {
+        "groups": 8,
+        "options_per_group": 100,
+        "image_options": 5
+      }
+    },
+    {
+      "schema_version": 2,
+      "product_id": "537601894090",
+      "url": "https://detail.tmall.com/item.htm?id=537601894090",
+      "observed_at": "2026-09-28T15:54:11.192Z",
+      "source": "loaded_specification_option_image_dom",
+      "groups": [
+        {
+          "position": 1,
+          "name": "颜色分类",
+          "options_seen": 32,
+          "options_scanned": 32,
+          "image_options_seen": 32,
+          "image_options_sampled": 5,
+          "image_options_omitted": 27,
+          "options": [
+            {
+              "position": 6,
+              "label": "M330-黑色+忙着发财鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i1/428722076/O1CN013Yme3W1RCrHOdDbVz_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 7,
+              "label": "M330-黑色+快捷键鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i2/428722076/O1CN01sOpWFH1RCrHPpnvfo_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 8,
+              "label": "M330-黑色+皮质鼠标垫黑*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i3/428722076/O1CN0176EhOS1RCrHMr7mXI_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 9,
+              "label": "M330-白色+短款鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i3/428722076/O1CN01nzbQX31RCrHMAuXQb_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 10,
+              "label": "M330-白色+忙着发财鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i2/428722076/O1CN01wRnkfi1RCrHQD0YRU_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            }
+          ]
+        }
+      ],
+      "scope": {
+        "groups_seen": 1,
+        "groups_scanned": 1,
+        "groups_omitted": 0,
+        "options_seen_in_scanned_groups": 32,
+        "options_scanned": 32,
+        "options_unscanned_in_scanned_groups": 0,
+        "image_options_seen": 32,
+        "image_options_sampled": 5,
+        "image_options_omitted": 27
+      },
+      "availability": {
+        "returned_images": 5,
+        "loaded_returned_images": 5,
+        "not_loaded_returned_images": 0,
+        "sampled_options_without_supported_image": 0
+      },
+      "coverage": {
+        "status": "partial",
+        "full_option_images": false,
+        "full_sku_matrix": false,
+        "selected_combination_verified": false,
+        "current_main_image_read": false,
+        "original_resolution_verified": false,
+        "file_downloaded": false,
+        "image_semantics_read": false,
+        "video_read": false
+      },
+      "missing": [],
+      "limits": {
+        "groups": 8,
+        "options_per_group": 100,
+        "image_options": 5
+      },
+      "batch": {
+        "offset": 5,
+        "sampled": 5,
+        "remaining": 22
+      }
+    },
+    {
+      "schema_version": 2,
+      "product_id": "537601894090",
+      "url": "https://detail.tmall.com/item.htm?id=537601894090",
+      "observed_at": "2026-09-28T15:54:12.779Z",
+      "source": "loaded_specification_option_image_dom",
+      "groups": [
+        {
+          "position": 1,
+          "name": "颜色分类",
+          "options_seen": 32,
+          "options_scanned": 32,
+          "image_options_seen": 32,
+          "image_options_sampled": 5,
+          "image_options_omitted": 27,
+          "options": [
+            {
+              "position": 11,
+              "label": "M330-白色+快捷键鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i3/428722076/O1CN01NMk7JI1RCrHMjy9OP_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 12,
+              "label": "M330-白色+皮质鼠标垫白*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i4/428722076/O1CN01eIFWG81RCrHOWY4vH_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 13,
+              "label": "M330-灰色+短款鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i1/428722076/O1CN019QkKZQ1RCrHPL1y5U_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 14,
+              "label": "M330-灰色+忙着发财鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i1/428722076/O1CN01PozoPh1RCrNICXMsV_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 15,
+              "label": "M330-灰色+快捷键鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i3/428722076/O1CN01f9sYC51RCrNHup2yE_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            }
+          ]
+        }
+      ],
+      "scope": {
+        "groups_seen": 1,
+        "groups_scanned": 1,
+        "groups_omitted": 0,
+        "options_seen_in_scanned_groups": 32,
+        "options_scanned": 32,
+        "options_unscanned_in_scanned_groups": 0,
+        "image_options_seen": 32,
+        "image_options_sampled": 5,
+        "image_options_omitted": 27
+      },
+      "availability": {
+        "returned_images": 5,
+        "loaded_returned_images": 5,
+        "not_loaded_returned_images": 0,
+        "sampled_options_without_supported_image": 0
+      },
+      "coverage": {
+        "status": "partial",
+        "full_option_images": false,
+        "full_sku_matrix": false,
+        "selected_combination_verified": false,
+        "current_main_image_read": false,
+        "original_resolution_verified": false,
+        "file_downloaded": false,
+        "image_semantics_read": false,
+        "video_read": false
+      },
+      "missing": [],
+      "limits": {
+        "groups": 8,
+        "options_per_group": 100,
+        "image_options": 5
+      },
+      "batch": {
+        "offset": 10,
+        "sampled": 5,
+        "remaining": 17
+      }
+    },
+    {
+      "schema_version": 2,
+      "product_id": "537601894090",
+      "url": "https://detail.tmall.com/item.htm?id=537601894090",
+      "observed_at": "2026-09-28T15:54:14.368Z",
+      "source": "loaded_specification_option_image_dom",
+      "groups": [
+        {
+          "position": 1,
+          "name": "颜色分类",
+          "options_seen": 32,
+          "options_scanned": 32,
+          "image_options_seen": 32,
+          "image_options_sampled": 5,
+          "image_options_omitted": 27,
+          "options": [
+            {
+              "position": 16,
+              "label": "M330-灰色+皮质鼠标垫白*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i4/428722076/O1CN019h9SNC1RCrNICtIgb_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 17,
+              "label": "M330-蓝色+短款鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i3/428722076/O1CN01ra3GR91RCrHOjyYD5_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 18,
+              "label": "M330-蓝色+忙着发财鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/bao/uploaded/i3/428722076/O1CN01T0hLJa1RCrHHrkXUB_!!428722076.jpg_.webp",
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 19,
+              "label": "M330-蓝色+快捷键鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 20,
+              "label": "M330-蓝色+皮质鼠标垫黑*",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            }
+          ]
+        }
+      ],
+      "scope": {
+        "groups_seen": 1,
+        "groups_scanned": 1,
+        "groups_omitted": 0,
+        "options_seen_in_scanned_groups": 32,
+        "options_scanned": 32,
+        "options_unscanned_in_scanned_groups": 0,
+        "image_options_seen": 32,
+        "image_options_sampled": 5,
+        "image_options_omitted": 27
+      },
+      "availability": {
+        "returned_images": 5,
+        "loaded_returned_images": 5,
+        "not_loaded_returned_images": 0,
+        "sampled_options_without_supported_image": 0
+      },
+      "coverage": {
+        "status": "partial",
+        "full_option_images": false,
+        "full_sku_matrix": false,
+        "selected_combination_verified": false,
+        "current_main_image_read": false,
+        "original_resolution_verified": false,
+        "file_downloaded": false,
+        "image_semantics_read": false,
+        "video_read": false
+      },
+      "missing": [],
+      "limits": {
+        "groups": 8,
+        "options_per_group": 100,
+        "image_options": 5
+      },
+      "batch": {
+        "offset": 15,
+        "sampled": 5,
+        "remaining": 12
+      }
+    },
+    {
+      "schema_version": 2,
+      "product_id": "537601894090",
+      "url": "https://detail.tmall.com/item.htm?id=537601894090",
+      "observed_at": "2026-09-28T15:54:15.943Z",
+      "source": "loaded_specification_option_image_dom",
+      "groups": [
+        {
+          "position": 1,
+          "name": "颜色分类",
+          "options_seen": 32,
+          "options_scanned": 32,
+          "image_options_seen": 32,
+          "image_options_sampled": 5,
+          "image_options_omitted": 27,
+          "options": [
+            {
+              "position": 21,
+              "label": "M330 蓝色+鼠标掌托",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 22,
+              "label": "M330 灰色+鼠标掌托",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 23,
+              "label": "M330 黑色+鼠标掌托",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 24,
+              "label": "M330 白色+鼠标掌托",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 25,
+              "label": "M330 蓝色+猫爪平板支架",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            }
+          ]
+        }
+      ],
+      "scope": {
+        "groups_seen": 1,
+        "groups_scanned": 1,
+        "groups_omitted": 0,
+        "options_seen_in_scanned_groups": 32,
+        "options_scanned": 32,
+        "options_unscanned_in_scanned_groups": 0,
+        "image_options_seen": 32,
+        "image_options_sampled": 5,
+        "image_options_omitted": 27
+      },
+      "availability": {
+        "returned_images": 5,
+        "loaded_returned_images": 5,
+        "not_loaded_returned_images": 0,
+        "sampled_options_without_supported_image": 0
+      },
+      "coverage": {
+        "status": "partial",
+        "full_option_images": false,
+        "full_sku_matrix": false,
+        "selected_combination_verified": false,
+        "current_main_image_read": false,
+        "original_resolution_verified": false,
+        "file_downloaded": false,
+        "image_semantics_read": false,
+        "video_read": false
+      },
+      "missing": [],
+      "limits": {
+        "groups": 8,
+        "options_per_group": 100,
+        "image_options": 5
+      },
+      "batch": {
+        "offset": 20,
+        "sampled": 5,
+        "remaining": 7
+      }
+    },
+    {
+      "schema_version": 2,
+      "product_id": "537601894090",
+      "url": "https://detail.tmall.com/item.htm?id=537601894090",
+      "observed_at": "2026-09-28T15:54:17.522Z",
+      "source": "loaded_specification_option_image_dom",
+      "groups": [
+        {
+          "position": 1,
+          "name": "颜色分类",
+          "options_seen": 32,
+          "options_scanned": 32,
+          "image_options_seen": 32,
+          "image_options_sampled": 5,
+          "image_options_omitted": 27,
+          "options": [
+            {
+              "position": 26,
+              "label": "M330 灰色+猫爪平板支架",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 27,
+              "label": "M330 黑色+猫爪平板支架",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 28,
+              "label": "M330 白色+猫爪平板支架",
+              "selected": null,
+              "disabled": null,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 29,
+              "label": "M330 蓝色+显示器支架",
+              "selected": null,
+              "disabled": true,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 30,
+              "label": "M330 灰色+显示器支架",
+              "selected": null,
+              "disabled": true,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            }
+          ]
+        }
+      ],
+      "scope": {
+        "groups_seen": 1,
+        "groups_scanned": 1,
+        "groups_omitted": 0,
+        "options_seen_in_scanned_groups": 32,
+        "options_scanned": 32,
+        "options_unscanned_in_scanned_groups": 0,
+        "image_options_seen": 32,
+        "image_options_sampled": 5,
+        "image_options_omitted": 27
+      },
+      "availability": {
+        "returned_images": 5,
+        "loaded_returned_images": 5,
+        "not_loaded_returned_images": 0,
+        "sampled_options_without_supported_image": 0
+      },
+      "coverage": {
+        "status": "partial",
+        "full_option_images": false,
+        "full_sku_matrix": false,
+        "selected_combination_verified": false,
+        "current_main_image_read": false,
+        "original_resolution_verified": false,
+        "file_downloaded": false,
+        "image_semantics_read": false,
+        "video_read": false
+      },
+      "missing": [],
+      "limits": {
+        "groups": 8,
+        "options_per_group": 100,
+        "image_options": 5
+      },
+      "batch": {
+        "offset": 25,
+        "sampled": 5,
+        "remaining": 2
+      }
+    },
+    {
+      "schema_version": 2,
+      "product_id": "537601894090",
+      "url": "https://detail.tmall.com/item.htm?id=537601894090",
+      "observed_at": "2026-09-28T15:54:19.102Z",
+      "source": "loaded_specification_option_image_dom",
+      "groups": [
+        {
+          "position": 1,
+          "name": "颜色分类",
+          "options_seen": 32,
+          "options_scanned": 32,
+          "image_options_seen": 32,
+          "image_options_sampled": 2,
+          "image_options_omitted": 30,
+          "options": [
+            {
+              "position": 31,
+              "label": "M330 黑色+显示器支架",
+              "selected": null,
+              "disabled": true,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            },
+            {
+              "position": 32,
+              "label": "M330 白色+显示器支架",
+              "selected": null,
+              "disabled": true,
+              "image": {
+                "regions_seen": 1,
+                "elements_seen": 1,
+                "status": "observed",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "option_image_wrapper_dom",
+                "option_binding_verified": true,
+                "sku_id": null,
+                "sku_binding_verified": false,
+                "sku_price_binding_verified": false
+              }
+            }
+          ]
+        }
+      ],
+      "scope": {
+        "groups_seen": 1,
+        "groups_scanned": 1,
+        "groups_omitted": 0,
+        "options_seen_in_scanned_groups": 32,
+        "options_scanned": 32,
+        "options_unscanned_in_scanned_groups": 0,
+        "image_options_seen": 32,
+        "image_options_sampled": 2,
+        "image_options_omitted": 30
+      },
+      "availability": {
+        "returned_images": 2,
+        "loaded_returned_images": 2,
+        "not_loaded_returned_images": 0,
+        "sampled_options_without_supported_image": 0
+      },
+      "coverage": {
+        "status": "partial",
+        "full_option_images": false,
+        "full_sku_matrix": false,
+        "selected_combination_verified": false,
+        "current_main_image_read": false,
+        "original_resolution_verified": false,
+        "file_downloaded": false,
+        "image_semantics_read": false,
+        "video_read": false
+      },
+      "missing": [],
+      "limits": {
+        "groups": 8,
+        "options_per_group": 100,
+        "image_options": 5
+      },
+      "batch": {
+        "offset": 30,
+        "sampled": 2,
+        "remaining": 0
+      }
+    }
+  ],
+  "coverage": {
+    "status": "partial",
+    "batches": 7,
+    "image_options_sampled": 32,
+    "image_options_seen_in_scanned_structure": 32,
+    "image_options_remaining": 0,
+    "returned_images": 32,
+    "scanned_image_options_sampled": true,
+    "full_option_images": false,
+    "full_sku_matrix": false,
+    "cross_batch_image_state_verified": false
+  },
+  "limits": {
+    "image_options_per_batch": 5,
+    "batches": 8,
+    "content_reads": 10
+  }
+}

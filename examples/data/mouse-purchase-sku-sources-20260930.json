@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "live_platform_observation": true,
+  "source_kind": "bounded_diagnostic_followup",
+  "original_task": "sku-public-sources-20260930",
+  "original_task_status": "ended",
+  "formal_snapshot_updated": false,
+  "source_receipt_field": "bounded_purchase_source_followup",
+  "scope": "one_mouse_page_existing_selection_public_purchase_attributes_and_visible_sku_microdata",
+  "observation": {
+    "snapshot": {
+      "product_id": "537601894090",
+      "url": "https://detail.tmall.com/item.htm?id=537601894090",
+      "title": "罗技 M330 无线静音鼠标办公台式笔记本电脑滑鼠轻巧",
+      "source": "loaded_product_dom",
+      "observed_at": "2026-09-30T11:25:20.503Z",
+      "page_state": "supported_regions_observed",
+      "login_verified": false,
+      "specification_groups": [
+        {
+          "name": "颜色分类",
+          "options": [
+            {
+              "label": "M330-黑色*",
+              "selected": true,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-白色*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-灰色*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-蓝色*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-黑色+短款鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-黑色+忙着发财鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-黑色+快捷键鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-黑色+皮质鼠标垫黑*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-白色+短款鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-白色+忙着发财鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-白色+快捷键鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-白色+皮质鼠标垫白*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-灰色+短款鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-灰色+忙着发财鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-灰色+快捷键鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-灰色+皮质鼠标垫白*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-蓝色+短款鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-蓝色+忙着发财鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-蓝色+快捷键鼠标垫*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330-蓝色+皮质鼠标垫黑*",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330 蓝色+鼠标掌托",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330 灰色+鼠标掌托",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330 黑色+鼠标掌托",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330 白色+鼠标掌托",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330 蓝色+猫爪平板支架",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330 灰色+猫爪平板支架",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330 黑色+猫爪平板支架",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330 白色+猫爪平板支架",
+              "selected": null,
+              "disabled": null,
+              "sku_id": null
+            },
+            {
+              "label": "M330 蓝色+显示器支架",
+              "selected": null,
+              "disabled": true,
+              "sku_id": null
+            },
+            {
+              "label": "M330 灰色+显示器支架",
+              "selected": null,
+              "disabled": true,
+              "sku_id": null
+            },
+            {
+              "label": "M330 黑色+显示器支架",
+              "selected": null,
+              "disabled": true,
+              "sku_id": null
+            },
+            {
+              "label": "M330 白色+显示器支架",
+              "selected": null,
+              "disabled": true,
+              "sku_id": null
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "raw": "店铺优惠后 ￥ 89",
+          "label": "店铺优惠后",
+          "qualifier": "",
+          "kind": "single_displayed",
+          "amount": "89",
+          "minimum": null,
+          "maximum": null,
+          "currency": "CNY",
+          "eligibility_verified": false,
+          "sku_id": null,
+          "sku_price_binding_verified": false
+        },
+        {
+          "raw": "优惠前￥159",
+          "label": "优惠前",
+          "qualifier": "",
+          "kind": "single_displayed",
+          "amount": "159",
+          "minimum": null,
+          "maximum": null,
+          "currency": "CNY",
+          "eligibility_verified": false,
+          "sku_id": null,
+          "sku_price_binding_verified": false
+        }
+      ],
+      "review_previews": [
+        {
+          "observation_index": 1,
+          "body": "公司电脑给我们发了一个罗技M330。发现非常好用，指向清晰，反应灵敏。于是自己花钱给家里电脑也配了一个。这次换了一个白色的。发现和电脑撞色出不一样的完美搭配。另外菲菲客服很好哦。给了我很多的购买帮助。",
+          "date_text": "2026-09-23",
+          "review_id": null,
+          "text_may_be_truncated": true
+        },
+        {
+          "observation_index": 2,
+          "body": "鼠标还可以，不卡顿，但白色稍微有点不耐脏。物流速度还挺快的",
+          "date_text": "2026-09-17",
+          "review_id": null,
+          "text_may_be_truncated": true
+        }
+      ],
+      "coverage": {
+        "status": "partial",
+        "specifications": "loaded_options_only",
+        "prices": "displayed_conditions_unverified",
+        "reviews": "preview_only"
+      },
+      "missing": [
+        "platform_sku_ids",
+        "verified_sku_price_mapping",
+        "full_review_list"
+      ],
+      "limits": {
+        "groups": 8,
+        "options_per_group": 100,
+        "prices": 6,
+        "review_previews": 5,
+        "review_characters": 2000
+      },
+      "sku_evidence": {
+        "schema_version": 1,
+        "source": "current_product_url",
+        "parameter": "skuId",
+        "status": "candidate_only",
+        "candidate_sku_id": "6270968490579",
+        "sku_properties_present": false,
+        "selection_binding_verified": false,
+        "sku_price_binding_verified": false
+      },
+      "specification_scope": {
+        "schema_version": 1,
+        "region_observed": true,
+        "groups_seen": 1,
+        "groups_returned": 1,
+        "groups_omitted": 0,
+        "groups": [
+          {
+            "group_index": 1,
+            "options_seen": 32,
+            "options_returned": 32,
+            "options_omitted": 0
+          }
+        ],
+        "full_sku_matrix_verified": false
+      },
+      "product_region_scope": {
+        "schema_version": 1,
+        "source": "scrolling_purchase_panel",
+        "excluded_region": "ItemHeadFixed",
+        "title_regions_seen": 2,
+        "price_regions_seen": 2,
+        "excluded_title_regions": 1,
+        "excluded_price_regions": 1
+      }
+    },
+    "public_sources": {
+      "control_candidates_omitted": 0,
+      "control_candidates_scanned": 61,
+      "control_candidates_seen": 61,
+      "controls": [
+        {
+          "descendants_omitted": 0,
+          "descendants_seen": 1,
+          "label": "加入购物车",
+          "nodes": [
+            {
+              "attribute_names": [
+                "class",
+                "style"
+              ],
+              "attributes_omitted": 0,
+              "contains_current_price_root": false,
+              "contains_specification_root": false,
+              "position": 1,
+              "relation": "control",
+              "sku_fields": [],
+              "tag": "BUTTON"
+            },
+            {
+              "attribute_names": [
+                "class"
+              ],
+              "attributes_omitted": 0,
+              "contains_current_price_root": false,
+              "contains_specification_root": false,
+              "position": 1,
+              "relation": "ancestor",
+              "sku_fields": [],
+              "tag": "DIV"
+            },
+            {
+              "attribute_names": [
+                "class"
+              ],
+              "attributes_omitted": 0,
+              "contains_current_price_root": false,
+              "contains_specification_root": false,
+              "position": 2,
+              "relation": "ancestor",
+              "sku_fields": [],
+              "tag": "DIV"
+            },
+            {
+              "attribute_names": [
+                "class",
+                "style"
+              ],
+              "attributes_omitted": 0,
+              "contains_current_price_root": false,
+              "contains_specification_root": false,
+              "position": 1,
+              "relation": "descendant",
+              "sku_fields": [],
+              "tag": "SPAN"
+            }
+          ],
+          "position": 1
+        }
+      ],
+      "excluded": [
+        "hidden_elements",
+        "script_state",
+        "storage",
+        "private_interfaces",
+        "attribute_property_ids"
+      ],
+      "guarantees": {
+        "payable_price_verified": false,
+        "selection_binding_verified": false,
+        "sku_id": null,
+        "sku_price_binding_verified": false
+      },
+      "limits": {
+        "attributes_per_node": 32,
+        "control_candidates": 120,
+        "nodes_per_control": 11,
+        "purchase_controls": 4,
+        "sku_markers": 20
+      },
+      "matched_controls_omitted": 0,
+      "matched_controls_seen": 1,
+      "price_roots_seen": 2,
+      "schema_version": 1,
+      "source": "bounded_visible_purchase_sku_attributes",
+      "specification_roots_seen": 1,
+      "visible_sku_markers": [],
+      "visible_sku_markers_omitted": 0,
+      "visible_sku_markers_seen": 0
+    },
+    "source_observed_at": "2026-09-30T11:25:20.478Z",
+    "same_read_cooccurrence_only": true,
+    "purchase_control_product_binding_verified": false
+  },
+  "boundary": {
+    "platform_sku_id_verified": false,
+    "selected_sku_verified": false,
+    "sku_price_binding_verified": false,
+    "payable_price_verified": false,
+    "whole_page_source_coverage_verified": false,
+    "other_sample_read": false,
+    "purchase_action_performed": false
+  },
+  "limitations": [
+    "Purchase controls were matched by exact supported text within 61 visible candidate elements; this does not establish full coverage of all purchase controls.",
+    "Only exact SKU attribute names on the matched control, at most two ancestors and at most eight visible descendants were inspected.",
+    "A visible matching purchase label is not itself verified product ownership.",
+    "contains_current_price_root requires a unique visible price root; two were observed, so false is not evidence that the current price is absent from every ancestor.",
+    "URL SKU candidate, selected label and displayed prices co-occurred in one read; their direct association remains unverified."
+  ]
+}

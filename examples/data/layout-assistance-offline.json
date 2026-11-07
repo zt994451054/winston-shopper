@@ -1,0 +1,325 @@
+{
+  "example_type": "synthetic_offline_fixture",
+  "live_platform_observation": false,
+  "description": "已知固定摘要关系的合成变体，正文类名与内部规格类名不同；不是新增实页样本。",
+  "evidence": {
+    "schema_version": 1,
+    "product_id": "123",
+    "url": "https://detail.tmall.com/item.htm?id=123",
+    "observed_at": "2026-09-30T00:00:00.000Z",
+    "reason": "title_ambiguous",
+    "source": "same_read_supported_regions",
+    "counts": {
+      "title": 2,
+      "specification": 1,
+      "price": 1
+    },
+    "regions": [
+      {
+        "ref": 1,
+        "kind": "title",
+        "panel_ref": 1,
+        "ancestors": [
+          [
+            "ItemHeadFixed"
+          ],
+          [
+            "GeneralSkuPanel"
+          ],
+          []
+        ],
+        "ancestors_truncated": false,
+        "excluded_reason": "fixed_summary",
+        "nodes": [
+          {
+            "ref": 1,
+            "parent_ref": null,
+            "tag": "DIV",
+            "component_prefixes": [
+              "ItemTitle"
+            ],
+            "text": "",
+            "text_truncated": false,
+            "excluded_reason": "fixed_summary",
+            "image": null
+          }
+        ],
+        "traversal_truncated": false
+      },
+      {
+        "ref": 2,
+        "kind": "title",
+        "panel_ref": 1,
+        "ancestors": [
+          [
+            "UnfamiliarBody"
+          ],
+          [
+            "GeneralSkuPanel"
+          ],
+          []
+        ],
+        "ancestors_truncated": false,
+        "excluded_reason": null,
+        "nodes": [
+          {
+            "ref": 2,
+            "parent_ref": null,
+            "tag": "DIV",
+            "component_prefixes": [
+              "ItemTitle"
+            ],
+            "text": "示例商品",
+            "text_truncated": false,
+            "excluded_reason": null,
+            "image": null
+          }
+        ],
+        "traversal_truncated": false
+      },
+      {
+        "ref": 3,
+        "kind": "specification",
+        "panel_ref": 1,
+        "ancestors": [
+          [
+            "UnfamiliarBody"
+          ],
+          [
+            "GeneralSkuPanel"
+          ],
+          []
+        ],
+        "ancestors_truncated": false,
+        "excluded_reason": null,
+        "nodes": [
+          {
+            "ref": 3,
+            "parent_ref": null,
+            "tag": "DIV",
+            "component_prefixes": [
+              "skuWrapper"
+            ],
+            "text": "",
+            "text_truncated": false,
+            "excluded_reason": null,
+            "image": null
+          },
+          {
+            "ref": 4,
+            "parent_ref": 3,
+            "tag": "DIV",
+            "component_prefixes": [
+              "UnfamiliarGroup"
+            ],
+            "text": "",
+            "text_truncated": false,
+            "excluded_reason": null,
+            "image": null
+          },
+          {
+            "ref": 5,
+            "parent_ref": 4,
+            "tag": "DIV",
+            "component_prefixes": [
+              "UnfamiliarName"
+            ],
+            "text": "颜色",
+            "text_truncated": false,
+            "excluded_reason": null,
+            "image": null
+          },
+          {
+            "ref": 6,
+            "parent_ref": 4,
+            "tag": "DIV",
+            "component_prefixes": [
+              "UnfamiliarOption"
+            ],
+            "text": "",
+            "text_truncated": false,
+            "excluded_reason": null,
+            "image": null
+          },
+          {
+            "ref": 7,
+            "parent_ref": 6,
+            "tag": "DIV",
+            "component_prefixes": [
+              "UnfamiliarLabel"
+            ],
+            "text": "黑色",
+            "text_truncated": false,
+            "excluded_reason": null,
+            "image": null
+          },
+          {
+            "ref": 8,
+            "parent_ref": 6,
+            "tag": "IMG",
+            "component_prefixes": [],
+            "text": "",
+            "text_truncated": false,
+            "excluded_reason": null,
+            "image": {
+              "url": "https://img.alicdn.com/black.jpg",
+              "width": 800,
+              "height": 800,
+              "loaded": true
+            }
+          }
+        ],
+        "traversal_truncated": false
+      },
+      {
+        "ref": 4,
+        "kind": "price",
+        "panel_ref": 1,
+        "ancestors": [
+          [
+            "UnfamiliarBody"
+          ],
+          [
+            "GeneralSkuPanel"
+          ],
+          []
+        ],
+        "ancestors_truncated": false,
+        "excluded_reason": null,
+        "nodes": [
+          {
+            "ref": 9,
+            "parent_ref": null,
+            "tag": "DIV",
+            "component_prefixes": [
+              "normalPrice"
+            ],
+            "text": "",
+            "text_truncated": false,
+            "excluded_reason": null,
+            "image": null
+          },
+          {
+            "ref": 10,
+            "parent_ref": 9,
+            "tag": "DIV",
+            "component_prefixes": [
+              "UnfamiliarPrice"
+            ],
+            "text": "店铺优惠后 ￥89",
+            "text_truncated": false,
+            "excluded_reason": null,
+            "image": null
+          }
+        ],
+        "traversal_truncated": false
+      }
+    ],
+    "contains_untrusted_page_text": true
+  },
+  "proposal": {
+    "schema_version": 1,
+    "product_id": "123",
+    "evidence_id": "e849b15270ff93a92b93dd92e203eaf91a510d14699e9a87a559ccb2dc1ab606",
+    "fields": [
+      {
+        "field": "title",
+        "region_ref": 2,
+        "node_ref": 2
+      },
+      {
+        "field": "specification_group",
+        "region_ref": 3,
+        "node_ref": 5,
+        "container_ref": 4
+      },
+      {
+        "field": "specification_option",
+        "region_ref": 3,
+        "node_ref": 7,
+        "container_ref": 6,
+        "group_ref": 4
+      },
+      {
+        "field": "specification_image",
+        "region_ref": 3,
+        "node_ref": 8,
+        "option_ref": 6
+      },
+      {
+        "field": "display_price",
+        "region_ref": 4,
+        "node_ref": 10
+      }
+    ]
+  },
+  "checked_result": {
+    "schema_version": 1,
+    "status": "layout_proposal_checked",
+    "product_id": "123",
+    "url": "https://detail.tmall.com/item.htm?id=123",
+    "evidence_id": "e849b15270ff93a92b93dd92e203eaf91a510d14699e9a87a559ccb2dc1ab606",
+    "observed_at": "2026-09-30T00:00:00.000Z",
+    "fields": [
+      {
+        "field": "title",
+        "region_ref": 2,
+        "node_ref": 2,
+        "raw": "示例商品",
+        "source_binding_verified": true,
+        "field_interpretation_verified": false
+      },
+      {
+        "field": "specification_group",
+        "region_ref": 3,
+        "node_ref": 5,
+        "container_ref": 4,
+        "raw": "颜色",
+        "source_binding_verified": true,
+        "field_interpretation_verified": false
+      },
+      {
+        "field": "specification_option",
+        "region_ref": 3,
+        "node_ref": 7,
+        "container_ref": 6,
+        "group_ref": 4,
+        "raw": "黑色",
+        "source_binding_verified": true,
+        "field_interpretation_verified": false
+      },
+      {
+        "field": "specification_image",
+        "region_ref": 3,
+        "node_ref": 8,
+        "option_ref": 6,
+        "image": {
+          "url": "https://img.alicdn.com/black.jpg",
+          "width": 800,
+          "height": 800,
+          "loaded": true
+        },
+        "source_binding_verified": true,
+        "field_interpretation_verified": false
+      },
+      {
+        "field": "display_price",
+        "region_ref": 4,
+        "node_ref": 10,
+        "raw": "店铺优惠后 ￥89",
+        "source_binding_verified": true,
+        "field_interpretation_verified": false
+      }
+    ],
+    "missing_field_kinds": [],
+    "source_binding_verified": true,
+    "field_interpretation_verified": false,
+    "live_rechecked": false,
+    "full_coverage_verified": false,
+    "snapshot_updated": false,
+    "additional_reads_authorized": false,
+    "sku_id": null,
+    "sku_price_binding_verified": false,
+    "eligibility_verified": false
+  }
+}

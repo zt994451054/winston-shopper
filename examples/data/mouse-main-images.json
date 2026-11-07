@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "product_id": "537601894090",
+  "url": "https://detail.tmall.com/item.htm?id=537601894090",
+  "source": "visible_main_image_dom",
+  "samples": [
+    {
+      "thumbnail_url": "https://gw.alicdn.com/imgextra/O1CN01Gs7V7k1RCqkkg6uaz_!!428722076.jpg_q50.jpg_.webp",
+      "observed_at": "2026-09-24T03:13:04.539Z",
+      "image": {
+        "displayed_height": 615,
+        "displayed_width": 615,
+        "height": 800,
+        "loaded": true,
+        "uncovered": true,
+        "url": "https://gw.alicdn.com/imgextra/O1CN01Gs7V7k1RCqkkg6uaz_!!428722076.jpg_.webp",
+        "width": 800
+      },
+      "source": "mainPic_within_unique_mainPicWrap",
+      "association": {
+        "selected_marker_verified": true,
+        "two_matching_observations": true,
+        "initially_selected": false,
+        "image_url_changed_after_intent": true,
+        "sku_id": null,
+        "sku_binding_verified": false
+      },
+      "observations": {
+        "first_at": "2026-09-24T03:13:03.007Z",
+        "second_at": "2026-09-24T03:13:04.539Z"
+      },
+      "action": {
+        "reserved": true,
+        "acknowledgement": "clicked",
+        "error": null
+      }
+    }
+  ],
+  "coverage": {
+    "status": "partial",
+    "requested_images": 1,
+    "returned_images": 1,
+    "full_gallery": false,
+    "file_downloaded": false,
+    "image_semantics_read": false,
+    "original_resolution_verified": false,
+    "video_read": false
+  },
+  "limits": {
+    "requested_images": 3,
+    "observations": 12,
+    "observations_per_image": 4,
+    "selection_actions_per_image": 1
+  }
+}

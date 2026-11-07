@@ -1,0 +1,648 @@
+{
+  "schema_version": 1,
+  "source": "bounded_single_option_loading_followup",
+  "product_id": "898515922780",
+  "url": "https://detail.tmall.com/item.htm?id=898515922780",
+  "option": {
+    "group_position": 1,
+    "group_name": "颜色",
+    "options_seen": 39,
+    "position": 13,
+    "label": "【220克重磅纯棉】深灰 [透气且有型]"
+  },
+  "observations": [
+    {
+      "stage": "before",
+      "schema_version": 1,
+      "source": "bounded_specification_image_selection_probe",
+      "observation": {
+        "schema_version": 1,
+        "source": "bounded_specification_image_viewport_probe",
+        "observation": {
+          "schema_version": 1,
+          "source": "bounded_specification_image_source_diagnostic",
+          "product_id": "898515922780",
+          "url": "https://detail.tmall.com/item.htm?id=898515922780",
+          "observed_at": "2026-09-29T11:14:49.202Z",
+          "observations": [
+            {
+              "group_position": 1,
+              "group_name": "颜色",
+              "options_seen": 39,
+              "position": 13,
+              "label": "【220克重磅纯棉】深灰 [透气且有型]",
+              "current_src": {
+                "status": "candidate",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+              },
+              "attributes": {
+                "src": {
+                  "status": "candidate",
+                  "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+                },
+                "data-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-lazy-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-original": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-ks-lazyload": {
+                  "status": "absent",
+                  "url": null
+                }
+              },
+              "srcset": {
+                "status": "absent",
+                "candidates": []
+              },
+              "loading": null,
+              "current_resource": {
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "same_option_unique_img_attributes",
+                "option_binding_verified": true,
+                "alternate_source_loaded_verified": false,
+                "sku_id": null,
+                "sku_price_binding_verified": false
+              }
+            }
+          ],
+          "coverage": {
+            "hidden_application_state_read": false,
+            "image_urls_rewritten": false,
+            "source_elements_read": false,
+            "wrapper_attributes_read": false,
+            "scrolling": false,
+            "selection": false,
+            "downloaded": false
+          }
+        },
+        "selection_marked_positions": [
+          1
+        ],
+        "geometry": {
+          "clip_ancestors": 5,
+          "fully_in_view": false,
+          "image_box": {
+            "height": 32,
+            "width": 32,
+            "x": 1065,
+            "y": 973
+          },
+          "intersection": {
+            "height": 0,
+            "width": 32
+          },
+          "occlusion_checked": false,
+          "viewport": {
+            "height": 952,
+            "width": 1800
+          }
+        },
+        "action": "not_requested",
+        "source_timing": "read_only_in_this_command",
+        "sku_id": null,
+        "sku_price_binding_verified": false
+      },
+      "uncovered": false,
+      "disabled": false,
+      "action": "not_requested",
+      "action_observed_at": null,
+      "source_timing": "read_only_in_this_command",
+      "resulting_selection_verified": false,
+      "sku_id": null,
+      "sku_price_binding_verified": false
+    },
+    {
+      "stage": "scroll",
+      "schema_version": 1,
+      "source": "bounded_specification_image_selection_probe",
+      "observation": {
+        "schema_version": 1,
+        "source": "bounded_specification_image_viewport_probe",
+        "observation": {
+          "schema_version": 1,
+          "source": "bounded_specification_image_source_diagnostic",
+          "product_id": "898515922780",
+          "url": "https://detail.tmall.com/item.htm?id=898515922780",
+          "observed_at": "2026-09-29T11:14:50.784Z",
+          "observations": [
+            {
+              "group_position": 1,
+              "group_name": "颜色",
+              "options_seen": 39,
+              "position": 13,
+              "label": "【220克重磅纯棉】深灰 [透气且有型]",
+              "current_src": {
+                "status": "candidate",
+                "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+              },
+              "attributes": {
+                "src": {
+                  "status": "candidate",
+                  "url": "https://gw.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png"
+                },
+                "data-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-lazy-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-original": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-ks-lazyload": {
+                  "status": "absent",
+                  "url": null
+                }
+              },
+              "srcset": {
+                "status": "absent",
+                "candidates": []
+              },
+              "loading": null,
+              "current_resource": {
+                "loaded": true,
+                "width": 2,
+                "height": 2
+              },
+              "association": {
+                "source": "same_option_unique_img_attributes",
+                "option_binding_verified": true,
+                "alternate_source_loaded_verified": false,
+                "sku_id": null,
+                "sku_price_binding_verified": false
+              }
+            }
+          ],
+          "coverage": {
+            "hidden_application_state_read": false,
+            "image_urls_rewritten": false,
+            "source_elements_read": false,
+            "wrapper_attributes_read": false,
+            "scrolling": false,
+            "selection": false,
+            "downloaded": false
+          }
+        },
+        "selection_marked_positions": [
+          1
+        ],
+        "geometry": {
+          "clip_ancestors": 5,
+          "fully_in_view": false,
+          "image_box": {
+            "height": 32,
+            "width": 32,
+            "x": 1065,
+            "y": 973
+          },
+          "intersection": {
+            "height": 0,
+            "width": 32
+          },
+          "occlusion_checked": false,
+          "viewport": {
+            "height": 952,
+            "width": 1800
+          }
+        },
+        "action": "not_requested",
+        "source_timing": "read_only_in_this_command",
+        "sku_id": null,
+        "sku_price_binding_verified": false
+      },
+      "uncovered": false,
+      "disabled": false,
+      "action": "scroll_dispatched",
+      "action_observed_at": "2026-09-29T11:14:50.791Z",
+      "source_timing": "before_action_in_this_command",
+      "resulting_selection_verified": false,
+      "sku_id": null,
+      "sku_price_binding_verified": false
+    },
+    {
+      "stage": "select",
+      "schema_version": 1,
+      "source": "bounded_specification_image_selection_probe",
+      "observation": {
+        "schema_version": 1,
+        "source": "bounded_specification_image_viewport_probe",
+        "observation": {
+          "schema_version": 1,
+          "source": "bounded_specification_image_source_diagnostic",
+          "product_id": "898515922780",
+          "url": "https://detail.tmall.com/item.htm?id=898515922780",
+          "observed_at": "2026-09-29T11:14:52.345Z",
+          "observations": [
+            {
+              "group_position": 1,
+              "group_name": "颜色",
+              "options_seen": 39,
+              "position": 13,
+              "label": "【220克重磅纯棉】深灰 [透气且有型]",
+              "current_src": {
+                "status": "candidate",
+                "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01YSjnRy2K6ipqUmpTo_!!2216780549508.png_.webp"
+              },
+              "attributes": {
+                "src": {
+                  "status": "candidate",
+                  "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01YSjnRy2K6ipqUmpTo_!!2216780549508.png_.webp"
+                },
+                "data-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-lazy-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-original": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-ks-lazyload": {
+                  "status": "absent",
+                  "url": null
+                }
+              },
+              "srcset": {
+                "status": "absent",
+                "candidates": []
+              },
+              "loading": null,
+              "current_resource": {
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "same_option_unique_img_attributes",
+                "option_binding_verified": true,
+                "alternate_source_loaded_verified": false,
+                "sku_id": null,
+                "sku_price_binding_verified": false
+              }
+            }
+          ],
+          "coverage": {
+            "hidden_application_state_read": false,
+            "image_urls_rewritten": false,
+            "source_elements_read": false,
+            "wrapper_attributes_read": false,
+            "scrolling": false,
+            "selection": false,
+            "downloaded": false
+          }
+        },
+        "selection_marked_positions": [
+          1
+        ],
+        "geometry": {
+          "clip_ancestors": 5,
+          "fully_in_view": true,
+          "image_box": {
+            "height": 32,
+            "width": 32,
+            "x": 1065,
+            "y": 460
+          },
+          "intersection": {
+            "height": 32,
+            "width": 32
+          },
+          "occlusion_checked": false,
+          "viewport": {
+            "height": 952,
+            "width": 1800
+          }
+        },
+        "action": "not_requested",
+        "source_timing": "read_only_in_this_command",
+        "sku_id": null,
+        "sku_price_binding_verified": false
+      },
+      "uncovered": true,
+      "disabled": false,
+      "action": "image_already_loaded",
+      "action_observed_at": null,
+      "source_timing": "read_only_in_this_command",
+      "resulting_selection_verified": false,
+      "sku_id": null,
+      "sku_price_binding_verified": false
+    },
+    {
+      "stage": "after-1",
+      "schema_version": 1,
+      "source": "bounded_specification_image_selection_probe",
+      "observation": {
+        "schema_version": 1,
+        "source": "bounded_specification_image_viewport_probe",
+        "observation": {
+          "schema_version": 1,
+          "source": "bounded_specification_image_source_diagnostic",
+          "product_id": "898515922780",
+          "url": "https://detail.tmall.com/item.htm?id=898515922780",
+          "observed_at": "2026-09-29T11:14:53.912Z",
+          "observations": [
+            {
+              "group_position": 1,
+              "group_name": "颜色",
+              "options_seen": 39,
+              "position": 13,
+              "label": "【220克重磅纯棉】深灰 [透气且有型]",
+              "current_src": {
+                "status": "candidate",
+                "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01YSjnRy2K6ipqUmpTo_!!2216780549508.png_.webp"
+              },
+              "attributes": {
+                "src": {
+                  "status": "candidate",
+                  "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01YSjnRy2K6ipqUmpTo_!!2216780549508.png_.webp"
+                },
+                "data-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-lazy-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-original": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-ks-lazyload": {
+                  "status": "absent",
+                  "url": null
+                }
+              },
+              "srcset": {
+                "status": "absent",
+                "candidates": []
+              },
+              "loading": null,
+              "current_resource": {
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "same_option_unique_img_attributes",
+                "option_binding_verified": true,
+                "alternate_source_loaded_verified": false,
+                "sku_id": null,
+                "sku_price_binding_verified": false
+              }
+            }
+          ],
+          "coverage": {
+            "hidden_application_state_read": false,
+            "image_urls_rewritten": false,
+            "source_elements_read": false,
+            "wrapper_attributes_read": false,
+            "scrolling": false,
+            "selection": false,
+            "downloaded": false
+          }
+        },
+        "selection_marked_positions": [
+          1
+        ],
+        "geometry": {
+          "clip_ancestors": 5,
+          "fully_in_view": true,
+          "image_box": {
+            "height": 32,
+            "width": 32,
+            "x": 1065,
+            "y": 460
+          },
+          "intersection": {
+            "height": 32,
+            "width": 32
+          },
+          "occlusion_checked": false,
+          "viewport": {
+            "height": 952,
+            "width": 1800
+          }
+        },
+        "action": "not_requested",
+        "source_timing": "read_only_in_this_command",
+        "sku_id": null,
+        "sku_price_binding_verified": false
+      },
+      "uncovered": true,
+      "disabled": false,
+      "action": "not_requested",
+      "action_observed_at": null,
+      "source_timing": "read_only_in_this_command",
+      "resulting_selection_verified": false,
+      "sku_id": null,
+      "sku_price_binding_verified": false
+    },
+    {
+      "stage": "after-2",
+      "schema_version": 1,
+      "source": "bounded_specification_image_selection_probe",
+      "observation": {
+        "schema_version": 1,
+        "source": "bounded_specification_image_viewport_probe",
+        "observation": {
+          "schema_version": 1,
+          "source": "bounded_specification_image_source_diagnostic",
+          "product_id": "898515922780",
+          "url": "https://detail.tmall.com/item.htm?id=898515922780",
+          "observed_at": "2026-09-29T11:14:55.461Z",
+          "observations": [
+            {
+              "group_position": 1,
+              "group_name": "颜色",
+              "options_seen": 39,
+              "position": 13,
+              "label": "【220克重磅纯棉】深灰 [透气且有型]",
+              "current_src": {
+                "status": "candidate",
+                "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01YSjnRy2K6ipqUmpTo_!!2216780549508.png_.webp"
+              },
+              "attributes": {
+                "src": {
+                  "status": "candidate",
+                  "url": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01YSjnRy2K6ipqUmpTo_!!2216780549508.png_.webp"
+                },
+                "data-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-lazy-src": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-original": {
+                  "status": "absent",
+                  "url": null
+                },
+                "data-ks-lazyload": {
+                  "status": "absent",
+                  "url": null
+                }
+              },
+              "srcset": {
+                "status": "absent",
+                "candidates": []
+              },
+              "loading": null,
+              "current_resource": {
+                "loaded": true,
+                "width": 800,
+                "height": 800
+              },
+              "association": {
+                "source": "same_option_unique_img_attributes",
+                "option_binding_verified": true,
+                "alternate_source_loaded_verified": false,
+                "sku_id": null,
+                "sku_price_binding_verified": false
+              }
+            }
+          ],
+          "coverage": {
+            "hidden_application_state_read": false,
+            "image_urls_rewritten": false,
+            "source_elements_read": false,
+            "wrapper_attributes_read": false,
+            "scrolling": false,
+            "selection": false,
+            "downloaded": false
+          }
+        },
+        "selection_marked_positions": [
+          1
+        ],
+        "geometry": {
+          "clip_ancestors": 5,
+          "fully_in_view": true,
+          "image_box": {
+            "height": 32,
+            "width": 32,
+            "x": 1065,
+            "y": 460
+          },
+          "intersection": {
+            "height": 32,
+            "width": 32
+          },
+          "occlusion_checked": false,
+          "viewport": {
+            "height": 952,
+            "width": 1800
+          }
+        },
+        "action": "not_requested",
+        "source_timing": "read_only_in_this_command",
+        "sku_id": null,
+        "sku_price_binding_verified": false
+      },
+      "uncovered": true,
+      "disabled": false,
+      "action": "not_requested",
+      "action_observed_at": null,
+      "source_timing": "read_only_in_this_command",
+      "resulting_selection_verified": false,
+      "sku_id": null,
+      "sku_price_binding_verified": false
+    }
+  ],
+  "finding": {
+    "normal_size_image_link": "https://gw.alicdn.com/bao/uploaded/i3/2216780549508/O1CN01YSjnRy2K6ipqUmpTo_!!2216780549508.png_.webp",
+    "width": 800,
+    "height": 800,
+    "first_observed_at": "2026-09-29T11:14:52.345Z",
+    "last_observed_at": "2026-09-29T11:14:55.461Z",
+    "same_link_in_three_post_scroll_observations": true,
+    "selection_changed": false,
+    "initial_and_final_color_positions": [
+      1
+    ],
+    "observed_scroll_dispatches": 1,
+    "observed_selection_dispatches": 0,
+    "loading_mechanism_verified": false,
+    "all_other_missing_options_checked": false
+  },
+  "historical_union": {
+    "base_result": "shirt-specification-collection.json",
+    "base_normal_size_options": 12,
+    "newly_observed_normal_size_options": 1,
+    "known_normal_size_color_options": 13,
+    "color_options": 39,
+    "unresolved_color_positions": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "text_only_size_options": 8,
+    "simultaneous_freshness_verified": false
+  },
+  "budget": {
+    "original_task_status": "stopped",
+    "original_task_reads": 10,
+    "original_task_read_limit": 10,
+    "followup_reads_reserved": 5,
+    "followup_read_limit": 8,
+    "followup_status": "bounded_complete_new_image",
+    "scroll_intents_reserved": 1,
+    "selection_intents_reserved": 1,
+    "automatic_retries": 0,
+    "fault_wait_reserved_ms": 0,
+    "pacing_wait_reserved_ms": 7500,
+    "remainder_reusable": false
+  },
+  "coverage": {
+    "option_image_dom_binding_verified": true,
+    "sku_id": null,
+    "sku_price_binding_verified": false,
+    "full_option_images": false,
+    "image_downloaded": false,
+    "image_semantics_read": false,
+    "selection_trigger_verified": false,
+    "viewport_loading_generalized": false,
+    "production_workflow_integrated": false
+  }
+}
