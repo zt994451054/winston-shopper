@@ -176,7 +176,7 @@ node scripts/shopping.mjs bridge-stop
 1. 先确认没有未收尾的任务（`task-status`），再在本安装目录运行 `bridge-stop`。
 2. 把仓库克隆或下载到一个新的临时目录，看 `package.json` 的 `version`，核对 `MANIFEST.json` 里的文件和校验值。
 3. 用新文件覆盖本安装目录，**保留**这两个目录：`.runtime/`（令牌和服务记录）、`runtime/playwright-backend/`（已装的依赖；新版 `setup` 提示要装时再运行 `setup --install`）。
-4. 状态目录（默认 `~/.consumer-shopping/bindings`）不在安装目录里，更新不会碰它，**不要另做备份**，尤其不要把它复制到 `/tmp` 等公共位置，里面有真实的订单和购物车。
+4. 状态目录（默认 `~/.consumer-shopping/bindings`）不在安装目录里，更新不会碰它。**不要做备份副本**：不要把状态目录（真实订单和购物车）或整个安装目录（`.runtime/` 里有令牌）复制到 `/tmp`、文稿或其他位置。要回退就从仓库取旧版本的提交，同样只换程序文件。
 5. 运行 `setup` 和 `doctor`，再 `bridge-start`。旧任务结果照常可读。
 6. 删掉第 2 步的临时目录。
 

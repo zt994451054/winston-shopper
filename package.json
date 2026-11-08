@@ -1,6 +1,6 @@
 {
   "name": "winston-shopper",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "private": true,
   "type": "module",
   "description": "Agent-independent public shopping snapshots with bounded retries and resumable tasks",

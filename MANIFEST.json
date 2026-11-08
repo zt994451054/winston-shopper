@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "name": "winston-shopper",
-  "version": "2.0.8",
-  "source_commit": "a14a3e0cfbffc68f960fb048326eff1a012413a3",
-  "built_at": "2026-11-08T06:43:19.342Z",
+  "version": "2.0.9",
+  "source_commit": "ff543d1358802d217da3440a7728a500e320e23b",
+  "built_at": "2026-11-08T07:30:30.804Z",
   "excludes": "Only committed files from the allowlist are included; private state, installed dependencies and development history are not.",
   "files": [
     {
@@ -13,8 +13,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10600,
-      "sha256": "21a5bf98a6480309b7d1e5c339dc5616051b78d98ade3b925c3de3ad562931d6"
+      "bytes": 11504,
+      "sha256": "f1fff8a5ff3e37c15b4ff0421df639cc25c983f94f0d3e0ef9091bfbfd531d45"
     },
     {
       "path": "SKILL.md",
@@ -951,12 +951,12 @@
     {
       "path": "package.json",
       "bytes": 427,
-      "sha256": "eec538f38e51a0218bf9324c241486e0927de2f2aec9d9ed6642cc37593d6932"
+      "sha256": "52f5ad468cc28f9668d691b313fd10bcd0878914b3cab15a4d7586ffe3488d11"
     },
     {
       "path": "references/capabilities.md",
       "bytes": 7787,
-      "sha256": "e74d90238b57f8e73865755b80b5145e5e039c53fcf7d53f9b7869acbd23f0c6"
+      "sha256": "5798cd4def107e0d49475c239c227237b7e3d871c964d89645229212911195fd"
     },
     {
       "path": "references/cart-capabilities.md",
@@ -1142,8 +1142,8 @@
     },
     {
       "path": "references/setup.md",
-      "bytes": 15048,
-      "sha256": "ace8a6895245d1e16407d0d45363c382b5ac0d0d4c5aa3c6513a8108e054a78d"
+      "bytes": 15176,
+      "sha256": "15f21c58f9547c78f61a638af203d22ac14ecdc26d74cbbcc1ea4017cadf7ea6"
     },
     {
       "path": "references/skill-acceptance.md",

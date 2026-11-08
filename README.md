@@ -25,6 +25,12 @@
 
 agent 使用说明见 [SKILL.md](SKILL.md)，各项功能的验收状态见[整体验收清单](references/skill-acceptance.md)。
 
+**来源与更新**
+
+- 来源：<https://github.com/zt994451054/winston-shopper>（私有仓库，`package.json` 的 `repository` 也写着）。只从这里取新版；不要为找来源去翻 shell 历史、聊天记录、下载文件夹或别的目录，取不到就问用户。
+- 更新：`bridge-stop` → 把仓库克隆到新的临时目录并核对 `MANIFEST.json` → 用新文件覆盖本目录，**保留 `.runtime/` 和 `runtime/playwright-backend/`** → `setup`、`doctor`（不用跑完整测试）→ 删掉临时目录。详见[更新到新版本](references/setup.md#更新到新版本)。
+- **不要做备份副本**：`.runtime/` 里有扩展令牌，状态目录（默认 `~/.consumer-shopping/bindings`）里有真实订单和购物车，都不要复制到 `/tmp`、文稿或其他位置。更新只换程序文件，不会碰它们；要回退就从仓库取旧版本的提交。
+
 ## 安装前提
 
 | 需要什么 | 说明 |
