@@ -133,7 +133,7 @@ description: 通过用户已登录的 Chrome，只读采集淘宝／天猫、京
 | --- | --- | --- |
 | 搜索页已画出的卡片 | `page-open --platform pdd --search 词`，再 `task-start --platform pdd --search 词 --tab ID`；卡片没有商品编号，标题是截短的 | 通过 |
 | 销量、价格升序、价格降序、价格区间 | 加 `--sort sales|price-asc|price-desc` 和／或 `--min-price A --max-price B` | 都通过 |
-| 商品详情 | `task-start --platform pdd --source-task 搜索任务 --position N`（点搜索结果第 N 张进入） | 3 件通过 |
+| 商品详情 | `task-start --platform pdd --source-task 搜索任务 --position N`（点搜索结果第 N 张进入；搜索任务可以是排序或价格区间任务） | 3 件通过 |
 | 各规格价格 | `task-start --platform pdd --source-task 商品详情任务 --spec-prices`；打开底部购买按钮的规格抽屉逐个点选项，每个抽屉最多 12 次，不点“确定”，不进订单页 | 4 件通过 |
 | 评价 | `task-start --platform pdd --source-task 商品详情任务 --reviews`；只读“全部”，最多 20 条，不读评价人名称 | 3 件通过 |
 | 订单列表已加载的订单 | `page-open --platform pdd --orders`，再 `task-start --platform pdd --orders --tab ID` | 10 单通过 |

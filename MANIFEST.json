@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "name": "winston-shopper",
-  "version": "2.0.9",
-  "source_commit": "ff543d1358802d217da3440a7728a500e320e23b",
-  "built_at": "2026-11-08T07:30:30.804Z",
+  "version": "2.0.10",
+  "source_commit": "ab23527180fad000f2c61cd90871dcb3cb9cd7ce",
+  "built_at": "2026-11-08T09:27:09.202Z",
   "excludes": "Only committed files from the allowlist are included; private state, installed dependencies and development history are not.",
   "files": [
     {
@@ -18,8 +18,8 @@
     },
     {
       "path": "SKILL.md",
-      "bytes": 20976,
-      "sha256": "3a5dbd292cd163fd65ad5e97d1c7763eaa39b5080ffca293d71548630642a658"
+      "bytes": 21027,
+      "sha256": "bc2fc1259da508359b555a9b63f6098e26873e484befb39cbaf9f28801c6d83b"
     },
     {
       "path": "examples/data/bedding-layout-verification-20260930.json",
@@ -700,8 +700,8 @@
     },
     {
       "path": "lib/pdd/tasks.mjs",
-      "bytes": 14767,
-      "sha256": "4eb326bda235949b70b72528fe9aba39895e5cc01e79c59c7945a5d113d547c6"
+      "bytes": 15008,
+      "sha256": "91427a94279f685f3398129c07064f37be005ee8746dbcf7d411295f92402066"
     },
     {
       "path": "lib/platform-lock.mjs",
@@ -950,13 +950,13 @@
     },
     {
       "path": "package.json",
-      "bytes": 427,
-      "sha256": "52f5ad468cc28f9668d691b313fd10bcd0878914b3cab15a4d7586ffe3488d11"
+      "bytes": 428,
+      "sha256": "e87f530eeeef9a7057ba1730230952b3964e997c1d0bcc7a7bc3b7873d197c95"
     },
     {
       "path": "references/capabilities.md",
-      "bytes": 7787,
-      "sha256": "5798cd4def107e0d49475c239c227237b7e3d871c964d89645229212911195fd"
+      "bytes": 7788,
+      "sha256": "281f1548c1423a4292f1369626ed365d94c2b26c3e3bd65939bd9bf206eda854"
     },
     {
       "path": "references/cart-capabilities.md",
@@ -976,8 +976,8 @@
     },
     {
       "path": "references/commands.md",
-      "bytes": 24090,
-      "sha256": "c0bc27ed08f3f0e612b79c788de74d64fb22d07aae5f4de9f55344da8a2c1dbe",
+      "bytes": 24172,
+      "sha256": "dea72b13b8a2f9ec356bb8a8ff73578cc9ab2a1d481c522df56403996990b529",
       "links_removed": 1
     },
     {
@@ -1090,8 +1090,8 @@
     },
     {
       "path": "references/pdd.md",
-      "bytes": 31716,
-      "sha256": "fbcd1fb3f3294c52103bb4405e784e588ba12cfa899534155df556808c46922f"
+      "bytes": 31798,
+      "sha256": "4beb045fbe74822d4a93ec7820f72258de8a218b1aa89a436266d94dc227eabc"
     },
     {
       "path": "references/products.md",
@@ -1159,8 +1159,8 @@
     },
     {
       "path": "references/tasks.md",
-      "bytes": 22351,
-      "sha256": "103b4200d65df32045d34ae97679a178c6a99d6bf8fb2799f0df2c9ee01c18bc",
+      "bytes": 22300,
+      "sha256": "1cd4e52034fb17a124428b3fb833969eb82beb3b74eb884b7f53c3a9ea02ad71",
       "links_removed": 4
     },
     {
@@ -1640,8 +1640,8 @@
     },
     {
       "path": "test/pdd-search-sort.test.mjs",
-      "bytes": 17618,
-      "sha256": "96de5adf1a6ea7a14af5a7d830a45a6ac136574293c9990cd9ca11fd16258f6d"
+      "bytes": 19064,
+      "sha256": "756dfb6ba38e088301c99c13ad516937c8bb9c8f352ad13ca88284900fcc1f8b"
     },
     {
       "path": "test/pdd-search.test.mjs",

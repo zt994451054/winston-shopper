@@ -236,3 +236,20 @@ test('an ignored click or 确认 stops after three checks without repeating it; 
     assert.equal((await run(['task-start', '--platform', 'pdd', '--task', `pdd-sort-refused-${index}`, ...args, ...common])).value.error.code, code, args.join(' '));
   }
 });
+
+// 2026-11-08: a caller sorted by price and then could not open the cheapest card, because product tasks took only plain
+// searches as their source. A sorted or ranged search keeps its cards in the same order the page shows.
+test('a product task can start from a sorted search and takes the card at that position in the sorted order', async t => {
+  const server = await sortBridge(t);
+  const directory = await stateDirectory(t);
+  const ran = await startSort(server, directory, 'pdd-sort-asc', ['--sort', 'price-asc']);
+  assert.equal(ran.value.status, 'complete', JSON.stringify(ran.value));
+  const common = ['--endpoint', server.endpoint, '--state-dir', directory];
+  const created = await run(['task-start', '--platform', 'pdd', '--task', 'pdd-sorted-card-2', '--source-task', 'pdd-sort-asc', '--position', '2', ...common]);
+  assert.deepEqual([created.code, created.value.task_kind], [0, 'pdd_product'], JSON.stringify(created.value));
+  const saved = JSON.parse(await readFile(path.join(directory, 'tasks', 'pdd-sorted-card-2.json'), 'utf8'));
+  assert.deepEqual([saved.operations[0].product_read.card.title, saved.operations[0].product_read.card.amount_text], ['鼠标己', '31']);
+  validatePddTask(saved);
+  const outside = await run(['task-start', '--platform', 'pdd', '--task', 'pdd-sorted-card-9', '--source-task', 'pdd-sort-asc', '--position', '9', ...common]);
+  assert.equal(outside.value.error.code, 'INVALID_ARGUMENTS');
+});

@@ -123,7 +123,7 @@ node scripts/shopping.mjs task-run --task pdd-mouse-2
 node scripts/shopping.mjs report-export --task pdd-mouse-2 --format markdown --output <新文件路径>
 ```
 
-- **怎么进入**：`--source-task` 是一个已完成的拼多多搜索任务，`--position N` 是它读到的第 N 张卡片。任务用搜索任务的标签页，不另给 `--tab`：
+- **怎么进入**：`--source-task` 是一个已完成的拼多多搜索任务，或排序、价格区间任务（2.0.10 起，第 N 张按排序后的顺序），`--position N` 是它读到的第 N 张卡片。任务用搜索任务的标签页，不另给 `--tab`：
   1. 先核对第 N 张卡片的标题和价格仍和保存的一致，不一致返回 `SEARCH_CARD_CHANGED`，什么都不点；
   2. 把卡片滚到可见处，点一次它的主图。点击计一次页面加载，在点之前记下意图，中断后不重点；
   3. 等 8 秒看标签页地址，最多看 3 次（间隔 4 秒）。变成商品页就记下 `goods_id`；变成登录页或验证页就停；还是搜索页返回 `PRODUCT_NOT_OPENED`；
