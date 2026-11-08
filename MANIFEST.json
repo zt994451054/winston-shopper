@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "name": "winston-shopper",
-  "version": "2.0.5",
-  "source_commit": "78efd2ab92c05f6ab20083a539c19ecc78ee5266",
-  "built_at": "2026-11-08T02:18:18.489Z",
+  "version": "2.0.6",
+  "source_commit": "6956cea6e4105cf8984bbb77fe4c18542c13ec5d",
+  "built_at": "2026-11-08T05:55:41.700Z",
   "excludes": "Only committed files from the allowlist are included; private state, installed dependencies and development history are not.",
   "files": [
     {
@@ -18,8 +18,8 @@
     },
     {
       "path": "SKILL.md",
-      "bytes": 20058,
-      "sha256": "bb3eb02ae42876b406a6af70a6dc3d2b4431308cbe3be3fb42339bfb23f23a9d"
+      "bytes": 20619,
+      "sha256": "3c4f0669dbf954a052dd0fbb292e3dfe34348632502b436de58377ce0dc268ef"
     },
     {
       "path": "examples/data/bedding-layout-verification-20260930.json",
@@ -290,8 +290,8 @@
     },
     {
       "path": "lib/bridge-service.mjs",
-      "bytes": 29935,
-      "sha256": "88242f562685e1abc888bd70d5c08d8185894b7b42564ded72abba993160b4e8"
+      "bytes": 30041,
+      "sha256": "e795a16932cb323edeeaa5f5dfda818e37e1e4808bfefcaa37f9e3581e255fd4"
     },
     {
       "path": "lib/bridge.mjs",
@@ -330,8 +330,8 @@
     },
     {
       "path": "lib/cli.mjs",
-      "bytes": 47953,
-      "sha256": "1a16e7a5a832d0fe5228df3ba4da7f25d21510972cefaddd5c430e97d453caef"
+      "bytes": 48331,
+      "sha256": "2c2354405d0e6bfe2168f719cab23b598981c6211838456c402f4ab925db1bfa"
     },
     {
       "path": "lib/description-dom.mjs",
@@ -370,8 +370,8 @@
     },
     {
       "path": "lib/first-run.mjs",
-      "bytes": 9748,
-      "sha256": "74024f1f672200faf26f5b82a13959bef8fb21780d1483ee73cc1a556a3bbb3d"
+      "bytes": 10927,
+      "sha256": "599ca0a04a82f84232d36b15637a16093db152c854ad546ed105bd5726c0e2cd"
     },
     {
       "path": "lib/foreground.mjs",
@@ -720,13 +720,13 @@
     },
     {
       "path": "lib/playwright-config.mjs",
-      "bytes": 6025,
-      "sha256": "c2c598b9d20a5c25d708b1c33c5161182ec9e14c89de58da57071a0003d9fbf5"
+      "bytes": 6549,
+      "sha256": "77c6a31cb8624cd967d3e2fb6408390dffae63ce49f5868365e7b4bf722153eb"
     },
     {
       "path": "lib/playwright-service.mjs",
-      "bytes": 37228,
-      "sha256": "961c7a9ca39f86638c68d3d9bbc339ad3ff839c7a1d71ad1dd0260dde5d42baf"
+      "bytes": 37697,
+      "sha256": "568cd7fcf027fe2bb0ae0af803085e634967b2b19d5a1159a9478ac3ac82ed82"
     },
     {
       "path": "lib/price-entry.mjs",
@@ -940,8 +940,8 @@
     },
     {
       "path": "lib/tasks.mjs",
-      "bytes": 62313,
-      "sha256": "9d90f80e386f238b692a3d7fc0cd9e2b0773ba8bde27b606094e38dfefa37f59"
+      "bytes": 62422,
+      "sha256": "44175e4759c241bf843c37a530829061f00750e764c5a0daae46ba803cfe168c"
     },
     {
       "path": "lib/throttle-log.mjs",
@@ -951,12 +951,12 @@
     {
       "path": "package.json",
       "bytes": 331,
-      "sha256": "dce2f0f336b00e7ca65fd44104e108dc4ba312f4f050672a759fe76dc37f021e"
+      "sha256": "7765ce278211a10766640fa3b0ace6ded8cb7f49240bba0a521473b7f1aa6e47"
     },
     {
       "path": "references/capabilities.md",
       "bytes": 7787,
-      "sha256": "1557cd35b12c4b515d854116bf668d2ac957d55758b150abcca1c247ff755ecb"
+      "sha256": "c6ab1205bf494904eeada56571381c859c3d91d6021a1e8667bd16b637bd7015"
     },
     {
       "path": "references/cart-capabilities.md",
@@ -976,8 +976,8 @@
     },
     {
       "path": "references/commands.md",
-      "bytes": 23961,
-      "sha256": "94d805aa90bff3d608cbf1d77e94362e4a131384254ba750100a87d82ca22bd7",
+      "bytes": 24090,
+      "sha256": "c0bc27ed08f3f0e612b79c788de74d64fb22d07aae5f4de9f55344da8a2c1dbe",
       "links_removed": 1
     },
     {
@@ -1112,8 +1112,8 @@
     },
     {
       "path": "references/search-and-reviews.md",
-      "bytes": 26573,
-      "sha256": "6806cb210f0506cbe8a924271f4b7d7266a4df8d5afb01dbfc6bd565a394b2d2",
+      "bytes": 26541,
+      "sha256": "c3e1ae7291f52387e139422db4f8ea6319ab858ef6345b2caeebc0e30632666b",
       "links_removed": 2
     },
     {
@@ -1142,8 +1142,8 @@
     },
     {
       "path": "references/setup.md",
-      "bytes": 13727,
-      "sha256": "5c2d5d19ab09e1cf0fee78cd3708f8e642c784742353a9de6955395b280ce84c"
+      "bytes": 13962,
+      "sha256": "28bf6a961fe182fb00c89540ea0442984e472341be05ebdb28ff129456c26879"
     },
     {
       "path": "references/skill-acceptance.md",
@@ -1315,8 +1315,8 @@
     },
     {
       "path": "test/bridge-service.test.mjs",
-      "bytes": 28495,
-      "sha256": "dd5e937c0a0408bc75e2e927f4d94d3a90198a2bcca34b297324dcd1c43cedf2"
+      "bytes": 28620,
+      "sha256": "c6547c92bfc77f8e2a4ceeb6da0cfd071a9a82a2b73d4965b95fa2a00a17db3a"
     },
     {
       "path": "test/bridge.test.mjs",
@@ -1390,8 +1390,8 @@
     },
     {
       "path": "test/first-run.test.mjs",
-      "bytes": 13661,
-      "sha256": "f8a1596946899b3d194df899b8f65ec08b400346fa98912c748c0a500406bb6c"
+      "bytes": 15073,
+      "sha256": "c377676e1be28125620507912eea40649ab819250fd2a37143b0bce3ad2fb5ba"
     },
     {
       "path": "test/foreground.test.mjs",
@@ -1480,8 +1480,8 @@
     },
     {
       "path": "test/jd-search.test.mjs",
-      "bytes": 12479,
-      "sha256": "ec9df07ea60c6829d1e26bc66c6f9b98ada64138c80d0ac6aa069f5b77e1597a"
+      "bytes": 12474,
+      "sha256": "3a6d2fb06fc55f5d67755f6f4ec468c6f0aa8ad76860b323d8eb0dfcb3ddd3dc"
     },
     {
       "path": "test/layout-assistance.test.mjs",
@@ -1620,8 +1620,8 @@
     },
     {
       "path": "test/pdd-orders.test.mjs",
-      "bytes": 16607,
-      "sha256": "99dfdf6857e2d0a38cc3917ef439f523b077fbee84fb4286583fd4b2e10c6266"
+      "bytes": 17090,
+      "sha256": "08fa86d0b35aae34d9c1350726b4d5f02acb1302b9eacc491f04496fcdbbcdb1"
     },
     {
       "path": "test/pdd-platform.test.mjs",
@@ -1675,8 +1675,8 @@
     },
     {
       "path": "test/playwright-service.test.mjs",
-      "bytes": 16257,
-      "sha256": "4febbd7418423052ac95197542b4d97a48df88b80a2f38033a02b8b7f1f599a1"
+      "bytes": 16417,
+      "sha256": "f4c66491765b944ff525a2df518d11943e72b14a2f452308f0c34d07426c0de9"
     },
     {
       "path": "test/playwright-setup.test.mjs",
@@ -1685,8 +1685,8 @@
     },
     {
       "path": "test/playwright-tab-ids.test.mjs",
-      "bytes": 3472,
-      "sha256": "e1dc35d5430ee69a6f249cd16c6c72f5744dbe6b30d4ff6b59915f6f8f2f3a15"
+      "bytes": 5215,
+      "sha256": "686cc9c1a3768ee597deaaae624c337c84c2247824d7a771dabe53dc1e9dc55a"
     },
     {
       "path": "test/price-entry.test.mjs",

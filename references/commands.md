@@ -1,6 +1,6 @@
 # 命令接口
 
-单订单统一入口为 `order-workflow-start --workflow NAME --tab ID --order-position N`（N为1–5），随后使用同名 run／status／resume／end。固定列表→入口→正文子任务，整条链共享2次显式恢复、5次平台重试、1次频控探测和120000ms原等待额度；仅离线及本地模拟 CLI 验收，见[命令、预算与边界](order-workflow.md)。不接受 source-task、替换 tab／位置或续批参数；status／end 仅本地。
+单订单统一入口为 `order-workflow-start --workflow NAME --tab ID --order-position N`（N为1–5），随后使用同名 run／status／resume／end。固定列表→入口→正文子任务，整条链共享2次显式恢复、5次平台重试、1次频控探测和120000ms原等待额度；2026-10-12 实页 2 单通过，见[命令、预算与边界](order-workflow.md)。不接受 source-task、替换 tab／位置或续批参数；status／end 仅本地。
 
 新规格图片任务使用格式3：先单独保存完整已扫描名称，再按每项最多3次图片读取自动分批（每普通批最多5项）。名称最多3次单独计数，总保护按3＋3×带支持图片容器的选项数计算；不再固定总10次。详情正文、详情图、主图、评价及下载各有自己的预算，不占此规格次数。见[规格流程与限制](specification-images.md)。
 
@@ -13,7 +13,7 @@
 | 命令 | 输入 | 返回值 | 副作用 |
 | --- | --- | --- | --- |
 | `doctor` | 可选 endpoint、timeout | Node、依赖和服务状态；零任务页面也可就绪 | 只查询状态，不启动、不重连、不读页面 |
-| `setup` | 无 | 依赖、装了扩展的资料（`extension.profiles`）、令牌状态，`status` 和 `next_action` 说明首次使用的下一步 | 只检查，不安装、不连接；只看各资料里有没有扩展的安装文件夹 |
+| `setup` | 无 | 依赖、装了扩展的资料（`extension.profiles` 目录名，`extension.profile_names` 用户看到的名字）、令牌状态，`status` 和 `next_action` 说明首次使用的下一步 | 只检查，不安装、不连接；只看各资料里有没有扩展的安装文件夹，并从 Chrome 的资料列表（`Local State`）取这些资料的名字 |
 | `setup --install` | 无 | 同上，并给出依赖路径、版本、锁文件核对 | 按锁安装本机 Playwright 依赖；不打印令牌 |
 | `setup --open-store` | 可选 `--new-profile` | `store_opened`，新建时给出新资料目录名 | macOS 上在 Chrome 打开扩展商店页；`--new-profile` 让 Chrome 自己新建一个专用资料。用户自己点“添加至 Chrome” |
 | `platform-unlock` | 必需 `--platform taobao\|jd\|pdd`；可选 state-dir | `platform_unlocked`，`unlocked` 表示原来是否锁着 | 平台出现限流、验证码或登录页后会锁 15 分钟（`PLATFORM_LOCKED`）；只在用户说已经处理好后运行，提前解锁。不向平台发送任何请求 |

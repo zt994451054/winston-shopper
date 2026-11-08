@@ -5,7 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { main } from '../lib/cli.mjs';
 import { ShoppingError } from '../lib/errors.mjs';
-import { EXTENSION_ID, EXTENSION_STORE_URL, NEW_PROFILE_NAME, chromeUserDataDirectory, findExtensionProfiles, openExtensionStore,
+import { EXTENSION_ID, EXTENSION_STORE_URL, NEW_PROFILE_NAME, chromeUserDataDirectory, findExtensionProfiles, openExtensionStore, profileDisplayNames,
   saveTokenFromClipboard, saveTokenFromDialog } from '../lib/first-run.mjs';
 import { parseExtensionToken, readExtensionToken } from '../lib/playwright-config.mjs';
 
@@ -50,6 +50,19 @@ test('profiles are found only by the extension install folder', async t => {
   assert.deepEqual(await findExtensionProfiles({ userDataDirectory: null }), []);
   assert.equal(chromeUserDataDirectory({ platform: 'darwin', home: '/h' }), path.join('/h', 'Library', 'Application Support', 'Google', 'Chrome'));
   assert.equal(chromeUserDataDirectory({ platform: 'freebsd', home: '/h' }), null);
+});
+
+// 2026-11-08: setup said only "Profile 8", while the user knows the profile as 购物助手.
+test('profile display names come from Chrome\'s profile list, only for the given profiles, and never fail setup', async t => {
+  const root = await directory(t);
+  await writeFile(path.join(root, 'Local State'), JSON.stringify({ profile: { info_cache: {
+    'Profile 8': { name: '购物助手', gaia_name: 'not read' }, Default: { name: '个人' }, 'Profile 9': { name: 42 } } } }));
+  assert.deepEqual(await profileDisplayNames(['Profile 8', 'Profile 9', 'Profile 3'], { userDataDirectory: root }), { 'Profile 8': '购物助手' });
+  assert.deepEqual(await profileDisplayNames([], { userDataDirectory: root }), {});
+  await writeFile(path.join(root, 'Local State'), '{broken');
+  assert.deepEqual(await profileDisplayNames(['Profile 8'], { userDataDirectory: root }), {});
+  assert.deepEqual(await profileDisplayNames(['Profile 8'], { userDataDirectory: path.join(root, 'absent') }), {});
+  assert.deepEqual(await profileDisplayNames(['Profile 8'], { userDataDirectory: null }), {});
 });
 
 test('the store page opens in the current Chrome profile or in a new, unused profile name', async t => {
@@ -152,6 +165,9 @@ test('setup walks first use in order: dependencies, extension, token, service', 
   assert.equal(ready.value.status, 'ready_for_bridge_start');
   assert.equal(ready.value.ready, true);
   assert.deepEqual(ready.value.extension.profiles, [NEW_PROFILE_NAME]);
+  assert.deepEqual(ready.value.extension.profile_names, {});
+  const named = await run(['setup'], { ...environment, profileNames: async list => Object.fromEntries(list.map(name => [name, '购物助手'])) });
+  assert.deepEqual(named.value.extension.profile_names, { [NEW_PROFILE_NAME]: '购物助手' });
 });
 
 test('token-save reads the clipboard by default, shows the dialog with --dialog, and reports only that the token was saved', async () => {

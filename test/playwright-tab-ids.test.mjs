@@ -12,10 +12,11 @@ class FakePage extends EventEmitter {
   async close() { this.context_.open = this.context_.open.filter(item => item !== this); this.emit('close'); }
 }
 
-class FakeContext {
-  constructor() { this.open = []; }
+// Like Playwright's BrowserContext, it announces every new page with a 'page' event.
+class FakeContext extends EventEmitter {
+  constructor() { super(); this.open = []; }
   pages() { return [...this.open]; }
-  add(url) { const page = new FakePage(this, url); this.open.push(page); return page; }
+  add(url) { const page = new FakePage(this, url); this.open.push(page); this.emit('page', page); return page; }
   async newPage() { return this.add('about:blank'); }
 }
 
@@ -69,4 +70,37 @@ test('a new page opened by the service never inherits a replaced ID', async () =
   const opened = await runBody(context, `const opened = label(await context.newPage(), true);
   await opened.goto('https://mobile.pinduoduo.com/orders.html'); return JSON.stringify(opened.__shopperTabId);`);
   assert.equal(opened, 101);
+});
+
+// 2026-11-08: a caller opened the PDD order list, then talked to the user for two minutes. The replacement page had
+// appeared seconds after opening, but it was first listed two minutes later and got a new ID, so the task lost its page.
+test('a replacement page keeps the ID when it is first listed long after it appeared', async t => {
+  const realNow = Date.now;
+  t.after(() => { Date.now = realNow; });
+  let now = realNow();
+  Date.now = () => now;
+  const context = new FakeContext();
+  const opened = await runBody(context, `const opened = label(await context.newPage(), true);
+  await opened.goto('https://mobile.pinduoduo.com/orders.html'); return JSON.stringify(opened.__shopperTabId);`);
+  assert.equal(opened, 100);
+  now += 3_000;
+  context.add('https://mobile.pinduoduo.com/orders.html');
+  await context.open.find(item => item.__shopperTabId === 100).close();
+  now += 2 * 60_000;
+  assert.deepEqual((await listIds(context)).filter(([, url]) => url.startsWith('https:')), [[100, 'https://mobile.pinduoduo.com/orders.html']]);
+});
+
+test('a page that appears long after the same site closed still gets a new ID', async t => {
+  const realNow = Date.now;
+  t.after(() => { Date.now = realNow; });
+  let now = realNow();
+  Date.now = () => now;
+  const context = new FakeContext();
+  const orders = context.add('https://mobile.pinduoduo.com/orders.html');
+  await listIds(context);
+  await orders.close();
+  now += REPLACED_PAGE_MS + 1;
+  context.add('https://mobile.pinduoduo.com/orders.html');
+  now += 60_000;
+  assert.deepEqual((await listIds(context)).map(([id]) => id), [101]);
 });

@@ -150,7 +150,7 @@ test('Taobao-only task options on JD, and Taobao-only commands on a JD task, are
   assert.equal((await run(['task-start', '--platform', 'jd', ...common, '--task', 'jd-refused', '--search', QUERY])).value.error.code, 'INVALID_ARGUMENTS');
   await run(['task-start', '--platform', 'jd', ...common, '--task', 'jd-ok', '--search', QUERY, '--tab', '88']);
   const reads = state.commands.filter(command => command.action === 'eval').length;
-  assert.equal((await run(['task-diagnose', ...common, '--task', 'jd-ok'])).value.error.code, 'UNSUPPORTED_PLATFORM');
+  assert.match((await run(['task-diagnose', ...common, '--task', 'jd-ok'])).value.error.message, /not JD tasks/);
   assert.equal((await run(['task-rebind', ...common, '--task', 'jd-ok', '--tab', '88'])).value.error.code, 'UNSUPPORTED_PLATFORM');
   assert.equal(state.commands.filter(command => command.action === 'eval').length, reads);
 });

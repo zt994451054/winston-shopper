@@ -224,6 +224,7 @@ test('startup failure preserves the first fixed code and never retries or leaks 
   const f = await fixture(t, { mode: 'failed' });
   await assert.rejects(f.start('Synthetic Profile'), error => {
     assert.equal(error.code, 'PLAYWRIGHT_CONNECT_FAILED');
+    assert.match(error.nextAction ?? error.next_action, /open the Chrome window.*Do not read files in the Chrome profile/s);
     assert.ok(!error.message.includes(TOKEN)); return true;
   });
   assert.equal(f.children.length, 1);

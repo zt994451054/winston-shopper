@@ -180,6 +180,13 @@ test('an order list task and a detail task from it click the title and 查看更
 
   const status = await run(['task-status', '--task', 'pdd-order-1', '--state-dir', directory]);
   assert.deepEqual([status.value.operations[0].order_list_url, status.value.operations[0].order_position], ['https://mobile.pinduoduo.com/orders.html', 1]);
+  // 2026-11-08: these Taobao-only commands named JD on a PDD task and gave no way forward.
+  for (const args of [['task-diagnose'], ['task-rebind', '--tab', '88']]) {
+    const refused = (await run([...args, '--task', 'pdd-order-1', '--state-dir', directory])).value.error;
+    assert.equal(refused.code, 'UNSUPPORTED_PLATFORM');
+    assert.match(refused.message, /only available for Taobao tasks, not PDD tasks/);
+    assert.match(refused.next_action, /open the page again/i);
+  }
 
   for (const task of ['pdd-orders', 'pdd-order-1']) {
     const output = path.join(directory, '..', `${task}-${process.pid}-${Date.now()}.md`);

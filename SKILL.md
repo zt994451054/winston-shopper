@@ -24,7 +24,7 @@ description: 通过用户已登录的 Chrome，只读采集淘宝／天猫、京
   - 规则见[操作节奏](references/pacing.md)。
 - **只动本安装自己的东西**。
   - `bridge-start` 报 `BRIDGE_PORT_IN_USE` 时，说明端口被别的安装或程序占用：告诉用户是哪个，问过用户再处理，不要自己去停别的安装的服务。
-  - 不要读 Chrome 资料目录里的文件（`Local State`、`Preferences` 等）来判断资料或扩展；用 `setup` 结果里的 `extension.profiles`。
+  - 不要读 Chrome 资料目录里的文件（`Local State`、`Preferences` 等）来判断资料或扩展；用 `setup` 结果里的 `extension.profiles`（目录名）和 `extension.profile_names`（用户在 Chrome 里看到的名字，如“购物助手”）。跟用户说话时用后者。
   - 同一平台还有没结束的任务（`PLATFORM_TASK_UNFINISHED`）时，先看那个任务的状态并告诉用户，不要直接 `task-end` 后换个名字重来。
 - **不对抗平台检测**：不伪造鼠标轨迹，不隐藏自动化痕迹，不改浏览器指纹。
 - **不刷额度**。
@@ -62,7 +62,9 @@ description: 通过用户已登录的 Chrome，只读采集淘宝／天猫、京
    - 看 `status`、`result`、`coverage`、`missing` 和观察时间。
    - `complete` 只表示预定的操作做完了，结果本身仍可能是 `partial`。
    - 需要文件时，用 `report-export` 导出报告。图片只给链接，不下载；调用方需要图片文件时自己按链接取得。
+   - 多页搜索、购物车、商品详情的 `task-run` 输出常有几十到上百 KB。要整理结果时，先 `report-export --format markdown` 导出到文件再读，比直接拆输出省事。
 6. **关闭页面**：用 `page-close --tab ID` 关掉本程序打开的页面，包括 `page-open` 打开的页面和订单入口打开的详情页。
+   - 回答用户前，本次开过但停下（`stopped`、`waiting_*`）的任务要告诉用户，并问是否结束；同一平台有没结束的任务时，下一个任务会被 `PLATFORM_TASK_UNFINISHED` 挡住。
    - 以下三种情况会被拒绝，什么也不关：页面仍被未完成的任务或订单工作流使用；页面已经换成了别的内容；页面不是本程序打开的。
    - 用户自己打开的页面，由用户自己处理。
 

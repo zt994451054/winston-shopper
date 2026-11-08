@@ -44,7 +44,7 @@ node scripts/shopping.mjs setup --open-store                 # 平时的 Chrome
 node scripts/shopping.mjs setup --open-store --new-profile   # 新建专用资料
 ```
 
-Chrome 会打开 Playwright 扩展的商店页，请用户点“添加至 Chrome”，在确认框里点“添加扩展程序”。之后再运行 `setup`：`extension.profiles` 列出装了扩展的资料目录名。程序只看各资料里有没有这个扩展的安装文件夹，不打开资料里的设置、Cookie 或其他数据。
+Chrome 会打开 Playwright 扩展的商店页，请用户点“添加至 Chrome”，在确认框里点“添加扩展程序”。之后再运行 `setup`：`extension.profiles` 列出装了扩展的资料目录名，`extension.profile_names` 给出这些资料在 Chrome 里显示的名字（例如 `"Profile 8": "购物助手"`），跟用户说话时用这个名字。程序只看各资料里有没有这个扩展的安装文件夹，并从 Chrome 的资料列表（`Local State`）只取这些资料的显示名；不打开资料里的设置、Cookie 或其他数据。
 
 `--open-store` 目前只支持 macOS；其他系统会返回商店链接，请用户自己在 Chrome 里打开。
 

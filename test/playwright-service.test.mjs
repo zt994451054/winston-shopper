@@ -27,8 +27,9 @@ function fakeBrowser(initial = []) {
       }) };
     return page;
   };
-  const context = { items: initial.map(makePage), pages: () => context.items,
-    newPage: async () => { const page = makePage('about:blank'); context.items.push(page); return page; } };
+  const context = { items: initial.map(makePage), pages: () => context.items, listeners: [],
+    on: (event, listener) => { if (event === 'page') context.listeners.push(listener); },
+    newPage: async () => { const page = makePage('about:blank'); context.items.push(page); context.listeners.forEach(listener => listener(page)); return page; } };
   const current = makePage('chrome-extension://abc/connect.html');
   context.items.unshift(current);
   const tools = { stopped: false, calls: [],
