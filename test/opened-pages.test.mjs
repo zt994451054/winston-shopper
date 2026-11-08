@@ -146,3 +146,13 @@ test('a PDD tab may be closed on the pages the program reaches by clicking in th
   assert.equal(pageStillMatches(orders, 'https://mobile.pinduoduo.com/goods.html?goods_id=123456'), false);
   assert.equal(pageStillMatches(orders, 'https://mobile.pinduoduo.com/login.html'), false);
 });
+
+// 2026-11-08: a 海外自营 JD product tab left item.jd.com and page-close refused it; the same product number on another JD site may close.
+test('a JD product tab may be closed after the product moved to another JD site, but not on another product or site', () => {
+  const product = { platform: 'jd', kind: 'product', key: '2669346' };
+  assert.equal(pageStillMatches(product, 'https://item.jd.com/2669346.html'), true);
+  assert.equal(pageStillMatches(product, 'https://npcitem.jd.hk/2669346.html?from=item'), true);
+  assert.equal(pageStillMatches(product, 'https://npcitem.jd.hk/2669347.html'), false);
+  assert.equal(pageStillMatches(product, 'https://pc-frequent-pro.pf.jd.com/?reason=403'), false);
+  assert.equal(pageStillMatches(product, 'https://item.jd.hk.example.com/2669346.html'), false);
+});

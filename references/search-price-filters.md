@@ -32,6 +32,7 @@ node scripts/shopping.mjs task-run --task price-both
      - 还停在上一页的读取，记为 `page_not_reached`，不重复点击。
      - 读到最后一页后，经“综合”重新打开区间面板和价格菜单，核对区间数值和粗体方向仍在。
      - 结果页数少于请求时，“下一页”是灰的，不点击，保留已读的页，直接做最后一页的核对，`end_reason` 为 `last_page`。
+     - 结果很少时（2026-11-08 起）：页面没有翻页栏，只在结果下方写“相关商品较少，为您推荐以下商品”，下面是推荐商品。程序把它当作只有一页：只读提示上方的卡片（`cards_seen` 也只算这些），`pagination` 里 `total_pages_displayed` 为 `null`、`few_results_notice` 记提示原文，不点“下一页”，`end_reason` 为 `last_page`，`missing` 不写 `subsequent_pages`。不请求多页时也一样。以前遇到这种页面会停在 `SEARCH_PAGINATION_MISSING`（戴森吹风机 400～600 元）。
      - 实测（2026-10-13）：翻页只改变网址里的页码，不带排序信息，所以只能靠页面上的这些标记判断条件是否还在。
 - **动作规则**：每个动作先保存意图再派发。只有确定没有派发时才释放这次预留；回执不明或进程中断时，只记录为不确定，交给后续读取去核对，绝不重发。读取次数（含读取失败）有总上限，每一步也各有上限；超限分别报 `ACTION_OUTCOME_UNKNOWN`、`PRICE_CONTROL_NOT_CONFIRMED` 或 `ACTION_OBSERVATION_LIMIT`。动作之间至少间隔 1.5 秒；鼠标移动命令单独给 15 秒超时，因为实测回执约 5 秒。
 - **天猫与包邮**（2026-10-13 起，任务格式第 6 版）：

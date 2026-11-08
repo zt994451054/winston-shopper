@@ -187,7 +187,7 @@ node scripts/shopping.mjs bridge-stop
 - `pw-ext-token`：扩展令牌；
 - `playwright-service-config.json`：用户明确选择的资料目录名；
 - `bridge-service.json`：服务实例和独立的停止凭据；停止凭据不是扩展令牌，不要打印或分享整个文件；
-- `bridge-service.log`：最多 64 KiB，只记服务生命周期事件和固定错误码，不记令牌或页面数据。
+- `bridge-service.log`：最多 64 KiB，只记服务生命周期事件和固定错误码，不记令牌或页面数据。扩展断开时记一条 `extension_disconnected`（2026-11-08 起），用来对照任务在什么时候失去了连接。
 
 目录权限为 `700`，上述文件权限为 `600`。不要复制这些文件到另一安装目录，不要提交或分享 `.runtime/`。
 

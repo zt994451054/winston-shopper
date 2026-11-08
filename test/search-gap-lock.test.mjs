@@ -5,7 +5,7 @@ import path from 'node:path';
 import os from 'node:os';
 import { main } from '../lib/cli.mjs';
 import { SEARCH_GAP_POLICY, recordSearchOpened, waitForSearchGap } from '../lib/search-gap.mjs';
-import { PLATFORM_LOCK_MS, lockPlatform, requirePlatformUnlocked, unlockPlatform } from '../lib/platform-lock.mjs';
+import { PLATFORM_LOCK_MS, lockPlatform, requirePlatformUnlocked, requireSearchHoldOver, unlockPlatform } from '../lib/platform-lock.mjs';
 import { playwrightStatus, mockBridge } from '../test-support/mock-bridge.mjs';
 
 async function stateDirectory(t) {
@@ -48,6 +48,11 @@ test('a platform lock lasts 15 minutes, covers only that platform and can be lif
   assert.equal(PLATFORM_LOCK_MS, 15 * 60_000);
   await assert.rejects(requirePlatformUnlocked(directory, 'jd', time), error => error.code === 'PLATFORM_LOCKED' && error.actionNotDispatched &&
     error.allowedAt === lock.until);
+  // 2026-11-08: a caller read the ISO time as local time; the message also gives the machine's wall-clock time and offset.
+  const local = new Date(lock.until), pad = value => String(value).padStart(2, '0');
+  await assert.rejects(requirePlatformUnlocked(directory, 'jd', time), error =>
+    error.message.includes(`${new Date(lock.until).toISOString()} (${pad(local.getHours())}:${pad(local.getMinutes())} local time, `) &&
+    /UTC[+-][0-9]{2}:[0-9]{2}\)\.$/.test(error.message));
   await requirePlatformUnlocked(directory, 'taobao', time);
   time.advance(PLATFORM_LOCK_MS);
   await requirePlatformUnlocked(directory, 'jd', time);
@@ -89,6 +94,38 @@ test('page-open refuses a second new search on another platform within the gap a
   assert.equal(server.state.commands.filter(command => command.action === 'tab_new').length, sent);
   const product = await run(['page-open', '--platform', 'jd', '--url', 'https://item.jd.com/100.html', ...common]);
   assert.equal(product.value.status, 'page_opened', 'product pages are not spaced like new searches');
+});
+
+// 2026-11-08: right after the user said JD was fine, a new JD search met the limit again; 37 minutes later it read fine.
+test('after platform-unlock, other page work goes on but a new search on that platform waits until the lock would have ended', async t => {
+  const directory = await stateDirectory(t), time = clock();
+  const lock = await lockPlatform(directory, 'jd', 'rate_limited', time);
+  time.advance(60_000);
+  const unlocked = await unlockPlatform(directory, 'jd', { holdSearches: true, now: time.now });
+  assert.equal(unlocked.unlocked, true);
+  assert.match(unlocked.searches_wait_until, new RegExp(`^${new Date(lock.until).toISOString().replace(/[.]/g, '\\.')} \\(`));
+  await requirePlatformUnlocked(directory, 'jd', time);
+  await assert.rejects(requireSearchHoldOver(directory, 'jd', time), error => error.code === 'PACING_LIMIT' && error.allowedAt === lock.until &&
+    error.actionNotDispatched);
+  await requireSearchHoldOver(directory, 'pdd', time);
+  time.advance(PLATFORM_LOCK_MS);
+  await requireSearchHoldOver(directory, 'jd', time);
+  // A resume that met no signal lifts the lock without holding searches: the platform has just served a page.
+  await lockPlatform(directory, 'pdd', 'rate_limited', time);
+  assert.deepEqual(await unlockPlatform(directory, 'pdd', { now: time.now }), { unlocked: true });
+  await requireSearchHoldOver(directory, 'pdd', time);
+});
+
+test('page-open --search is refused after platform-unlock until the lock would have ended, and sends nothing', async t => {
+  const server = await opener(t), directory = await stateDirectory(t);
+  const common = ['--endpoint', server.endpoint, '--state-dir', directory];
+  await lockPlatform(directory, 'jd', 'rate_limited');
+  const unlocked = await run(['platform-unlock', '--platform', 'jd', '--state-dir', directory]);
+  assert.match(unlocked.value.next_action, /a new search page on this platform waits until/);
+  const search = await run(['page-open', '--platform', 'jd', '--search', 'Synthetic mouse', ...common]);
+  assert.deepEqual([search.code, search.value.error.code], [2, 'PACING_LIMIT']);
+  assert.match(search.value.error.message, /local time/);
+  assert.equal(server.state.commands.filter(command => command.action === 'tab_new').length, 0);
 });
 
 test('unsupported options are named, and a task command explains that a saved task keeps its platform', async () => {

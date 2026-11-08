@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "name": "winston-shopper",
-  "version": "2.0.10",
-  "source_commit": "ab23527180fad000f2c61cd90871dcb3cb9cd7ce",
-  "built_at": "2026-11-08T09:27:09.202Z",
+  "version": "2.0.11",
+  "source_commit": "ae25cccddd3036ac76ab362e5ae95c17f4ac5b75",
+  "built_at": "2026-11-08T14:46:07.426Z",
   "excludes": "Only committed files from the allowlist are included; private state, installed dependencies and development history are not.",
   "files": [
     {
@@ -18,8 +18,8 @@
     },
     {
       "path": "SKILL.md",
-      "bytes": 21027,
-      "sha256": "bc2fc1259da508359b555a9b63f6098e26873e484befb39cbaf9f28801c6d83b"
+      "bytes": 22690,
+      "sha256": "66cc3c72c69b8916ab1aa2c920a4d53cf1630e7b0288af01f98bbbe9fc3101ec"
     },
     {
       "path": "examples/data/bedding-layout-verification-20260930.json",
@@ -290,8 +290,8 @@
     },
     {
       "path": "lib/bridge-service.mjs",
-      "bytes": 30041,
-      "sha256": "e795a16932cb323edeeaa5f5dfda818e37e1e4808bfefcaa37f9e3581e255fd4"
+      "bytes": 30278,
+      "sha256": "69ccd60b2f4749b0ef38624276990fb13c374ada24e6779c0dfdaab915d916c6"
     },
     {
       "path": "lib/bridge.mjs",
@@ -300,8 +300,8 @@
     },
     {
       "path": "lib/cached-report.mjs",
-      "bytes": 70695,
-      "sha256": "f0f574cba0a0f2b9dacce5ce330d1faff27f2de05d59eab861f2bb000fe5b447"
+      "bytes": 70928,
+      "sha256": "295b6a61dcf58eab4b5f1482ea4cea311bfefab1ea56c7ae37b33f6d13d6a770"
     },
     {
       "path": "lib/cart-availability.mjs",
@@ -330,8 +330,8 @@
     },
     {
       "path": "lib/cli.mjs",
-      "bytes": 48331,
-      "sha256": "2c2354405d0e6bfe2168f719cab23b598981c6211838456c402f4ab925db1bfa"
+      "bytes": 49202,
+      "sha256": "c7826a9e712165f6ee7a4861c93deef24acf8e59d2124e1345498a1fcfaaed1b"
     },
     {
       "path": "lib/description-dom.mjs",
@@ -470,8 +470,8 @@
     },
     {
       "path": "lib/jd/targets.mjs",
-      "bytes": 8942,
-      "sha256": "4a044e3dd33ed7ac01162a286921cd575e986402842ced72784d2cc66adad3cf"
+      "bytes": 9520,
+      "sha256": "6856e38efea012bdcebc8b8a10734e26f0d63940696e2b25216cd55147100092"
     },
     {
       "path": "lib/jd/task-state.mjs",
@@ -502,6 +502,11 @@
       "path": "lib/list-empty-state.mjs",
       "bytes": 1684,
       "sha256": "0c90bd91f57116306e31257100447a5aa934973b8b733e70f960caf8956e09fe"
+    },
+    {
+      "path": "lib/local-time.mjs",
+      "bytes": 983,
+      "sha256": "c7a0d72446fdce03b6a1f56068929af2a07fffc0b909c1be84f148b8af9e4bc4"
     },
     {
       "path": "lib/main-image-plan.mjs",
@@ -600,8 +605,8 @@
     },
     {
       "path": "lib/pacing.mjs",
-      "bytes": 8543,
-      "sha256": "5db536389dc016f9a481c5d05f85ae48caa8b2545b3311a0e5f3e181e2d87421"
+      "bytes": 8574,
+      "sha256": "05db1e4b091e3105db76a9e4ab8670014bc1416bd2f5d95d2379e5a918d05f06"
     },
     {
       "path": "lib/package-build.mjs",
@@ -680,8 +685,8 @@
     },
     {
       "path": "lib/pdd/spec-prices-read.mjs",
-      "bytes": 15710,
-      "sha256": "ddce724b98a71e170980b199121cbfe65941aeb632562dcf949d4b11088bb59a"
+      "bytes": 18279,
+      "sha256": "4ba5e3f53d852678bcdae2c9e066529d2dc2bfc980bab60a3ab4f9d4f9bfa16c"
     },
     {
       "path": "lib/pdd/spec-prices.mjs",
@@ -705,8 +710,8 @@
     },
     {
       "path": "lib/platform-lock.mjs",
-      "bytes": 4636,
-      "sha256": "c726c7ba13cd1fad72e1a86c71cdbdd86f9eb14f555d039f9a6c641b364ea91a"
+      "bytes": 6597,
+      "sha256": "f9a33256a7dd50387285bcf28b2c545347d64666496d27882225ebf1e126e208"
     },
     {
       "path": "lib/platform-targets.mjs",
@@ -725,8 +730,8 @@
     },
     {
       "path": "lib/playwright-service.mjs",
-      "bytes": 37697,
-      "sha256": "568cd7fcf027fe2bb0ae0af803085e634967b2b19d5a1159a9478ac3ac82ed82"
+      "bytes": 37991,
+      "sha256": "e4cfc67a99fc4731f81d5dc333b4b79b8e24375a106ac604213e7a1d354426c7"
     },
     {
       "path": "lib/price-entry.mjs",
@@ -815,8 +820,8 @@
     },
     {
       "path": "lib/search-gap.mjs",
-      "bytes": 3354,
-      "sha256": "c497d69af2deea74c74756f00c0aab75b93a121e4977d130cb6b8225fcbba884"
+      "bytes": 3385,
+      "sha256": "bfae173f2ccd666abfe6d22fb2687136db73d2c5369fae7eaee980fd99c5c7f5"
     },
     {
       "path": "lib/search-page-range.mjs",
@@ -840,8 +845,8 @@
     },
     {
       "path": "lib/search-price.mjs",
-      "bytes": 73387,
-      "sha256": "b0a7710a1d3e2518f72b46ed227cd4b3e23f479e2eb8746e5297d020b713721a"
+      "bytes": 75988,
+      "sha256": "dcfd4e1acdd37400bb2285a7a35ad67f25ec2d0ec8b08780e80237546dcab363"
     },
     {
       "path": "lib/search-sort.mjs",
@@ -940,8 +945,8 @@
     },
     {
       "path": "lib/tasks.mjs",
-      "bytes": 62422,
-      "sha256": "44175e4759c241bf843c37a530829061f00750e764c5a0daae46ba803cfe168c"
+      "bytes": 62551,
+      "sha256": "615572043d68c9d7aec4b375447813cc9dba29ff06481a911d9a79e21549598c"
     },
     {
       "path": "lib/throttle-log.mjs",
@@ -951,12 +956,12 @@
     {
       "path": "package.json",
       "bytes": 428,
-      "sha256": "e87f530eeeef9a7057ba1730230952b3964e997c1d0bcc7a7bc3b7873d197c95"
+      "sha256": "ca4b84907387998f9af689e017b8169ae26ac4c6a6e9c333865199494e53abda"
     },
     {
       "path": "references/capabilities.md",
       "bytes": 7788,
-      "sha256": "281f1548c1423a4292f1369626ed365d94c2b26c3e3bd65939bd9bf206eda854"
+      "sha256": "7f8b6806e90bd08db5bb289c7511d18c3a5815df970443f40374d5c3fed29a08"
     },
     {
       "path": "references/cart-capabilities.md",
@@ -976,8 +981,8 @@
     },
     {
       "path": "references/commands.md",
-      "bytes": 24172,
-      "sha256": "dea72b13b8a2f9ec356bb8a8ff73578cc9ab2a1d481c522df56403996990b529",
+      "bytes": 24580,
+      "sha256": "4d5a9d10b549df7be0f35a14e34654b3e5aa0174c06282450aefb5827e0ad70b",
       "links_removed": 1
     },
     {
@@ -1085,13 +1090,13 @@
     },
     {
       "path": "references/pacing.md",
-      "bytes": 9654,
-      "sha256": "737ed46d0034116146e6e4c04daa5bf1bd3246b464ca5321a99495424a6befd4"
+      "bytes": 9854,
+      "sha256": "a1a667497067062fed1eab59e7bb7ae5726c77c4dd0c7a73ec9d6a55a12263a4"
     },
     {
       "path": "references/pdd.md",
-      "bytes": 31798,
-      "sha256": "4beb045fbe74822d4a93ec7820f72258de8a218b1aa89a436266d94dc227eabc"
+      "bytes": 32529,
+      "sha256": "da6c7b2fbaf82cbc57c61267a2000593a2650ad1d0ae3619810ec44ec349ab61"
     },
     {
       "path": "references/products.md",
@@ -1124,8 +1129,8 @@
     },
     {
       "path": "references/search-price-filters.md",
-      "bytes": 16231,
-      "sha256": "7bd673f213c886e0a192fa2639de817e3971e318c87e5bb08eb2e221c213a084",
+      "bytes": 16812,
+      "sha256": "f51616b6f1374de2d62b700b3a821481573e71de83ca534ffc62a099929f6999",
       "links_removed": 3
     },
     {
@@ -1142,8 +1147,8 @@
     },
     {
       "path": "references/setup.md",
-      "bytes": 15176,
-      "sha256": "15f21c58f9547c78f61a638af203d22ac14ecdc26d74cbbcc1ea4017cadf7ea6"
+      "bytes": 15299,
+      "sha256": "de220e3b621dd30cfd0b7035f1919b6b28d08c7e966eb9bf4e3a3aa3e988bc7f"
     },
     {
       "path": "references/skill-acceptance.md",
@@ -1300,8 +1305,8 @@
     },
     {
       "path": "test-support/search-price-fixture.mjs",
-      "bytes": 14387,
-      "sha256": "b3592cdc9057d9dffee688a2045f29eee295f575ea0da5a3c645097ad5f89e39"
+      "bytes": 15044,
+      "sha256": "ce9b6725160141fc2cea628fa17720c3d4f11db86ae087bac4305ab8a99c0422"
     },
     {
       "path": "test-support/search-review-fixture.mjs",
@@ -1315,8 +1320,8 @@
     },
     {
       "path": "test/bridge-service.test.mjs",
-      "bytes": 28620,
-      "sha256": "c6547c92bfc77f8e2a4ceeb6da0cfd071a9a82a2b73d4965b95fa2a00a17db3a"
+      "bytes": 29167,
+      "sha256": "e9a5e4e9aedba989487526081e7dfbf50bf181337ff9eb6cf20a51c9789546fc"
     },
     {
       "path": "test/bridge.test.mjs",
@@ -1445,8 +1450,8 @@
     },
     {
       "path": "test/jd-platform.test.mjs",
-      "bytes": 21342,
-      "sha256": "5ef4887ccf5a28b4ab61ee5c6b06c3192288cb4f9cb8d618466cfa26208c9190"
+      "bytes": 21781,
+      "sha256": "d737b77443f02e45c66a552f314b3722ab990cfd00b6fd46f920c951d1695f9d"
     },
     {
       "path": "test/jd-product.test.mjs",
@@ -1515,8 +1520,8 @@
     },
     {
       "path": "test/opened-pages.test.mjs",
-      "bytes": 10638,
-      "sha256": "4ab700d28efc339249c994b550e2231a4b7d0726ff9c71a88bd90ce375f1a340"
+      "bytes": 11449,
+      "sha256": "cf2f6ef0e68556a92d2bd959de6d23e41a1533e60880ffc69932fafd9e51e92a"
     },
     {
       "path": "test/order-body-task.test.mjs",
@@ -1650,8 +1655,8 @@
     },
     {
       "path": "test/pdd-spec-prices.test.mjs",
-      "bytes": 15356,
-      "sha256": "a3afa02f25b68cb7703a4caf56966b25cdbde0241232724840c8534e92e30f89"
+      "bytes": 19061,
+      "sha256": "e5e9c77a7d9a5a286c48625a20706066de1265b98f9326bf40007104e9de9376"
     },
     {
       "path": "test/playwright-channel.test.mjs",
@@ -1775,8 +1780,8 @@
     },
     {
       "path": "test/search-gap-lock.test.mjs",
-      "bytes": 5850,
-      "sha256": "9c19e2c58f4c38b8e08341c897664b82e4952a97534506f07808e81d24469ced"
+      "bytes": 8614,
+      "sha256": "6f908b4b152fad99caf6820f97cf93da0eb3fd5460c0ecaed75ab69c9045cc84"
     },
     {
       "path": "test/search-page-range.test.mjs",
@@ -1810,8 +1815,8 @@
     },
     {
       "path": "test/search-price-run.test.mjs",
-      "bytes": 40166,
-      "sha256": "e260040c625d4024c00c4b0626589796595115e88718c47d0d71dedfb68b4360"
+      "bytes": 41766,
+      "sha256": "2a8901ad0b61fd45a571927b0d2231c1a067eb4489c0fdb2259dcf6516fc77cb"
     },
     {
       "path": "test/search-price-tasks.test.mjs",

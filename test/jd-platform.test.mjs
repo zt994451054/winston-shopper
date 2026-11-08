@@ -221,6 +221,12 @@ test('tabs --platform jd lists only JD tabs; bind and probe a JD product on the 
   assert.equal(listed.value.platform, 'jd');
   assert.doesNotMatch(JSON.stringify(listed.value), /PRIVATE/);
   assert.equal((await run(['bind', ...common, '--tab', '51'])).value.error.code, 'UNSUPPORTED_TARGET', 'Taobao bind refuses a JD tab');
+  // 2026-11-08: a product that moved off item.jd.com is named by its host only, with what to tell the user.
+  const moved = (await run(['bind', '--platform', 'jd', ...common, '--tab', '52'])).value.error;
+  assert.equal(moved.code, 'UNSUPPORTED_TARGET');
+  assert.match(moved.message, /now shows details\.jd\.com\.$/);
+  assert.match(moved.next_action, /moved off item\.jd\.com/);
+  assert.doesNotMatch(JSON.stringify(moved), /PRIVATE/);
   const bound = await run(['bind', '--platform', 'jd', ...common, '--tab', '51', '--binding', 'jd-item']);
   assert.deepEqual([bound.code, bound.value.platform, bound.value.target], [0, 'jd', ITEM]);
   assert.equal((await loadBinding(directory, 'jd-item')).platform, 'jd');

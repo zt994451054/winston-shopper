@@ -405,7 +405,13 @@ test('the detached runner survives launcher IPC disconnect and keeps credentials
   assert.equal(givenOptions.profile, 'Synthetic Profile');
   channel.connected = false; channel.emit('disconnect');
   assert.equal(stopped, 0);
+  // A service that loses the extension logs it once, with its time; the second loss is the same latched state.
+  const service = new PlaywrightService(givenHooks.serviceOptions);
+  service.disconnect(); service.disconnect();
   await running.stop();
+  const events = (await readFile(path.join(f.directory, 'bridge-service.log'), 'utf8')).trim().split('\n').map(line => JSON.parse(line).event);
+  assert.equal(events.filter(event => event === 'extension_disconnected').length, 1);
+  assert.ok(events.indexOf('extension_disconnected') < events.indexOf('service_stopped'));
   assert.ok(!JSON.stringify(messages).includes(record.management_key));
   assert.ok(!(await readFile(path.join(f.directory, 'bridge-service.log'), 'utf8')).includes(record.management_key));
 });

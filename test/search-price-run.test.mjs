@@ -474,6 +474,25 @@ test('with fewer result pages than requested, paging stops at the last page and 
   validateSearchPriceResult(result, root, h.op.search_price);
 });
 
+test('a range with few matches (no pager, 相关商品较少 notice) is one page: only the cards above the notice count', async () => {
+  // Live 2026-11-08: 戴森吹风机 400-600 stopped with SEARCH_PAGINATION_MISSING; the page had 10 results, the notice, then 20 recommendations.
+  const one = harness(request('price-asc', '400', '600'), {}, { fewResultsAfterRange: 3 });
+  const result = await runSearchPrice(one.context);
+  assert.deepEqual(result.after.pagination, { current_page: 1, total_pages_displayed: null, next_disabled: true, previous_disabled: true,
+    selected_sort_label: null, few_results_notice: '相关商品较少，为您推荐以下商品' });
+  assert.deepEqual([result.after.search.cards_seen, result.after.search.cards_scanned], [3, 3]);
+  assert.ok(!result.missing.includes('subsequent_pages'));
+  validateSearchPriceResult(result, root, one.op.search_price);
+  const paged = harness(request('price-asc', '400', '600'), {}, { fewResultsAfterRange: 3 }, { pages: 3 });
+  const pages = await runSearchPrice(paged.context);
+  assert.deepEqual([pages.paging.pages_read, pages.paging.end_reason, pages.paging.total_pages_displayed], [1, 'last_page', null]);
+  assert.equal(pages.action_evidence.actions.filter(action => action.kind === 'next_page').length, 0, '下一页 is never clicked');
+  validateSearchPriceResult(pages, root, paged.op.search_price);
+  const forged = structuredClone(paged.op.search_price);
+  forged.after.pagination.few_results_notice = '为您推荐';
+  assert.throws(() => validateSearchPriceState(forged, root), { code: 'INVALID_CHECKPOINT' });
+});
+
 test('a page that does not turn is never confirmed or clicked again, and a lost sort on a later page is reported', async () => {
   const stuck = harness(request('price-asc'), {}, undefined, { pages: 2 });
   stuck.page.state.ignoreNext = true;

@@ -109,13 +109,14 @@ export function defaultCards() {
 /**
  * Build a live-shaped search page whose synthetic clicks, hovers and fills change its state and re-render it.
  * Option clicks reverse the cards (direction) and confirm drops the last card (range), so applied states differ.
- * @param {{query?: string, cards?: object[]}} options
+ * @param {{query?: string, cards?: object[], fewResultsAfterRange?: number|null}} options With fewResultsAfterRange, confirming a
+ * range leaves that many result cards, then the few-results notice and the rest as recommendations, and no pager.
  * @returns {object} vm context, mutable state, canonical target and pointer/fill simulators.
  */
-export function priceSearchPage({ query = 'Synthetic mouse', cards = defaultCards() } = {}) {
+export function priceSearchPage({ query = 'Synthetic mouse', cards = defaultCards(), fewResultsAfterRange = null } = {}) {
   const state = { comprehensive: true, range: false, direction: null, menuOpen: false, panelOpen: false,
     minimum: '', maximum: '', totalPages: 100, cards, loggedOut: false, resultsFailed: false, gate: null, ignoreClicks: false, pointer: null,
-    visibility: 'visible', focused: true, page: 1, ignoreNext: false, source: 'all', filters: [], ignoreSource: false };
+    visibility: 'visible', focused: true, page: 1, ignoreNext: false, source: 'all', filters: [], ignoreSource: false, fewResults: null };
   const target = searchPageTarget(query, 1);
   let current;
   const refresh = () => { current = build(); };
@@ -142,7 +143,8 @@ export function priceSearchPage({ query = 'Synthetic mouse', cards = defaultCard
       [element('div', { cls: 'priceTagWrap--x' }, [option('从低到高'), option('从高到低')])]);
     const confirm = element('div', { cls: 'confirmButton--x', text: '确定', onClick: () => {
       if (state.ignoreClicks) return;
-      state.range = true; state.panelOpen = state.pointer === '区间'; state.totalPages = 2; state.cards = state.cards.slice(0, -1); refresh();
+      state.range = true; state.panelOpen = state.pointer === '区间'; state.totalPages = 2; state.cards = state.cards.slice(0, -1);
+      state.fewResults = fewResultsAfterRange; refresh();
     } });
     const panel = element('div', { cls: 'next-overlay-inner sectionPriceSelecterWrapper--x', hidden: !state.panelOpen },
       [element('div', { cls: 'preset--x', text: '0-57 30%的选择' }), element('div', { cls: 'resetButton--x', text: '重置' }), confirm]);
@@ -190,8 +192,12 @@ export function priceSearchPage({ query = 'Synthetic mouse', cards = defaultCard
     // Live (2026-10-12): logged out, or after many rapid searches while logged in, the results area shows only this placeholder.
     const failed = state.loggedOut || state.resultsFailed;
     const placeholder = failed ? [element('div', { cls: 'leftContent--x', text: '综合 销量 价格 区间 “哎呀，网络信号走丢啦~”' })] : [];
+    // Live 2026-11-08: with few matches the pager is gone; the results are followed by this notice and recommended cards.
+    const few = state.fewResults;
+    const results = failed ? [] : few === null ? [...cardNodes, pagination]
+      : [...cardNodes.slice(0, few), element('div', { cls: 'recommendTipWrapper--x', text: '相关商品较少，为您推荐以下商品' }), ...cardNodes.slice(few)];
     const body = element('body', {}, [...nav, element('input', { attrs: { name: 'q' }, value: query }), tabRow, sortBar, strip,
-      ...placeholder, ...(failed ? [] : cardNodes), pagination, menu, panel, ...gate]);
+      ...placeholder, ...results, menu, panel, ...gate]);
     const document = element('html', {}, [body]);
     Object.assign(document, { readyState: 'complete', title: `${query}_淘宝搜索`, body, visibilityState: state.visibility, hasFocus: () => state.focused });
     return { document, menu, panel, confirm };

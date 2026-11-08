@@ -30,6 +30,7 @@ const span = (text, onClick = null) => node('span', { text, onClick });
  * A product page with the 2026-10-28 drawers: the bottom bar shows 单独购买 and 免拼购买, each opening its own drawer
  * (header with close icon, price and 已选 line; the groups; its own bottom button). The selection is shared and the
  * price depends on the drawer and the selection. `clicks` records every click; `onOpen` runs after a buy button.
+ * `unavailable` greys one label, or every label for which it returns true given the current selection.
  */
 function drawerBody({ clicks, onOpen = null, drawers = true, unavailable = null, selection = { 颜色分类: '黑色常规款', 尺码: 'S 80-100斤' } } = {}) {
   const options = { 颜色分类: ['黑色常规款', '咖色常规款'], 尺码: ['S 80-100斤', 'M 100-115斤'] };
@@ -45,7 +46,8 @@ function drawerBody({ clicks, onOpen = null, drawers = true, unavailable = null,
         const chosen = selection[option.group] === option.label;
         option.color = chosen ? RED : 'rgb(21, 21, 22)';
         option.border = chosen ? RED : 'rgba(0, 0, 0, 0)';
-        option.opacity = option.label === unavailable ? '0.4' : '1';
+        const greyed = typeof unavailable === 'function' ? unavailable(option.label, selection) : option.label === unavailable;
+        option.opacity = greyed ? '0.4' : '1';
       }
     }
   };
@@ -129,7 +131,7 @@ test('the drawer header gives the price of the selection, a range while a group 
 });
 
 /** A bridge whose tab shows a PDD search page; card 2 opens the product page, later swapped for the drawer page. */
-function specBridge(t, { onOpen = null } = {}) {
+function specBridge(t, { onOpen = null, unavailable = null } = {}) {
   const tab = { id: 88, url: '' };
   const clicks = [];
   const cards = defaultPddCards().map((card, index) => ({ ...card, onClick: index === 1 ? () => { tab.url = pddProductUrl(); } : null }));
@@ -148,7 +150,7 @@ function specBridge(t, { onOpen = null } = {}) {
     }
     return send({ id: body.id, success: false, error: 'unexpected' });
   } });
-  const toDrawers = () => { productPage = drawerPage({ clicks, onOpen: kind => onOpen?.(kind, tab) }); };
+  const toDrawers = () => { productPage = drawerPage({ clicks, unavailable, onOpen: kind => onOpen?.(kind, tab) }); };
   return { server, clicks, toDrawers };
 }
 
@@ -183,6 +185,7 @@ test('task-start --spec-prices opens each drawer once, clicks each unselected op
     ['group', true, [['已选：咖色常规款 M 100-115斤', 104.9, true], ['已选：黑色常规款 M 100-115斤', 94.9, true], ['已选：黑色常规款 S 80-100斤', 89.9, true]]],
   ]);
   assert.deepEqual(result.drawers[1].readings[0].notes, ['2件9.9折']);
+  assert.deepEqual([result.schema_version, result.coverage.options_skipped_greyed, result.drawers[0].skipped_greyed], [2, 0, []]);
   const ledger = JSON.parse(await readFile(path.join(directory, 'pacing-pdd.json'), 'utf8'));
   assert.deepEqual(ledger.loads.map(load => load.category), ['page'], 'only the card click loads a page; drawer clicks are actions');
   for (const edit of [task => { task.operations[0].result.drawers[0].readings[1].price.amount = 1; },
@@ -206,6 +209,46 @@ test('the task stops without another click when the tab leaves the product page 
   assert.notEqual(ran.value.status, 'complete');
   assert.equal(ran.value.operations[0].error.code, 'TARGET_CHANGED');
   assert.deepEqual(bridge.clicks, ['open alone']);
+});
+
+test('an option an earlier choice greys out is skipped and listed, not clicked, and the drawers still close', async t => {
+  // 2026-11-08: once another colour was picked, sizes 43-45 of a shoe went grey and the old plan stopped on them.
+  const bridge = specBridge(t, { unavailable: (label, selection) => label === 'M 100-115斤' && selection.颜色分类 === '咖色常规款' });
+  const directory = await stateDirectory(t);
+  const { ran } = await productThenSpecPrices(bridge, directory);
+  assert.deepEqual([ran.code, ran.value.status], [0, 'complete'], JSON.stringify(ran.value));
+  assert.deepEqual(bridge.clicks, ['open alone', 'option 咖色常规款', 'close alone', 'open group', 'option 黑色常规款', 'close group']);
+  const saved = JSON.parse(await readFile(path.join(directory, 'tasks', 'pdd-card-2-specs.json'), 'utf8'));
+  validatePddTask(saved);
+  const { result } = saved.operations[0];
+  assert.deepEqual(result.drawers.map(drawer => drawer.skipped_greyed), [[{ group: '尺码', option: 'M 100-115斤' }], []]);
+  assert.deepEqual([result.coverage.status, result.coverage.options_skipped_greyed, result.coverage.drawers_closed], ['partial', 1, true]);
+  assert.ok(result.missing.includes('options_greyed_after_earlier_choice'));
+  // The 免拼 drawer opens on 咖色 S, where M is already grey, so it is never planned there.
+  assert.deepEqual(result.drawers[1].groups[1].unavailable, ['M 100-115斤']);
+});
+
+test('a journal saved by the old plan, stopped before a greyed option, is accepted and goes on with the new plan', async t => {
+  const bridge = specBridge(t, { unavailable: (label, selection) => label === 'M 100-115斤' && selection.颜色分类 === '咖色常规款',
+    onOpen: (kind, tab) => { if (kind === 'group') tab.url = 'https://mobile.pinduoduo.com/order_checkout.html?goods_id=700000000001'; } });
+  const directory = await stateDirectory(t);
+  const { ran } = await productThenSpecPrices(bridge, directory);
+  assert.equal(ran.value.operations[0].error.code, 'TARGET_CHANGED');
+  const file = path.join(directory, 'tasks', 'pdd-card-2-specs.json');
+  const saved = JSON.parse(await readFile(file, 'utf8'));
+  // Stopped before the 免拼 drawer was read, the task still shows what the 单独购买 drawer gave.
+  assert.deepEqual(ran.value.operations[0].partial_readings.map(drawer => [drawer.button, drawer.readings.map(reading => reading.price.amount)]),
+    [['单独购买', [99.9, 109.9]], ['最后4件 免拼购买', []]].slice(0, ran.value.operations[0].partial_readings.length));
+  assert.equal(ran.value.operations[0].partial_readings[0].readings.length, 2);
+  // Rebuild the old plan's last step: after 咖色 it would have clicked M, which the page greys out.
+  const steps = saved.operations[0].spec_read.steps;
+  const legacy = structuredClone(saved);
+  legacy.operations[0].spec_read.steps = [...steps.slice(0, 3), { ...steps[3], kind: 'option', group: '尺码', option: 'M 100-115斤', reserved: false,
+    outcome: null, error: null, checks: 0, confirmed: false, done: false, observed: null }];
+  validatePddTask(legacy);
+  const advanced = structuredClone(legacy);
+  advanced.operations[0].spec_read.steps.at(-1).reserved = true;
+  assert.throws(() => validatePddTask(advanced), { code: 'INVALID_CHECKPOINT' }, 'a reserved click must match the current plan');
 });
 
 test('--spec-prices needs a completed PDD product task and is refused on other platforms', async t => {
