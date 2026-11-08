@@ -16,6 +16,7 @@
 | `setup` | 无 | 依赖、装了扩展的资料（`extension.profiles`）、令牌状态，`status` 和 `next_action` 说明首次使用的下一步 | 只检查，不安装、不连接；只看各资料里有没有扩展的安装文件夹 |
 | `setup --install` | 无 | 同上，并给出依赖路径、版本、锁文件核对 | 按锁安装本机 Playwright 依赖；不打印令牌 |
 | `setup --open-store` | 可选 `--new-profile` | `store_opened`，新建时给出新资料目录名 | macOS 上在 Chrome 打开扩展商店页；`--new-profile` 让 Chrome 自己新建一个专用资料。用户自己点“添加至 Chrome” |
+| `platform-unlock` | 必需 `--platform taobao\|jd\|pdd`；可选 state-dir | `platform_unlocked`，`unlocked` 表示原来是否锁着 | 平台出现限流、验证码或登录页后会锁 15 分钟（`PLATFORM_LOCKED`）；只在用户说已经处理好后运行，提前解锁。不向平台发送任何请求 |
 | `token-save` | `--dialog` | `token_saved` | macOS 从剪贴板读取用户在扩展里“复制”的令牌，保存为权限 `600` 的文件并清空剪贴板；`--dialog` 改为弹出隐藏输入对话框让用户粘贴。不打印令牌 |
 | `bridge-start` | 可选 `--profile 资料目录名`、endpoint | `bridge_connected`、`started`、`state`、PID、`instance_id` | 启动或复用常驻服务，不重复连接扩展；没有保存或给定资料时，自动用唯一装了扩展的资料 |
 | `bridge-stop` | 可选 endpoint | `bridge_stopped`、是否实际停止 | 仅停止本安装记录的服务及其子进程；不关闭整个 Chrome |

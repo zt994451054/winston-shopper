@@ -193,6 +193,9 @@ test('verification returned by the bridge stops the CLI and requires an explicit
   await run(['task-start', ...common, '--task', 'sample', '--bindings', 'default']);
   state.metadata = { state: 'verification_required' };
   assert.equal((await run(['task-run', ...common, '--task', 'sample'])).value.status, 'waiting_user');
+  const locks = async () => JSON.parse(await readFile(path.join(directory, 'platform-locks.json'), 'utf8')).locks;
+  assert.equal((await locks()).taobao.reason, 'verification_required', 'the verification page locks Taobao for new page work');
+  assert.equal((await run(['page-open', ...common, '--search', 'Synthetic mouse'])).value.error.code, 'PLATFORM_LOCKED');
   const before = state.requests.length;
   assert.equal((await run(['task-run', ...common, '--task', 'sample'])).value.error.code, 'RECOVERY_REQUIRED');
   assert.equal((await run(['task-resume', ...common, '--task', 'sample'])).value.error.code, 'INVALID_RECOVERY');
@@ -202,6 +205,7 @@ test('verification returned by the bridge stops the CLI and requires an explicit
   assert.equal(resumed.code, 0);
   assert.equal(resumed.value.operations[0].attempts, 2);
   assert.equal(resumed.value.automatic_retries, 0);
+  assert.deepEqual(await locks(), {}, 'a resume the user asked for that met no signal lifts the lock');
 });
 
 test('login navigation is classified without evaluating login contents and recovers only on the original product', async t => {

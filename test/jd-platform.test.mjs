@@ -248,8 +248,15 @@ test('a JD tab that turned into the risk page is refused by bind and probe, and 
   const listed = await run(['bind', '--platform', 'jd', ...common, '--tab', '51', '--binding', 'jd-risk']);
   assert.equal(listed.value.error.code, 'RATE_LIMITED');
   assert.doesNotMatch(JSON.stringify(listed.value), /PRIVATE/);
+  // The limit locks JD: nothing more is sent until the user says it is handled (user, 2026-11-08).
+  const requests = state.requests.length;
+  const locked = await run(['bind', '--platform', 'jd', ...common, '--tab', '52', '--binding', 'jd-risk']);
+  assert.deepEqual([locked.value.error.code, state.requests.length], ['PLATFORM_LOCKED', requests]);
+  assert.match(locked.value.error.next_action, /tell the user/);
+  assert.equal((await run(['platform-unlock', '--platform', 'jd', '--state-dir', directory])).value.unlocked, true);
   state.metadata = { state: 'rate_limited' };
   assert.equal((await run(['bind', '--platform', 'jd', ...common, '--tab', '52', '--binding', 'jd-risk'])).value.error.code, 'RATE_LIMITED');
+  await run(['platform-unlock', '--platform', 'jd', '--state-dir', directory]);
   await saveBinding(directory, 'jd-item', { schema_version: 1, platform: 'jd', endpoint, tab_id: 52, target: parseJdProductUrl(ITEM), created_at: new Date().toISOString() });
   assert.equal((await run(['probe', ...common, '--binding', 'jd-item'])).value.error.code, 'RATE_LIMITED');
   assert.equal(existsSync(path.join(directory, 'jd-risk.json')), false);

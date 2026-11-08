@@ -200,6 +200,10 @@ test('a PDD verification landing is recorded with the preceding load counts; a l
   assert.deepEqual(log.observations.map(item => [item.platform, item.signal, item.page_kind, item.loads.search.last_10_minutes]), [['pdd', 'risk_page', 'search', 1]]);
   assert.doesNotMatch(JSON.stringify(risk.value), /PRIVATE/);
 
+  const tabsOpened = server.state.commands.filter(command => command.action === 'tab_new').length;
+  assert.equal((await run(['page-open', '--platform', 'pdd', '--orders', ...common])).value.error.code, 'PLATFORM_LOCKED');
+  assert.equal(server.state.commands.filter(command => command.action === 'tab_new').length, tabsOpened, 'a locked platform opens nothing');
+  await run(['platform-unlock', '--platform', 'pdd', '--state-dir', directory]);
   const login = await run(['page-open', '--platform', 'pdd', '--orders', ...common]);
   assert.deepEqual([login.value.kind, login.value.landing], ['orders', 'login_page']);
   assert.match(login.value.next_action, /log in to PDD/);
@@ -249,8 +253,11 @@ test('a PDD tab that turned into a verification page is refused by bind and prob
   const directory = await stateDirectory(t);
   const common = ['--endpoint', endpoint, '--state-dir', directory];
   assert.equal((await run(['bind', '--platform', 'pdd', ...common, '--tab', '51', '--binding', 'pdd-risk'])).value.error.code, 'RATE_LIMITED');
+  assert.equal((await run(['bind', '--platform', 'pdd', ...common, '--tab', '52', '--binding', 'pdd-risk'])).value.error.code, 'PLATFORM_LOCKED');
+  await run(['platform-unlock', '--platform', 'pdd', '--state-dir', directory]);
   state.metadata = { state: 'rate_limited' };
   assert.equal((await run(['bind', '--platform', 'pdd', ...common, '--tab', '52', '--binding', 'pdd-risk'])).value.error.code, 'RATE_LIMITED');
+  await run(['platform-unlock', '--platform', 'pdd', '--state-dir', directory]);
   await saveBinding(directory, 'pdd-item', { schema_version: 1, platform: 'pdd', endpoint, tab_id: 52, target: parsePddProductUrl(ITEM), created_at: new Date().toISOString() });
   assert.equal((await run(['probe', ...common, '--binding', 'pdd-item'])).value.error.code, 'RATE_LIMITED');
   const log = await readThrottleObservations(directory);

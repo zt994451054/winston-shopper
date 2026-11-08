@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "name": "winston-shopper",
-  "version": "2.0.4",
-  "source_commit": "85dee2c60cbf92ec6a6d7b7641aaad31752243ea",
-  "built_at": "2026-11-07T14:25:05.235Z",
+  "version": "2.0.5",
+  "source_commit": "78efd2ab92c05f6ab20083a539c19ecc78ee5266",
+  "built_at": "2026-11-08T02:18:18.489Z",
   "excludes": "Only committed files from the allowlist are included; private state, installed dependencies and development history are not.",
   "files": [
     {
@@ -18,8 +18,8 @@
     },
     {
       "path": "SKILL.md",
-      "bytes": 18970,
-      "sha256": "86e7e171894d23c2d86ecd9a9848fd217693d4da4aacaf79fdbe2c5612e498a2"
+      "bytes": 20058,
+      "sha256": "bb3eb02ae42876b406a6af70a6dc3d2b4431308cbe3be3fb42339bfb23f23a9d"
     },
     {
       "path": "examples/data/bedding-layout-verification-20260930.json",
@@ -330,8 +330,8 @@
     },
     {
       "path": "lib/cli.mjs",
-      "bytes": 43812,
-      "sha256": "5fa84779628db938280153c3503844c9ee0191ca3ccaa76a23e88f686c21fd60"
+      "bytes": 47953,
+      "sha256": "1a16e7a5a832d0fe5228df3ba4da7f25d21510972cefaddd5c430e97d453caef"
     },
     {
       "path": "lib/description-dom.mjs",
@@ -704,6 +704,11 @@
       "sha256": "4eb326bda235949b70b72528fe9aba39895e5cc01e79c59c7945a5d113d547c6"
     },
     {
+      "path": "lib/platform-lock.mjs",
+      "bytes": 4636,
+      "sha256": "c726c7ba13cd1fad72e1a86c71cdbdd86f9eb14f555d039f9a6c641b364ea91a"
+    },
+    {
       "path": "lib/platform-targets.mjs",
       "bytes": 636,
       "sha256": "07bba77cbab4fc12297926052ae7bb15dd28bcc40512075ad96f68b9c124b25a"
@@ -807,6 +812,11 @@
       "path": "lib/search-controls.mjs",
       "bytes": 7909,
       "sha256": "45fec924058c4fd3f7fcd045901d8f4e1cf1d178f879c4e51bbbc9902d5e82a4"
+    },
+    {
+      "path": "lib/search-gap.mjs",
+      "bytes": 3354,
+      "sha256": "c497d69af2deea74c74756f00c0aab75b93a121e4977d130cb6b8225fcbba884"
     },
     {
       "path": "lib/search-page-range.mjs",
@@ -925,8 +935,8 @@
     },
     {
       "path": "lib/task-store.mjs",
-      "bytes": 27803,
-      "sha256": "229650dc2f349a57b29a9eceb2b17dc1f0ebaa697a57c2a4cc993f41d52c118c"
+      "bytes": 27886,
+      "sha256": "710b59751eba945cb5bdb1863ee69ad72ddc05a4f5ace5d3f30c415277bd1273"
     },
     {
       "path": "lib/tasks.mjs",
@@ -941,12 +951,12 @@
     {
       "path": "package.json",
       "bytes": 331,
-      "sha256": "171bc8c3dfbf7a115f291e581861aed4f63a4f9230d584ce72c683dcb9d80a28"
+      "sha256": "dce2f0f336b00e7ca65fd44104e108dc4ba312f4f050672a759fe76dc37f021e"
     },
     {
       "path": "references/capabilities.md",
       "bytes": 7787,
-      "sha256": "cb3cac23a1fc1818709f5e716bfb627dd974fc49c69d33ae70ed7a4113f986f5"
+      "sha256": "1557cd35b12c4b515d854116bf668d2ac957d55758b150abcca1c247ff755ecb"
     },
     {
       "path": "references/cart-capabilities.md",
@@ -966,8 +976,8 @@
     },
     {
       "path": "references/commands.md",
-      "bytes": 23645,
-      "sha256": "81e94e394b7b36433139c861adbaa6d9781f2eaa8b5119b56f8a851a9158dc22",
+      "bytes": 23961,
+      "sha256": "94d805aa90bff3d608cbf1d77e94362e4a131384254ba750100a87d82ca22bd7",
       "links_removed": 1
     },
     {
@@ -1075,8 +1085,8 @@
     },
     {
       "path": "references/pacing.md",
-      "bytes": 8461,
-      "sha256": "763a76f2b141b9a6bdc1308216fc329b8b95fb817a2a38c8eedca19c23b0ed5b"
+      "bytes": 9654,
+      "sha256": "737ed46d0034116146e6e4c04daa5bf1bd3246b464ca5321a99495424a6befd4"
     },
     {
       "path": "references/pdd.md",
@@ -1350,8 +1360,8 @@
     },
     {
       "path": "test/cli.test.mjs",
-      "bytes": 11991,
-      "sha256": "7441ccb6044d5281276d0187afc1fc9d30ddb7c4721c7ea2fa5f55361835c7f8"
+      "bytes": 12460,
+      "sha256": "22e29ae1e51014de1289e3d4dd0ae70187abfb0f2a3ee95b814306713af42471"
     },
     {
       "path": "test/description-entry.test.mjs",
@@ -1435,8 +1445,8 @@
     },
     {
       "path": "test/jd-platform.test.mjs",
-      "bytes": 20729,
-      "sha256": "e4a80b630bb8801443903522570889b5473f5d401a0c821421a137e325a3c46f"
+      "bytes": 21342,
+      "sha256": "5ef4887ccf5a28b4ab61ee5c6b06c3192288cb4f9cb8d618466cfa26208c9190"
     },
     {
       "path": "test/jd-product.test.mjs",
@@ -1615,13 +1625,13 @@
     },
     {
       "path": "test/pdd-platform.test.mjs",
-      "bytes": 20396,
-      "sha256": "98b70ae419fc3dd5edf6819a0dd60ff9e020e68ce46312d46d98c129ebe568a9"
+      "bytes": 21150,
+      "sha256": "c4cabdae93f6b52e4b8d37bf5215a990c07cb9ad88b4afd875c60b51006b72fc"
     },
     {
       "path": "test/pdd-product.test.mjs",
-      "bytes": 15710,
-      "sha256": "277be799ac77dcbd8a60d26470329ed08b2ae0fe95e17bafd0e8e7576fca7d9a"
+      "bytes": 16032,
+      "sha256": "ab708dc2ccb06edf86c900f07c88a3a3eb546d080c3bb1bff8a76782855d8a94"
     },
     {
       "path": "test/pdd-reviews.test.mjs",
@@ -1762,6 +1772,11 @@
       "path": "test/search-controls.test.mjs",
       "bytes": 7626,
       "sha256": "90eb5e80891d305048fe47e11feee756f57f9f8b6d971c1c5ac62f89fbfb5a38"
+    },
+    {
+      "path": "test/search-gap-lock.test.mjs",
+      "bytes": 5850,
+      "sha256": "9c19e2c58f4c38b8e08341c897664b82e4952a97534506f07808e81d24469ced"
     },
     {
       "path": "test/search-page-range.test.mjs",

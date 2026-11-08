@@ -197,6 +197,9 @@ test('a login page after the click stops the task without a second click; refuse
     assert.equal((await run(['task-start', '--platform', 'pdd', '--task', `pdd-refused-${index}`, ...args, ...common])).value.error.code, code, args.join(' '));
   }
   assert.equal((await run(['task-start', '--task', 'tb-position', '--search', 'x', '--tab', '88', '--position', '2', ...common])).value.error.code, 'UNSUPPORTED_PLATFORM');
+  // The login page locked PDD for new page work; after the user logs in the lock is lifted (user, 2026-11-08).
+  assert.equal((await run(['page-open', '--platform', 'pdd', '--search', 'x', ...common])).value.error.code, 'PLATFORM_LOCKED');
+  await run(['platform-unlock', '--platform', 'pdd', '--state-dir', directory]);
   assert.equal((await run(['page-open', '--platform', 'pdd', '--url', pddProductUrl(), ...common])).value.error.code, 'UNSUPPORTED_PLATFORM');
   assert.equal(pddSearchTarget('Synthetic mouse').query, 'Synthetic mouse');
 });
