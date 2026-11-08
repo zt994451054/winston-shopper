@@ -133,3 +133,16 @@ test('page-close also closes a recorded tab that is now in another browser windo
   assert.deepEqual(closes(server).map(command => command.tabId), [88]);
   assert.equal(server.state.otherWindowTabs.length, 0);
 });
+
+// 2026-11-08: a PDD order list tab moved to the order detail through the program's own click, and page-close refused it.
+test('a PDD tab may be closed on the pages the program reaches by clicking in that tab', () => {
+  const orders = { platform: 'pdd', kind: 'orders', key: null };
+  assert.equal(pageStillMatches(orders, 'https://mobile.pinduoduo.com/orders.html'), true);
+  assert.equal(pageStillMatches(orders, 'https://mobile.pinduoduo.com/order.html?order_sn=261105-123456789012345'), true);
+  const search = { platform: 'pdd', kind: 'search', key: '无线鼠标' };
+  assert.equal(pageStillMatches(search, 'https://mobile.pinduoduo.com/goods.html?goods_id=123456'), true);
+  assert.equal(pageStillMatches(search, 'https://mobile.pinduoduo.com/goods_comments.html?goods_id=123456'), true);
+  assert.equal(pageStillMatches(search, 'https://mobile.pinduoduo.com/order.html?order_sn=261105-123456789012345'), false);
+  assert.equal(pageStillMatches(orders, 'https://mobile.pinduoduo.com/goods.html?goods_id=123456'), false);
+  assert.equal(pageStillMatches(orders, 'https://mobile.pinduoduo.com/login.html'), false);
+});

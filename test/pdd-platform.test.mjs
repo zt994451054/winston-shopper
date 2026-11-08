@@ -122,7 +122,8 @@ test('recorded PDD pages still match after tracking or moving to the same produc
   assert.equal(pageStillMatches({ platform: 'pdd', kind: 'product', key: GOODS }, 'https://mobile.pinduoduo.com/goods.html?goods_id=1'), false);
   assert.equal(pageStillMatches({ platform: 'pdd', kind: 'search', key: 'mouse' }, 'https://mobile.pinduoduo.com/search_result.html?search_key=mouse&sort_type=_sales'), true);
   assert.equal(pageStillMatches({ platform: 'pdd', kind: 'search', key: 'mouse' }, 'https://search.jd.com/Search?keyword=mouse'), false);
-  assert.equal(pageStillMatches({ platform: 'pdd', kind: 'orders', key: null }, 'https://mobile.pinduoduo.com/order.html?order_sn=1234567'), false);
+  // The order detail task opens the detail in the list tab, so that tab may still be closed (2026-11-08).
+  assert.equal(pageStillMatches({ platform: 'pdd', kind: 'orders', key: null }, 'https://mobile.pinduoduo.com/order.html?order_sn=1234567'), true);
   assert.equal(pageStillMatches({ platform: 'pdd', kind: 'orders', key: null }, 'https://mobile.pinduoduo.com/login.html'), false);
   assert.equal(pageStillMatches({ kind: 'product', key: GOODS }, ITEM), false, 'no platform means Taobao');
 });

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "name": "winston-shopper",
-  "version": "2.0.7",
-  "source_commit": "fa06ecf8bbcea9cd735e058e666b03d2f0500874",
-  "built_at": "2026-11-08T06:28:18.132Z",
+  "version": "2.0.8",
+  "source_commit": "a14a3e0cfbffc68f960fb048326eff1a012413a3",
+  "built_at": "2026-11-08T06:43:19.342Z",
   "excludes": "Only committed files from the allowlist are included; private state, installed dependencies and development history are not.",
   "files": [
     {
@@ -18,8 +18,8 @@
     },
     {
       "path": "SKILL.md",
-      "bytes": 20883,
-      "sha256": "aeafdc7d15f0043dd5b4455cc32941b5fac9ed7efdbea8d3b342bffd66e565ab"
+      "bytes": 20976,
+      "sha256": "3a5dbd292cd163fd65ad5e97d1c7763eaa39b5080ffca293d71548630642a658"
     },
     {
       "path": "examples/data/bedding-layout-verification-20260930.json",
@@ -690,8 +690,8 @@
     },
     {
       "path": "lib/pdd/targets.mjs",
-      "bytes": 9294,
-      "sha256": "709b853ddf434eea6f7fd509785aad5f2ecebd911a6f90c9b9570af2c8a29732"
+      "bytes": 9702,
+      "sha256": "f93f2582bf1ed8c1ced5e0aa453c88c1e760c122b615f6526a11da3911f88c31"
     },
     {
       "path": "lib/pdd/task-state.mjs",
@@ -951,12 +951,12 @@
     {
       "path": "package.json",
       "bytes": 427,
-      "sha256": "246dea198d9de2c102c8f866cc49db2a48c3d7285389a84de5392fdbb488f7b7"
+      "sha256": "eec538f38e51a0218bf9324c241486e0927de2f2aec9d9ed6642cc37593d6932"
     },
     {
       "path": "references/capabilities.md",
       "bytes": 7787,
-      "sha256": "33feac7c021a872b29d70d8f294e1808886414b75415018694f667ff66143bf4"
+      "sha256": "e74d90238b57f8e73865755b80b5145e5e039c53fcf7d53f9b7869acbd23f0c6"
     },
     {
       "path": "references/cart-capabilities.md",
@@ -1515,8 +1515,8 @@
     },
     {
       "path": "test/opened-pages.test.mjs",
-      "bytes": 9512,
-      "sha256": "f75abd9fd2cba32b8d08379b46cd10132fed94948252bfda1a49efc5a9f35689"
+      "bytes": 10638,
+      "sha256": "4ab700d28efc339249c994b550e2231a4b7d0726ff9c71a88bd90ce375f1a340"
     },
     {
       "path": "test/order-body-task.test.mjs",
@@ -1625,8 +1625,8 @@
     },
     {
       "path": "test/pdd-platform.test.mjs",
-      "bytes": 21150,
-      "sha256": "c4cabdae93f6b52e4b8d37bf5215a990c07cb9ad88b4afd875c60b51006b72fc"
+      "bytes": 21256,
+      "sha256": "3103080f473643df971cbdfd77a2927b9dffb4ff7f7e2429216123918c1efa70"
     },
     {
       "path": "test/pdd-product.test.mjs",
