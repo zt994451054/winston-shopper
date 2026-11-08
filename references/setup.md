@@ -169,6 +169,17 @@ node scripts/shopping.mjs bridge-stop
 | `TARGET_CHANGED` / `TARGET_MISSING` | 核对原服务和页面；淘宝任务可用 `task-diagnose`，再按原任务允许的恢复规则处理，不能拿相似页面顶替 |
 | `LEGACY_BROWSER_TASK` | 旧通道检查点仅保留回读，见[旧通道与已保存结果](dedicated-browser.md) |
 
+## 更新到新版本
+
+安装包来自 `package.json` 里 `repository` 写的 GitHub 仓库（私有仓库要用用户已登录的 `git` 或 `gh` 取得）。不要为了找来源去翻 shell 历史、其他 agent 的记录或别的目录；仓库取不到时问用户。
+
+1. 先确认没有未收尾的任务（`task-status`），再在本安装目录运行 `bridge-stop`。
+2. 把仓库克隆或下载到一个新的临时目录，看 `package.json` 的 `version`，核对 `MANIFEST.json` 里的文件和校验值。
+3. 用新文件覆盖本安装目录，**保留**这两个目录：`.runtime/`（令牌和服务记录）、`runtime/playwright-backend/`（已装的依赖；新版 `setup` 提示要装时再运行 `setup --install`）。
+4. 状态目录（默认 `~/.consumer-shopping/bindings`）不在安装目录里，更新不会碰它，**不要另做备份**，尤其不要把它复制到 `/tmp` 等公共位置，里面有真实的订单和购物车。
+5. 运行 `setup` 和 `doctor`，再 `bridge-start`。旧任务结果照常可读。
+6. 删掉第 2 步的临时目录。
+
 ## 本机文件与清理
 
 服务文件位于本 Skill 的 `.runtime/`，不随 `--state-dir` 改变：

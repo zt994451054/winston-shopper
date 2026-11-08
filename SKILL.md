@@ -35,6 +35,7 @@ description: 通过用户已登录的 Chrome，只读采集淘宝／天猫、京
 ## 运行环境
 
 - 需要 Node.js 22 或更新版本、Chrome、从商店安装的 Playwright 扩展，以及常驻的本机连接服务。扩展可以装在平时的 Chrome 资料里，也可以由程序一键新建专用资料，商店地址：<https://chromewebstore.google.com/detail/playwright-extension/mmlmfjhmonkocbjadbfplnigmagldckm>。
+- **来源与更新**：本安装来自 `package.json` 的 `repository`（GitHub 仓库）。用户要更新时按[更新到新版本](references/setup.md#更新到新版本)做；不要为了找来源去翻 shell 历史、其他 agent 的记录或别的目录。
 - 所有路径都相对本文件所在目录。命令格式为 `node scripts/shopping.mjs <命令> [参数] --json`，后续命令都用同一个 node。
 - **状态目录**：默认 `~/.consumer-shopping/bindings`，也可以用 `--state-dir` 或环境变量 `SHOPPING_STATE_DIR` 指定。
   - 任务、预算、节奏账本和缓存都保存在这里，同一轮工作始终使用同一个目录。
