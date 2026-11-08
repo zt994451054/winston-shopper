@@ -135,7 +135,7 @@ description: 通过用户已登录的 Chrome，只读采集淘宝／天猫、京
 | 搜索页已画出的卡片 | `page-open --platform pdd --search 词`，再 `task-start --platform pdd --search 词 --tab ID`；卡片没有商品编号，标题是截短的 | 通过 |
 | 销量、价格升序、价格降序、价格区间 | 加 `--sort sales|price-asc|price-desc` 和／或 `--min-price A --max-price B` | 都通过 |
 | 商品详情 | `task-start --platform pdd --source-task 搜索任务 --position N`（点搜索结果第 N 张进入；搜索任务可以是排序或价格区间任务） | 3 件通过 |
-| 各规格价格 | `task-start --platform pdd --source-task 商品详情任务 --spec-prices`；打开底部购买按钮的规格抽屉逐个点选项，每个抽屉最多 12 次，不点“确定”，不进订单页 | 4 件通过 |
+| 各规格价格 | `task-start --platform pdd --source-task 商品详情任务 --spec-prices`；打开底部购买按钮的规格抽屉逐个点选项，每个抽屉最多 12 次，不点“确定”，不进订单页。用户只关心某一组（如“各尺码价格一样吗”）时加 `--spec-group 组名`（组名照商品详情结果里的写，如“鞋码”），只点这一组，其他组保持页面当时的选择 | 4 件通过 |
 | 评价 | `task-start --platform pdd --source-task 商品详情任务 --reviews`；只读“全部”，最多 20 条，不读评价人名称 | 3 件通过 |
 | 订单列表已加载的订单 | `page-open --platform pdd --orders`，再 `task-start --platform pdd --orders --tab ID` | 10 单通过 |
 | 单个订单详情 | `task-start --platform pdd --source-task 订单列表任务 --order-position N`；不读收货人、支付和物流 | 2 单通过 |
@@ -170,7 +170,7 @@ description: 通过用户已登录的 Chrome，只读采集淘宝／天猫、京
   - 价格任务的 `displayed_price_order` 是在本地按显示价重排的结果（`platform_order: false`）。平台排序和筛选依据的价格未知。
   - 淘宝结果很少时页面没有翻页栏，只写“相关商品较少，为您推荐以下商品”：价格任务按一页处理，只读这条提示上方的卡片，`pagination.few_results_notice` 记着原文，下方的推荐商品不算结果。
 - **图片与视频**：图片链接不等于读懂了图片。图片的语义解读由调用方按需完成。视频不在本阶段范围内。
-- **拼多多各规格价格**：每点一个选项都按抽屉当前的样子重新判断；被前一个选择弄灰的选项（比如换颜色后缺货的尺码）不点，列在 `skipped_greyed`，这时 `coverage.status` 为 `partial`。任务中途停下时，`task-status` 的 `partial_readings` 里有已经读到的价格，照实交给用户并说明没读完。
+- **拼多多各规格价格**：每点一个选项都按抽屉当前的样子重新判断；被前一个选择弄灰的选项（比如换颜色后缺货的尺码）不点，列在 `skipped_greyed`，这时 `coverage.status` 为 `partial`。任务中途停下时，`task-status` 的 `partial_readings` 里有已经读到的价格，照实交给用户并说明没读完。用了 `--spec-group` 时，汇报要说明价格是在哪个颜色（或其他组的哪个选项）下读到的（看每条 `selected`）；没点到的选项不要说“价格一样”。
 - **订单**：金额是页面原文，不是结算证明。完整商品集和账户身份都未验证。多页任务读到最后一页（`all_listed_pages_read: true`），只说明“所有订单”列出的页读完了；回收站和平台不显示的更早订单不在其中，`full_order_history` 仍为 `false`。
 - **下结论前核对原文**：
   - 说“自营”“官方”“旗舰店”前看卡片的店铺名（`shop`），不要凭标题或价格推断。

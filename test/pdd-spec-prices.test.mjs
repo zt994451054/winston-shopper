@@ -6,6 +6,7 @@ import path from 'node:path';
 import { main } from '../lib/cli.mjs';
 import { pddSpecClickScript, pddSpecHeader, pddSpecPage, pddSpecStateScript, validatePddSpecClick, validatePddSpecState } from '../lib/pdd/spec-prices.mjs';
 import { validatePddTask } from '../lib/pdd/task-state.mjs';
+import { pddSpecPricesResult } from '../lib/pdd/spec-prices-read.mjs';
 import { PDD_GOODS_ID, pddPage, pddProductBody, pddProductUrl } from '../test-support/pdd-product-fixture.mjs';
 import { defaultPddCards, node, pddSearchPage } from '../test-support/pdd-search-fixture.mjs';
 import { playwrightStatus, isAddressProbe, mockBridge } from '../test-support/mock-bridge.mjs';
@@ -154,7 +155,7 @@ function specBridge(t, { onOpen = null, unavailable = null } = {}) {
   return { server, clicks, toDrawers };
 }
 
-async function productThenSpecPrices(bridge, directory) {
+async function productThenSpecPrices(bridge, directory, specArgs = []) {
   const server = await bridge.server;
   const common = ['--endpoint', server.endpoint, '--state-dir', directory];
   await run(['task-start', '--platform', 'pdd', '--task', 'pdd-search', '--search', 'Synthetic mouse', '--tab', '88', ...common]);
@@ -162,7 +163,8 @@ async function productThenSpecPrices(bridge, directory) {
   await run(['task-start', '--platform', 'pdd', '--task', 'pdd-card-2', '--source-task', 'pdd-search', '--position', '2', ...common]);
   assert.equal((await run(['task-run', '--task', 'pdd-card-2', ...common])).value.status, 'complete');
   bridge.toDrawers();
-  const created = await run(['task-start', '--platform', 'pdd', '--task', 'pdd-card-2-specs', '--source-task', 'pdd-card-2', '--spec-prices', ...common]);
+  const created = await run(['task-start', '--platform', 'pdd', '--task', 'pdd-card-2-specs', '--source-task', 'pdd-card-2', '--spec-prices', ...specArgs, ...common]);
+  if (specArgs.length && created.code !== 0) return { server, common, created };
   assert.deepEqual([created.code, created.value.task_kind], [0, 'pdd_spec_prices'], JSON.stringify(created.value));
   return { server, common, ran: await run(['task-run', '--task', 'pdd-card-2-specs', ...common]) };
 }
@@ -185,7 +187,16 @@ test('task-start --spec-prices opens each drawer once, clicks each unselected op
     ['group', true, [['已选：咖色常规款 M 100-115斤', 104.9, true], ['已选：黑色常规款 M 100-115斤', 94.9, true], ['已选：黑色常规款 S 80-100斤', 89.9, true]]],
   ]);
   assert.deepEqual(result.drawers[1].readings[0].notes, ['2件9.9折']);
-  assert.deepEqual([result.schema_version, result.coverage.options_skipped_greyed, result.drawers[0].skipped_greyed], [2, 0, []]);
+  assert.deepEqual([result.schema_version, result.focus_group, result.coverage.options_skipped_greyed, result.coverage.other_groups_clicked, result.drawers[0].skipped_greyed],
+    [3, null, 0, true, []]);
+  // Results saved before 2026-11-08 (formats 1 and 2, journal 1) are rebuilt as saved.
+  for (const version of [1, 2]) {
+    const old = structuredClone(saved), state = old.operations[0].spec_read;
+    delete state.focus_group; state.schema_version = 1;
+    old.operations[0].result = pddSpecPricesResult(state, old.operations[0].target, version);
+    validatePddTask(old);
+    assert.equal(Object.hasOwn(old.operations[0].result, 'focus_group'), false);
+  }
   const ledger = JSON.parse(await readFile(path.join(directory, 'pacing-pdd.json'), 'utf8'));
   assert.deepEqual(ledger.loads.map(load => load.category), ['page'], 'only the card click loads a page; drawer clicks are actions');
   for (const edit of [task => { task.operations[0].result.drawers[0].readings[1].price.amount = 1; },
@@ -249,6 +260,38 @@ test('a journal saved by the old plan, stopped before a greyed option, is accept
   const advanced = structuredClone(legacy);
   advanced.operations[0].spec_read.steps.at(-1).reserved = true;
   assert.throws(() => validatePddTask(advanced), { code: 'INVALID_CHECKPOINT' }, 'a reserved click must match the current plan');
+});
+
+// 2026-11-08: 18 colours used all 12 clicks and no size was read for a user who asked about sizes.
+test('--spec-group clicks only that group in each drawer; the other groups keep the page selection and the result says so', async t => {
+  const bridge = specBridge(t);
+  const directory = await stateDirectory(t);
+  const { ran } = await productThenSpecPrices(bridge, directory, ['--spec-group', '尺码']);
+  assert.deepEqual([ran.code, ran.value.status], [0, 'complete'], JSON.stringify(ran.value));
+  assert.deepEqual(bridge.clicks, ['open alone', 'option M 100-115斤', 'close alone', 'open group', 'option S 80-100斤', 'close group']);
+  const saved = JSON.parse(await readFile(path.join(directory, 'tasks', 'pdd-card-2-specs.json'), 'utf8'));
+  validatePddTask(saved);
+  const { result } = saved.operations[0];
+  assert.deepEqual([result.focus_group, result.coverage.status, result.coverage.other_groups_clicked], ['尺码', 'partial', false]);
+  assert.ok(result.missing.includes('other_groups_not_clicked'));
+  assert.deepEqual(result.drawers.map(drawer => drawer.readings.map(reading => reading.selected[0].options[0])),
+    [['黑色常规款', '黑色常规款'], ['黑色常规款', '黑色常规款']], 'every price was read with the colour the page had selected');
+  const forged = structuredClone(saved);
+  forged.operations[0].spec_read.focus_group = '颜色分类';
+  assert.throws(() => validatePddTask(forged), { code: 'INVALID_CHECKPOINT' });
+});
+
+test('--spec-group must name a group the product task read, and goes only with --spec-prices on PDD', async t => {
+  const bridge = specBridge(t);
+  const directory = await stateDirectory(t);
+  const { created } = await productThenSpecPrices(bridge, directory, ['--spec-group', '鞋码']);
+  assert.equal(created.value.error.code, 'SPEC_GROUP_UNKNOWN');
+  assert.match(created.value.error.message, /"颜色分类", "尺码"/);
+  assert.deepEqual(bridge.clicks, []);
+  const lone = await run(['task-start', '--platform', 'pdd', '--task', 'x-specs', '--source-task', 'x', '--spec-group', '尺码', '--state-dir', directory]);
+  assert.equal(lone.value.error.code, 'INVALID_ARGUMENTS');
+  const taobao = await run(['task-start', '--task', 'tb-specs', '--source-task', 'x', '--spec-group', '尺码', '--state-dir', directory]);
+  assert.equal(taobao.value.error.code, 'UNSUPPORTED_PLATFORM');
 });
 
 test('--spec-prices needs a completed PDD product task and is refused on other platforms', async t => {

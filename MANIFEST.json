@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "name": "winston-shopper",
-  "version": "2.0.11",
-  "source_commit": "ae25cccddd3036ac76ab362e5ae95c17f4ac5b75",
-  "built_at": "2026-11-08T14:46:07.426Z",
+  "version": "2.0.12",
+  "source_commit": "ccadbbc3ed1066dd98c4d30029ced2e722e68083",
+  "built_at": "2026-11-08T15:30:52.060Z",
   "excludes": "Only committed files from the allowlist are included; private state, installed dependencies and development history are not.",
   "files": [
     {
@@ -18,8 +18,8 @@
     },
     {
       "path": "SKILL.md",
-      "bytes": 22690,
-      "sha256": "66cc3c72c69b8916ab1aa2c920a4d53cf1630e7b0288af01f98bbbe9fc3101ec"
+      "bytes": 23090,
+      "sha256": "a42aab2e15becb4631ec93c362d196bcac8d11e331abc1ea6a30f5c0dc96e539"
     },
     {
       "path": "examples/data/bedding-layout-verification-20260930.json",
@@ -300,8 +300,8 @@
     },
     {
       "path": "lib/cached-report.mjs",
-      "bytes": 70928,
-      "sha256": "295b6a61dcf58eab4b5f1482ea4cea311bfefab1ea56c7ae37b33f6d13d6a770"
+      "bytes": 71020,
+      "sha256": "dd447e6fc88d4c4dd5144c8f0b4127f6cc7d01706d23efb33f2aad53d2501b57"
     },
     {
       "path": "lib/cart-availability.mjs",
@@ -330,8 +330,8 @@
     },
     {
       "path": "lib/cli.mjs",
-      "bytes": 49202,
-      "sha256": "c7826a9e712165f6ee7a4861c93deef24acf8e59d2124e1345498a1fcfaaed1b"
+      "bytes": 49386,
+      "sha256": "09cb9e4555d4274a1fd98672df32102ed8d839815a1fbbdccd35bdeeebede0f4"
     },
     {
       "path": "lib/description-dom.mjs",
@@ -685,8 +685,8 @@
     },
     {
       "path": "lib/pdd/spec-prices-read.mjs",
-      "bytes": 18279,
-      "sha256": "4ba5e3f53d852678bcdae2c9e066529d2dc2bfc980bab60a3ab4f9d4f9bfa16c"
+      "bytes": 20073,
+      "sha256": "16a737ab938290866635cc2dfa72e9c51235e1bff9144235aa7ae9c4a918bd38"
     },
     {
       "path": "lib/pdd/spec-prices.mjs",
@@ -705,8 +705,8 @@
     },
     {
       "path": "lib/pdd/tasks.mjs",
-      "bytes": 15008,
-      "sha256": "91427a94279f685f3398129c07064f37be005ee8746dbcf7d411295f92402066"
+      "bytes": 15694,
+      "sha256": "2f410bd5eae6f26603a6d7bb29786c9dbcf6999f4e317c47483c93dcdda9d2fd"
     },
     {
       "path": "lib/platform-lock.mjs",
@@ -945,8 +945,8 @@
     },
     {
       "path": "lib/tasks.mjs",
-      "bytes": 62551,
-      "sha256": "615572043d68c9d7aec4b375447813cc9dba29ff06481a911d9a79e21549598c"
+      "bytes": 62604,
+      "sha256": "1c8dcf404552bece33ce3d5364c380ba06ac9964f4cd22da5944d014385a465f"
     },
     {
       "path": "lib/throttle-log.mjs",
@@ -956,12 +956,12 @@
     {
       "path": "package.json",
       "bytes": 428,
-      "sha256": "ca4b84907387998f9af689e017b8169ae26ac4c6a6e9c333865199494e53abda"
+      "sha256": "877eac6f66f10dcb85c5852f7061c72096e61f4a338989ae4985c821d81e5b9e"
     },
     {
       "path": "references/capabilities.md",
-      "bytes": 7788,
-      "sha256": "7f8b6806e90bd08db5bb289c7511d18c3a5815df970443f40374d5c3fed29a08"
+      "bytes": 7860,
+      "sha256": "e57b600a637d8acfe672dacb54fba12efbc66053d567ed1161f111f40a655e9a"
     },
     {
       "path": "references/cart-capabilities.md",
@@ -981,8 +981,8 @@
     },
     {
       "path": "references/commands.md",
-      "bytes": 24580,
-      "sha256": "4d5a9d10b549df7be0f35a14e34654b3e5aa0174c06282450aefb5827e0ad70b",
+      "bytes": 24640,
+      "sha256": "e884e19429640d0a863ef9aed897ba36b01e57e53c082991260948f7bb9360b3",
       "links_removed": 1
     },
     {
@@ -1095,8 +1095,8 @@
     },
     {
       "path": "references/pdd.md",
-      "bytes": 32529,
-      "sha256": "da6c7b2fbaf82cbc57c61267a2000593a2650ad1d0ae3619810ec44ec349ab61"
+      "bytes": 33458,
+      "sha256": "cc819a108d160f021af04f291edfe06213d2e2d2481e747c597944eae13aed04"
     },
     {
       "path": "references/products.md",
@@ -1655,8 +1655,8 @@
     },
     {
       "path": "test/pdd-spec-prices.test.mjs",
-      "bytes": 19061,
-      "sha256": "e5e9c77a7d9a5a286c48625a20706066de1265b98f9326bf40007104e9de9376"
+      "bytes": 22138,
+      "sha256": "4c568aaa405487dc3e2363fe34b3cc6679d79486f3630aa0faf89bcaed63bc41"
     },
     {
       "path": "test/playwright-channel.test.mjs",
