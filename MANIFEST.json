@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "name": "winston-shopper",
-  "version": "2.0.12",
-  "source_commit": "ccadbbc3ed1066dd98c4d30029ced2e722e68083",
-  "built_at": "2026-11-08T15:30:52.060Z",
+  "version": "2.0.16",
+  "source_commit": "009f2c7c93dfb6a72f6a78f1a5c004664e8a95e6",
+  "built_at": "2026-11-13T18:28:35.926Z",
   "excludes": "Only committed files from the allowlist are included; private state, installed dependencies and development history are not.",
   "files": [
     {
@@ -18,8 +18,8 @@
     },
     {
       "path": "SKILL.md",
-      "bytes": 23090,
-      "sha256": "a42aab2e15becb4631ec93c362d196bcac8d11e331abc1ea6a30f5c0dc96e539"
+      "bytes": 26662,
+      "sha256": "6dd3add79c6394aea03ba69fa6d58277c42225fc952ae7c6a71957a346d37d79"
     },
     {
       "path": "examples/data/bedding-layout-verification-20260930.json",
@@ -300,8 +300,8 @@
     },
     {
       "path": "lib/cached-report.mjs",
-      "bytes": 71020,
-      "sha256": "dd447e6fc88d4c4dd5144c8f0b4127f6cc7d01706d23efb33f2aad53d2501b57"
+      "bytes": 71624,
+      "sha256": "51c1d08c112a0d767344c658241df0b711fc9ed0ed384c3dab98fc48863e8ec5"
     },
     {
       "path": "lib/cart-availability.mjs",
@@ -330,8 +330,8 @@
     },
     {
       "path": "lib/cli.mjs",
-      "bytes": 49386,
-      "sha256": "09cb9e4555d4274a1fd98672df32102ed8d839815a1fbbdccd35bdeeebede0f4"
+      "bytes": 49910,
+      "sha256": "155f8fbd290315532bbf01cc3c526a53c64cc29642b854ab062cd752475c6674"
     },
     {
       "path": "lib/description-dom.mjs",
@@ -505,8 +505,8 @@
     },
     {
       "path": "lib/local-time.mjs",
-      "bytes": 983,
-      "sha256": "c7a0d72446fdce03b6a1f56068929af2a07fffc0b909c1be84f148b8af9e4bc4"
+      "bytes": 1393,
+      "sha256": "fb2e4a1742d3b9f4872889f7ed4f409f23958b2c642085bcf84a58e08a0a9a3e"
     },
     {
       "path": "lib/main-image-plan.mjs",
@@ -685,8 +685,8 @@
     },
     {
       "path": "lib/pdd/spec-prices-read.mjs",
-      "bytes": 20073,
-      "sha256": "16a737ab938290866635cc2dfa72e9c51235e1bff9144235aa7ae9c4a918bd38"
+      "bytes": 27255,
+      "sha256": "43f5bf3db2e8e5aa2d2d210a03883fdaffa3d50f893dc7af407613e498aac089"
     },
     {
       "path": "lib/pdd/spec-prices.mjs",
@@ -705,8 +705,8 @@
     },
     {
       "path": "lib/pdd/tasks.mjs",
-      "bytes": 15694,
-      "sha256": "2f410bd5eae6f26603a6d7bb29786c9dbcf6999f4e317c47483c93dcdda9d2fd"
+      "bytes": 17077,
+      "sha256": "3149dfb3a11122f26fe615d6fcfcb4ca0248e887d04c05232bfde10bc515d876"
     },
     {
       "path": "lib/platform-lock.mjs",
@@ -750,8 +750,8 @@
     },
     {
       "path": "lib/product.mjs",
-      "bytes": 25054,
-      "sha256": "3f74be8268f98142dbb29742bc5b77f4cb695ee67360788df7aa6932850ae94f"
+      "bytes": 25389,
+      "sha256": "a7581e3d51b959066d96eeaf9895ecce68a7863ea9c3d8e1829a8af5a60cdcee"
     },
     {
       "path": "lib/read-action.mjs",
@@ -945,8 +945,8 @@
     },
     {
       "path": "lib/tasks.mjs",
-      "bytes": 62604,
-      "sha256": "1c8dcf404552bece33ce3d5364c380ba06ac9964f4cd22da5944d014385a465f"
+      "bytes": 62665,
+      "sha256": "8829ed4fde70fdfa8f1c4cf94372ce2941622043d249bc8a26e195c1c1575139"
     },
     {
       "path": "lib/throttle-log.mjs",
@@ -956,12 +956,12 @@
     {
       "path": "package.json",
       "bytes": 428,
-      "sha256": "877eac6f66f10dcb85c5852f7061c72096e61f4a338989ae4985c821d81e5b9e"
+      "sha256": "2d1d914e71b7ccd5845b06928cc4a30b0cc8f1506b80230e5c54cd142e43fcd8"
     },
     {
       "path": "references/capabilities.md",
-      "bytes": 7860,
-      "sha256": "e57b600a637d8acfe672dacb54fba12efbc66053d567ed1161f111f40a655e9a"
+      "bytes": 7935,
+      "sha256": "fe675e3c303477068328766a21289ef37645ed4e8d206fe04e7a079e0676fffd"
     },
     {
       "path": "references/cart-capabilities.md",
@@ -981,8 +981,8 @@
     },
     {
       "path": "references/commands.md",
-      "bytes": 24640,
-      "sha256": "e884e19429640d0a863ef9aed897ba36b01e57e53c082991260948f7bb9360b3",
+      "bytes": 24786,
+      "sha256": "dfc0e9a299254b7b42901f9b148045338dfffc0c23d3eeae4e4fff918717f4de",
       "links_removed": 1
     },
     {
@@ -1043,8 +1043,8 @@
     },
     {
       "path": "references/jd.md",
-      "bytes": 43236,
-      "sha256": "84946bfd863dc78e469706c84bfdfbf700b6f0afd2807074d7da7e55ecf9c49f"
+      "bytes": 43538,
+      "sha256": "9d17e0094f19bfb1650c80b820ae3b041bd91933972fa2c369b477d159fc8106"
     },
     {
       "path": "references/layout-assistance.md",
@@ -1090,13 +1090,13 @@
     },
     {
       "path": "references/pacing.md",
-      "bytes": 9854,
-      "sha256": "a1a667497067062fed1eab59e7bb7ae5726c77c4dd0c7a73ec9d6a55a12263a4"
+      "bytes": 10262,
+      "sha256": "7c3cc9056fe45723ea256ed9b3f01c0c5c268da3f6e0b06dab83951fc7cd4b93"
     },
     {
       "path": "references/pdd.md",
-      "bytes": 33458,
-      "sha256": "cc819a108d160f021af04f291edfe06213d2e2d2481e747c597944eae13aed04"
+      "bytes": 35492,
+      "sha256": "97c013ae948e42ab0710341d4b5aa2940e3e689d92e49d4ec867d47260dcda8f"
     },
     {
       "path": "references/products.md",
@@ -1129,8 +1129,8 @@
     },
     {
       "path": "references/search-price-filters.md",
-      "bytes": 16812,
-      "sha256": "f51616b6f1374de2d62b700b3a821481573e71de83ca534ffc62a099929f6999",
+      "bytes": 17798,
+      "sha256": "4d00502f1572bd81ac7593802ed162a08cbd09a3316084fb5fe79b353476ee83",
       "links_removed": 3
     },
     {
@@ -1331,7 +1331,7 @@
     {
       "path": "test/cached-report.test.mjs",
       "bytes": 35681,
-      "sha256": "d173a9d81a4355cf36d54bb4a3174f9692cdf61230bbd03778e93dd2e4fdf3a2"
+      "sha256": "6ecf00747aae3623e8f639da4fc38b4307cb95784ba0e4a943e2fe30aa901790"
     },
     {
       "path": "test/cart-availability.test.mjs",
@@ -1509,6 +1509,11 @@
       "sha256": "83fe6e26a08fd734e8e0337f8a4ac65dbfde0930825a6e1c8e6bd5e553e11e53"
     },
     {
+      "path": "test/local-time.test.mjs",
+      "bytes": 398,
+      "sha256": "3e29a28daad33b6bca268f36409e1d61d8de7a95069c5dcadd771cbc121ac811"
+    },
+    {
       "path": "test/main-image-task.test.mjs",
       "bytes": 22422,
       "sha256": "63ea1b94243fec9eaee0edcfefa2c019ca69231bb5b0017256b210c57bee54c0"
@@ -1655,8 +1660,8 @@
     },
     {
       "path": "test/pdd-spec-prices.test.mjs",
-      "bytes": 22138,
-      "sha256": "4c568aaa405487dc3e2363fe34b3cc6679d79486f3630aa0faf89bcaed63bc41"
+      "bytes": 29259,
+      "sha256": "540ec815be7b2ac91aaafe8c5e9086034b65abd70c77eae8867ba485b4f0a0ad"
     },
     {
       "path": "test/playwright-channel.test.mjs",
@@ -1720,8 +1725,8 @@
     },
     {
       "path": "test/read-dom.test.mjs",
-      "bytes": 125742,
-      "sha256": "24d0b90e06f7f7e3dbdfee470dd1353d782edbe7b26dfe0e293698ac00bc3055"
+      "bytes": 126859,
+      "sha256": "48ae6f5bf2d680e92e3b62887d8f0c9e41b093abfe3a88247080eec3af5b2f22"
     },
     {
       "path": "test/report-export.test.mjs",

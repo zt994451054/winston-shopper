@@ -132,7 +132,8 @@ test('the drawer header gives the price of the selection, a range while a group 
 });
 
 /** A bridge whose tab shows a PDD search page; card 2 opens the product page, later swapped for the drawer page. */
-function specBridge(t, { onOpen = null, unavailable = null } = {}) {
+function specBridge(t, { onOpen = null, unavailable = null, loseFirstClose = false } = {}) {
+  let closeLost = !loseFirstClose;
   const tab = { id: 88, url: '' };
   const clicks = [];
   const cards = defaultPddCards().map((card, index) => ({ ...card, onClick: index === 1 ? () => { tab.url = pddProductUrl(); } : null }));
@@ -147,6 +148,8 @@ function specBridge(t, { onOpen = null, unavailable = null } = {}) {
     if (body.action === 'tab_list') return send({ id: body.id, success: true, data: { tabs: state.tabs } });
     if (body.action === 'eval') {
       const current = tab.url.includes('/goods.html') ? productPage : searchPage;
+      // The click never reaches the page and the reply makes no sense, so its receipt is unknown.
+      if (!closeLost && body.script.includes('"action":{"kind":"close"}')) { closeLost = true; return send({ id: body.id, success: true, data: { result: null } }); }
       return send({ id: body.id, success: true, data: { result: current.evaluate(body.script) } });
     }
     return send({ id: body.id, success: false, error: 'unexpected' });
@@ -188,15 +191,24 @@ test('task-start --spec-prices opens each drawer once, clicks each unselected op
   ]);
   assert.deepEqual(result.drawers[1].readings[0].notes, ['2件9.9折']);
   assert.deepEqual([result.schema_version, result.focus_group, result.coverage.options_skipped_greyed, result.coverage.other_groups_clicked, result.drawers[0].skipped_greyed],
-    [3, null, 0, true, []]);
+    [4, null, 0, true, []]);
+  assert.deepEqual([result.preset, Object.hasOwn(result.drawers[0], 'preset')], [null, false]);
   // Results saved before 2026-11-08 (formats 1 and 2, journal 1) are rebuilt as saved.
   for (const version of [1, 2]) {
     const old = structuredClone(saved), state = old.operations[0].spec_read;
-    delete state.focus_group; state.schema_version = 1;
+    delete state.focus_group; delete state.preset; state.schema_version = 1;
+    for (const step of state.steps) delete step.resent;
     old.operations[0].result = pddSpecPricesResult(state, old.operations[0].target, version);
     validatePddTask(old);
     assert.equal(Object.hasOwn(old.operations[0].result, 'focus_group'), false);
   }
+  // Format 3 with journal 2 (2026-11-08, before --spec-choose) is rebuilt as saved too.
+  const before = structuredClone(saved), journal = before.operations[0].spec_read;
+  delete journal.preset; journal.schema_version = 2;
+  for (const step of journal.steps) delete step.resent;
+  before.operations[0].result = pddSpecPricesResult(journal, before.operations[0].target, 3);
+  validatePddTask(before);
+  assert.equal(Object.hasOwn(before.operations[0].result, 'preset'), false);
   const ledger = JSON.parse(await readFile(path.join(directory, 'pacing-pdd.json'), 'utf8'));
   assert.deepEqual(ledger.loads.map(load => load.category), ['page'], 'only the card click loads a page; drawer clicks are actions');
   for (const edit of [task => { task.operations[0].result.drawers[0].readings[1].price.amount = 1; },
@@ -292,6 +304,79 @@ test('--spec-group must name a group the product task read, and goes only with -
   assert.equal(lone.value.error.code, 'INVALID_ARGUMENTS');
   const taobao = await run(['task-start', '--task', 'tb-specs', '--source-task', 'x', '--spec-group', '尺码', '--state-dir', directory]);
   assert.equal(taobao.value.error.code, 'UNSUPPORTED_PLATFORM');
+});
+
+test('--spec-choose clicks that option first in each drawer, then the focus group under it, and lists what it greys out', async t => {
+  // Live 2026-11-09: asked for white size 43, sizes were read under black. Here 咖色 greys out size M.
+  const bridge = specBridge(t, { unavailable: (label, selection) => label === 'M 100-115斤' && selection.颜色分类 === '咖色常规款' });
+  const directory = await stateDirectory(t);
+  const { ran } = await productThenSpecPrices(bridge, directory, ['--spec-group', '尺码', '--spec-choose', '颜色分类=咖色']);
+  assert.deepEqual([ran.code, ran.value.status], [0, 'complete'], JSON.stringify(ran.value));
+  // The 免拼 drawer shares the selection, so 咖色 is already chosen there and not clicked again (a click would clear it).
+  assert.deepEqual(bridge.clicks, ['open alone', 'option 咖色常规款', 'close alone', 'open group', 'close group']);
+  const saved = JSON.parse(await readFile(path.join(directory, 'tasks', 'pdd-card-2-specs.json'), 'utf8'));
+  validatePddTask(saved);
+  const { result } = saved.operations[0];
+  assert.deepEqual(result.preset, { group: '颜色分类', text: '咖色' });
+  assert.deepEqual(result.drawers.map(drawer => drawer.preset), [
+    { group: '颜色分类', requested: '咖色', option: '咖色常规款', status: 'chosen', candidates: [], focus_unavailable: ['M 100-115斤'] },
+    { group: '颜色分类', requested: '咖色', option: '咖色常规款', status: 'already_selected', candidates: [], focus_unavailable: ['M 100-115斤'] }]);
+  assert.deepEqual(result.drawers[0].readings.map(reading => reading.chosen), ['已选：黑色常规款 S 80-100斤', '已选：咖色常规款 S 80-100斤']);
+  assert.deepEqual([result.coverage.status, result.missing.includes('preset_option_not_chosen')], ['partial', false]);
+  const output = path.join(directory, '..', `pdd-spec-preset-${process.pid}-${Date.now()}.md`);
+  t.after(() => rm(output, { force: true }));
+  assert.equal((await run(['report-export', '--task', 'pdd-card-2-specs', '--state-dir', directory, '--format', 'markdown', '--output', output])).code, 0);
+  assert.match(await readFile(output, 'utf8'), /spec\\_preset.*status=chosen; focus\\_unavailable=M 100-115斤/);
+  const forged = structuredClone(saved);
+  forged.operations[0].spec_read.preset.group = '尺码';
+  assert.throws(() => validatePddTask(forged), { code: 'INVALID_CHECKPOINT' });
+});
+
+test('--spec-choose that matches no option or several clicks nothing in the focus group, closes the drawers and lists the options', async t => {
+  for (const [text, status] of [['白色', 'not_found'], ['常规款', 'ambiguous']]) {
+    const bridge = specBridge(t);
+    const directory = await stateDirectory(t);
+    const { ran } = await productThenSpecPrices(bridge, directory, ['--spec-group', '尺码', '--spec-choose', `颜色分类=${text}`]);
+    assert.deepEqual([ran.code, ran.value.status], [0, 'complete'], JSON.stringify(ran.value));
+    assert.deepEqual(bridge.clicks, ['open alone', 'close alone', 'open group', 'close group']);
+    const { result } = JSON.parse(await readFile(path.join(directory, 'tasks', 'pdd-card-2-specs.json'), 'utf8')).operations[0];
+    assert.deepEqual(result.drawers.map(drawer => [drawer.preset.status, drawer.preset.option, drawer.preset.candidates, drawer.preset.focus_unavailable]),
+      [[status, null, ['黑色常规款', '咖色常规款'], null], [status, null, ['黑色常规款', '咖色常规款'], null]]);
+    assert.deepEqual([result.coverage.status, result.missing.includes('preset_option_not_chosen')], ['partial', true]);
+  }
+});
+
+test('--spec-choose needs --spec-group, another known group and GROUP=TEXT', async t => {
+  const bridge = specBridge(t);
+  const directory = await stateDirectory(t);
+  const { created } = await productThenSpecPrices(bridge, directory, ['--spec-group', '尺码', '--spec-choose', '鞋码=白色']);
+  assert.equal(created.value.error.code, 'SPEC_GROUP_UNKNOWN');
+  const common = ['--endpoint', (await bridge.server).endpoint, '--state-dir', directory, '--platform', 'pdd', '--source-task', 'pdd-card-2', '--spec-prices'];
+  for (const args of [['--spec-choose', '颜色分类=咖色'], ['--spec-group', '尺码', '--spec-choose', '尺码=M'], ['--spec-group', '尺码', '--spec-choose', '咖色'],
+    ['--spec-group', '尺码', '--spec-choose', '颜色分类=']]) {
+    const refused = await run(['task-start', '--task', 'refused-specs', ...common, ...args]);
+    assert.equal(refused.value.error.code, 'INVALID_ARGUMENTS', JSON.stringify(args));
+  }
+  const taobao = await run(['task-start', '--task', 'tb-specs', '--source-task', 'x', '--spec-choose', '颜色=白', '--state-dir', directory]);
+  assert.equal(taobao.value.error.code, 'UNSUPPORTED_PLATFORM');
+  assert.deepEqual(bridge.clicks, []);
+});
+
+test('a close click with an unknown receipt is sent once more when the drawer is seen still open; options never are', async t => {
+  // Live 2026-11-09: the caller's 120 s command timeout killed task-run right after the close click was recorded.
+  const bridge = specBridge(t, { loseFirstClose: true });
+  const directory = await stateDirectory(t);
+  const { ran } = await productThenSpecPrices(bridge, directory, ['--spec-group', '尺码']);
+  assert.deepEqual([ran.code, ran.value.status], [0, 'complete'], JSON.stringify(ran.value));
+  assert.deepEqual(bridge.clicks, ['open alone', 'option M 100-115斤', 'close alone', 'open group', 'option S 80-100斤', 'close group']);
+  const saved = JSON.parse(await readFile(path.join(directory, 'tasks', 'pdd-card-2-specs.json'), 'utf8'));
+  validatePddTask(saved);
+  const closes = saved.operations[0].spec_read.steps.filter(step => step.kind === 'close');
+  assert.deepEqual(closes.map(step => [step.resent, step.outcome, step.confirmed]), [[true, 'clicked', true], [false, 'clicked', true]]);
+  assert.equal(saved.operations[0].result.coverage.drawers_closed, true);
+  const forged = structuredClone(saved);
+  forged.operations[0].spec_read.steps.find(step => step.kind === 'option').resent = true;
+  assert.throws(() => validatePddTask(forged), { code: 'INVALID_CHECKPOINT' });
 });
 
 test('--spec-prices needs a completed PDD product task and is refused on other platforms', async t => {

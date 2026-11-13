@@ -1903,3 +1903,15 @@ test('a body field containing another entry stops rather than concatenating main
   const nodes=[element('ItemTitle','Product'),element('Drawer','',[element('Comments','',[comment])])];
   assert.equal(evaluate(reviewsScript(target),target.url,nodes).state,'structure_changed');
 });
+
+test('an inline Taobao access-anomaly notice in the page body stops a product read as a rate limit', () => {
+  const target = parseProductUrl('https://detail.tmall.com/item.htm?id=123');
+  const nodes = [element('ItemTitle', 'One'), element('skuWrapper')];
+  const read = body => vm.runInNewContext(productScript(target), { URL, innerWidth: 1000, innerHeight: 800, location: { href: target.url },
+    document: Object.assign(element('', '', nodes), { title: 'Synthetic product', readyState: 'complete', elementsFromPoint: () => [], body }),
+    getComputedStyle: node => ({ display: node.hidden ? 'none' : 'block', visibility: 'visible', ...node.style }) });
+  const notice = { innerText: '店铺 访问异常提示 查看帮助 系统检测到当前访问存在异常，为避免您的个人信息泄露，请您在安全的网络与浏览环境下重新访问' };
+  assert.equal(read(notice).state, 'rate_limited');
+  assert.throws(() => validateProduct(read(notice), target), { code: 'RATE_LIMITED' });
+  assert.notEqual(read({ innerText: '访问异常提示 只是评价里的字' }).state, 'rate_limited');
+});
