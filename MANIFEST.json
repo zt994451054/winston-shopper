@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "name": "winston-shopper",
-  "version": "2.0.16",
-  "source_commit": "009f2c7c93dfb6a72f6a78f1a5c004664e8a95e6",
-  "built_at": "2026-11-13T18:28:35.926Z",
+  "version": "2.0.17",
+  "source_commit": "b83db46471d779727dd85cb1fd9a0ac4864b7cb3",
+  "built_at": "2026-11-14T02:48:33.913Z",
   "excludes": "Only committed files from the allowlist are included; private state, installed dependencies and development history are not.",
   "files": [
     {
@@ -18,8 +18,8 @@
     },
     {
       "path": "SKILL.md",
-      "bytes": 26662,
-      "sha256": "6dd3add79c6394aea03ba69fa6d58277c42225fc952ae7c6a71957a346d37d79"
+      "bytes": 26835,
+      "sha256": "589707da0929c43086602b41acb65d95f0b41339b5d6d5b79034450e03ccd14a"
     },
     {
       "path": "examples/data/bedding-layout-verification-20260930.json",
@@ -330,8 +330,8 @@
     },
     {
       "path": "lib/cli.mjs",
-      "bytes": 49910,
-      "sha256": "155f8fbd290315532bbf01cc3c526a53c64cc29642b854ab062cd752475c6674"
+      "bytes": 50194,
+      "sha256": "cc561d85b764c092c13f3a9e6e2cbed2451679739effbeaa67a88915d4d08fc8"
     },
     {
       "path": "lib/description-dom.mjs",
@@ -622,6 +622,11 @@
       "path": "lib/page-dom.mjs",
       "bytes": 5359,
       "sha256": "299d96ab78da37ddb8b4523e8c2a66007694270f84b4f586785a4783b4f36557"
+    },
+    {
+      "path": "lib/page-gap.mjs",
+      "bytes": 3560,
+      "sha256": "578de9fb1936b1614640582c2f6ec266a1b8d447fb38289c55eea44c95ec464b"
     },
     {
       "path": "lib/pdd/order-detail-read.mjs",
@@ -956,12 +961,12 @@
     {
       "path": "package.json",
       "bytes": 428,
-      "sha256": "2d1d914e71b7ccd5845b06928cc4a30b0cc8f1506b80230e5c54cd142e43fcd8"
+      "sha256": "7b54a3d27cb6e92835561e0c2e97f0c1aa4f8be0c8f9b61f445c410640ed8358"
     },
     {
       "path": "references/capabilities.md",
       "bytes": 7935,
-      "sha256": "fe675e3c303477068328766a21289ef37645ed4e8d206fe04e7a079e0676fffd"
+      "sha256": "72941e68fc09b35776c274bd3bc70449308fcd1075437a3389cf61ff3cbdaa7d"
     },
     {
       "path": "references/cart-capabilities.md",
@@ -1090,8 +1095,8 @@
     },
     {
       "path": "references/pacing.md",
-      "bytes": 10262,
-      "sha256": "7c3cc9056fe45723ea256ed9b3f01c0c5c268da3f6e0b06dab83951fc7cd4b93"
+      "bytes": 10852,
+      "sha256": "59c82bc2c9d19d247dc855367cdde9c96fa49ed8c351c316ad26fd730d65790a"
     },
     {
       "path": "references/pdd.md",
@@ -1622,6 +1627,11 @@
       "path": "test/package-build.test.mjs",
       "bytes": 8635,
       "sha256": "3da186a587fd2066b54dc9ea169a73ffe1bc67f9687fd2be31afc21e75214ff0"
+    },
+    {
+      "path": "test/page-gap.test.mjs",
+      "bytes": 4106,
+      "sha256": "7d648f46e85c6153677d196a82e83b96fe2e6de3c54c2784d6b9be2d6f53126f"
     },
     {
       "path": "test/page-open-cli.test.mjs",
