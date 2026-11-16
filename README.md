@@ -1,174 +1,200 @@
-# 消费者电商只读采集 Skill（淘宝／天猫、京东、拼多多）
+# winston-shopper
 
-这个 Skill 让 coding agent 通过用户已登录的 Chrome 读取淘宝／天猫、京东和拼多多（手机网页版）的数据。三个平台都已在真实页面上跑过两轮完整复测。
+[English](README.en.md) ｜ 中文
 
-**能读取的内容**
+让 AI 助手在**你自己已登录的 Chrome** 里，**只读地**查看淘宝／天猫、京东和拼多多：搜商品、看详情和评价、比价格、整理购物车和订单。
 
-| | 淘宝／天猫 | 京东 | 拼多多 |
+它是一个 Agent Skill（技能包），可以装进 Claude Code、Codex、CodeBuddy 等 AI 编程助手。AI 读了 [SKILL.md](SKILL.md) 后，会通过随包的命令行程序操作浏览器，把页面上看到的内容整理成带来源的结构化数据交给你。
+
+> **从不下单。** 不加购、不付款、不改购物车、不动账户设置。遇到登录、验证码或限流，它会停下来交给你处理。
+
+## 能用它做什么
+
+在 AI 助手里直接说就行，例如：
+
+- “帮我看看罗技 M330 在淘宝、京东、拼多多上各卖多少钱，按价格从低到高。”
+- “这件商品的差评主要在说什么？把追评也读一下。”
+- “我淘宝购物车里哪些东西已经买不了了？”
+- “把我淘宝最近 3 页订单整理成一张表，导出成 CSV。”
+- “这双鞋在拼多多上，43 码的白色和黑色价格一样吗？”
+
+技能只负责如实取回页面上的内容。比较、总结和推荐由你的 AI 助手完成。
+
+## 设计原则
+
+- **只读**：不加购、不下单、不付款，不修改购物车、订单、地址或账户；不读取 cookie、浏览器存储、收货人、地址、电话、支付方式和物流单号。
+- **像人一样慢**：每次操作之间有随机间隔，每类页面有次数上限。两次新搜索至少隔 2～4 分钟，同一平台连开商品页至少隔 15～20 秒。速度慢是有意的。
+- **遇到拦截就停**：出现登录页、验证码或限流提示时立即暂停，把那个平台锁 15 分钟，请你在浏览器里处理。不自动过验证码，不伪造鼠标轨迹，不隐藏自动化痕迹，不改浏览器指纹。
+- **数据留在本机**：读到的结果只保存在你电脑上的状态目录里，不上传任何地方。
+- **可恢复**：任务中断后可以接着跑，不会从头再来，也不会重置次数上限。
+- **如实交付**：每条结果都带来源页面、观察时间、覆盖范围和缺项；取不到的就留空，不猜。
+
+## 能读什么
+
+| | 淘宝／天猫 | 京东 | 拼多多（手机网页版） |
 | --- | --- | --- | --- |
-| 搜索 | 1～5 页；销量、价格升降序、价格区间；只看天猫、包邮 | 1～5 页首屏；销量、价格升降序、价格区间 | 已画出的卡片；销量、价格升降序、价格区间 |
-| 商品详情 | 标题、店铺、参数、规格及规格图、展示价、图集、主图、详情长图、服务说明 | 右侧面板、同组规格、商品详情区、默认评价区 | 从搜索卡片点进去读详情 |
-| 各规格价格 | 指定规格组合的展示价（最多 20 个组合） | 不做（每个规格是独立商品） | 打开规格抽屉逐个点选项（每个抽屉最多 12 次） |
-| 评价 | 按分类，每类前 10 条，含追评 | 1～3 个分类的首屏卡片 | “全部”里已加载的最多 20 条 |
-| 购物车 | 已加载的行（最多 50），每行能否购买 | 已加载的行，每行能否购买 | 没有购物车 |
-| 订单 | 列表 1～10 页；单个订单的详情正文 | 列表已加载的订单；单个订单详情 | 列表已加载的订单；单个订单详情 |
-| 导出 | Markdown／CSV 报告 | Markdown／CSV 报告 | Markdown／CSV 报告 |
+| 搜索 | 1～5 页 | 1～5 页（每页首屏） | 已显示的卡片 |
+| 排序与筛选 | 销量、价格升降序、价格区间、只看天猫、包邮 | 销量、价格升降序、价格区间 | 销量、价格升降序、价格区间 |
+| 商品详情 | 标题、店铺、参数、规格、展示价、图片链接、详情长图、服务说明 | 标题、价格、店铺、亮点参数、服务、同组规格、详情区 | 标题、价格、规格、店铺、参数、详情图 |
+| 各规格价格 | 指定规格组合（最多 20 个） | 不适用（京东每个规格是独立商品） | 逐个点选规格选项（每次最多 12 个） |
+| 评价 | 按分类读，每类前 10 条，含追评 | 1～3 个分类 | “全部”里最多 20 条 |
+| 购物车 | 最多 50 行，标出哪些买不了 | 已加载的行，标出哪些买不了 | 拼多多没有购物车 |
+| 订单 | 列表 1～10 页、单个订单详情 | 列表、单个订单详情 | 列表、单个订单详情 |
+| 导出 | Markdown／CSV | Markdown／CSV | Markdown／CSV |
 
-完整清单和每项的限制见[能力清单](references/capabilities.md)。
+每一项的详细范围和限制见[能力清单](references/capabilities.md)。
 
-**运行方式**
+## 工作原理
 
-- 全程只读：不加购、不下单、不改账户。
-- 所有页面操作都按随机间隔执行，并有次数上限，以降低风控风险。
-- 遇到登录、验证码或限流页面就停下，等用户处理；不自动过验证码。
-- 中断后可以恢复，失败时按限定次数重试。
+```text
+你 ──对话──▶ AI 助手（Claude Code 等）
+                │ 按 SKILL.md 运行命令
+                ▼
+        命令行程序 scripts/shopping.mjs ──▶ 本机状态目录（任务、结果、节奏记录）
+                │
+                ▼
+        本机连接服务 127.0.0.1:19825（只接受本机访问）
+                │
+                ▼
+        Playwright 扩展（微软出品，从 Chrome 应用商店安装）
+                │
+                ▼
+        你已登录的 Chrome ──▶ 淘宝／京东／拼多多页面
+```
 
-agent 使用说明见 [SKILL.md](SKILL.md)，各项功能的验收状态见[整体验收清单](references/skill-acceptance.md)。
-
-**来源与更新**
-
-- 来源：<https://github.com/zt994451054/winston-shopper>（私有仓库，`package.json` 的 `repository` 也写着）。只从这里取新版；不要为找来源去翻 shell 历史、聊天记录、下载文件夹或别的目录，取不到就问用户。
-- 更新：`bridge-stop` → 把仓库克隆到新的临时目录并核对 `MANIFEST.json` → 用新文件覆盖本目录，**保留 `.runtime/` 和 `runtime/playwright-backend/`** → `setup`、`doctor`（不用跑完整测试）→ 删掉临时目录。详见[更新到新版本](references/setup.md#更新到新版本)。
-- **不要做备份副本**：`.runtime/` 里有扩展令牌，状态目录（默认 `~/.consumer-shopping/bindings`）里有真实订单和购物车，都不要复制到 `/tmp`、文稿或其他位置。更新只换程序文件，不会碰它们；要回退就从仓库取旧版本的提交。
-
-## 安装前提
-
-| 需要什么 | 说明 |
-| --- | --- |
-| 电脑 | macOS（已验证）。Windows、Linux 没验证过 |
-| Node.js 22 或更新版本 | 带 npm。已验证 22.16 和 24.13 |
-| Google Chrome | 用平时的资料，或让程序一键新建专用资料，见[环境准备](references/setup.md) |
-| 浏览器扩展 | 从 Chrome 应用商店安装 Playwright 扩展：<https://chromewebstore.google.com/detail/playwright-extension/mmlmfjhmonkocbjadbfplnigmagldckm> |
-| 本地连接服务 | `setup --install` 按锁文件安装 Playwright 依赖；首次下载需要联网，不装全局依赖 |
-| 平台账号 | 在那个 Chrome 资料里由用户自己登录淘宝、京东、拼多多（`mobile.pinduoduo.com`）。用到哪个平台登录哪个 |
-| 一个 coding agent | 能运行 `node` 命令、读文件，例如 Claude Code |
-| 京东订单详情 | 用户要在 Chrome 里允许 order.jd.com 弹出窗口 |
-
-不需要 Python、数据库、API 密钥或付费服务。核心程序只用 Node.js 内置库。
+程序不调用平台接口，也不另开一个“机器人浏览器”。它在你自己的 Chrome 里打开页面、读取页面上显示的内容，所以用的是你本来的登录状态。建议在 Chrome 里新建一个专用资料（程序可以一键新建），和日常浏览分开。
 
 ## 快速开始
 
-按以下顺序准备，所有命令都在本目录用 Node.js 22 或更新版本运行：
+### 需要准备
 
-1. `setup --install` 安装依赖。
-2. `setup --open-store` 在平时的 Chrome 里打开扩展商店页（想和平时浏览分开就加 `--new-profile`，程序会让 Chrome 新建一个专用资料），点“添加至 Chrome”。
-3. 在 Chrome 工具栏点 Playwright 扩展图标、按“复制”，然后运行 `token-save`：程序从剪贴板读出令牌存好，再清空剪贴板（读不到时用 `token-save --dialog` 弹框粘贴）。令牌只存在本机 `.runtime/pw-ext-token`（权限 `600`），不要发给 agent、贴进聊天或命令参数。
-4. `bridge-start` 启动服务：只有一个资料装了扩展时自动选用它。
-5. `doctor` 确认 `status: ready` 后，用 `page-open` 打开任务页面；没登录的平台会停在登录页，登录后继续。
+| 项目 | 说明 |
+| --- | --- |
+| 电脑 | macOS（已验证）。Windows、Linux 尚未验证 |
+| Node.js | 22 或更新版本，带 npm |
+| Google Chrome | 平时的资料或专用资料都可以 |
+| Playwright 扩展 | [Chrome 应用商店](https://chromewebstore.google.com/detail/playwright-extension/mmlmfjhmonkocbjadbfplnigmagldckm)，安装时程序会帮你打开这个页面 |
+| 平台账号 | 用到哪个平台，就在那个 Chrome 资料里登录哪个（拼多多登录 `mobile.pinduoduo.com`） |
+| AI 助手 | 能运行 `node` 命令、读文件的工具，例如 Claude Code |
 
-用 Claude Code 等 AI 工具时，这些命令由 AI 按 `setup` 返回的 `next_action` 依次运行，你只需要点一次“添加”、在扩展里点一次“复制”并告诉 AI 复制好了。
+不需要 Python、数据库、API 密钥或付费服务。核心程序只用 Node.js 内置库，连接服务的依赖由锁文件固定。
 
-命令依次是：
+### 安装
 
-```sh
-node scripts/shopping.mjs setup --install
-node scripts/shopping.mjs setup --open-store
-node scripts/shopping.mjs token-save
-node scripts/shopping.mjs bridge-start
-node scripts/shopping.mjs doctor
-node scripts/shopping.mjs page-open --search "罗技 M330"
+把仓库放进你的 AI 助手的 skills 目录，例如 Claude Code：
+
+```bash
+git clone https://github.com/zt994451054/winston-shopper.git ~/.claude/skills/winston-shopper
 ```
 
-`setup` 分别报告依赖、扩展和令牌状态，并在 `next_action` 里说明下一步；准备齐全时为 `ready_for_bridge_start`。`bridge-start` 成功为 `bridge_connected`，所用资料保存在本机，以后不用再选。好几个资料都装了扩展时，用 `bridge-start --profile "<资料目录名>"` 选一个。默认地址为 `http://127.0.0.1:19825`，重复启动复用同一服务。`doctor` 不启动、不重连、不读页面，没有任务页面时也算就绪。
+其他工具放进各自的 skills 目录即可，例如 CodeBuddy 是 `~/.codebuddy/skills/winston-shopper`。不支持 skills 目录的工具，可以直接把 SKILL.md 的路径告诉它，让它读取后照做。
 
-服务要一直运行，暂停等用户时也不要关闭；重启后无法自动认回原页面编号。确定不再继续原页面时，用 `node scripts/shopping.mjs bridge-stop` 明确停止。页面清单只包括本次连接能看到的页面，看不到用户自己打开的页面；任务页面要用 `page-open` 或任务约定的入口打开。
+### 第一次使用
 
-在新环境里从头验收见[纯净环境验收](references/clean-install-acceptance.md)；错误码、服务文件和连接说明见[环境准备](references/setup.md)。
+最省事的方式是直接对 AI 助手说“帮我在淘宝搜一下罗技 M330”。它会按 `setup` 给出的下一步依次准备，你只需要做三件事：
 
-## 窗口与鼠标
+1. 在打开的商店页点“添加至 Chrome”；
+2. 点工具栏上的 Playwright 扩展图标，按“复制”，然后告诉 AI 复制好了；
+3. 在弹出的页面里登录要用的平台。
 
-平时不跳前台，程序能自己读就先自己读。建立扩展连接时装了扩展的 Chrome 窗口会跳一次；京东订单详情弹出页会被带到前面。淘宝价格菜单需要真实移入、京东分类评价需要读取时，如果页面在后台，程序会先把该页面切到前面。登录、验证码或限流导致停下时，先保存暂停状态，再显示对应页面一次；显示失败不改变原来的错误或暂停。
+也可以在技能目录里手动运行：
 
-**淘宝价格任务整个运行期间，鼠标不要经过装了扩展的 Chrome 窗口**，否则会收起价格菜单。其他窗口可以照常使用。完整说明见[窗口规则](references/setup.md#窗口何时会到前面)。
+```bash
+node scripts/shopping.mjs setup --install
+```
 
-## 常用示例
+```bash
+node scripts/shopping.mjs setup --open-store
+```
 
-搜索第 1 页，按价格从低到高排序，并筛选 40～60 元：
+```bash
+node scripts/shopping.mjs token-save
+```
+
+```bash
+node scripts/shopping.mjs bridge-start
+```
+
+```bash
+node scripts/shopping.mjs doctor
+```
+
+各条命令的作用：
+
+- `setup --install`：安装连接服务的依赖，只有第一次需要联网。
+- `setup --open-store`：打开扩展商店页。加 `--new-profile` 会新建一个专用 Chrome 资料。
+- `token-save`：从剪贴板读出扩展令牌，存到本机后清空剪贴板。
+- `bridge-start`：启动本机连接服务。
+- `doctor`：检查环境，显示 `status: ready` 就可以用了。
+
+扩展令牌只保存在技能目录的 `.runtime/pw-ext-token`（权限 600）。**不要把它发给 AI 或贴进聊天。**
+
+## 手动运行示例
+
+平时让 AI 助手代劳即可。想自己试的话，下面是淘宝搜索加价格区间的例子：
 
 ```sh
 node scripts/shopping.mjs page-open --search '罗技 M330' --json
-node scripts/shopping.mjs task-start --task m330-price --search '罗技 M330' --tab <返回的tab_id> --sort price-asc --min-price 40 --max-price 60
-node scripts/shopping.mjs task-run --task m330-price --json
+node scripts/shopping.mjs task-start --task m330 --search '罗技 M330' --tab <返回的tab_id> --sort price-asc --min-price 40 --max-price 60
+node scripts/shopping.mjs task-run --task m330 --json
+node scripts/shopping.mjs report-export --task m330 --format csv --output ~/Desktop/m330.csv
 ```
 
-读取一件商品的详情：
+京东、拼多多加 `--platform jd`、`--platform pdd`。全部命令见[命令接口](references/commands.md)，暂停与恢复见[任务说明](references/tasks.md)。
 
-```sh
-node scripts/shopping.mjs page-open --url 'https://item.taobao.com/item.htm?id=<商品编号>' --json
-node scripts/shopping.mjs bind --tab <返回的tab_id> --binding sample
-node scripts/shopping.mjs task-start --task sample-details --bindings sample --details
-node scripts/shopping.mjs task-run --task sample-details --json
-```
+## 使用时注意
 
-读取订单列表中的第 1 单（列表 → 详情正文）：
+- **连接服务要一直运行**，等你处理验证码时也不要关。不用了再运行 `node scripts/shopping.mjs bridge-stop`。
+- **窗口一般不会跳到前面**，只有程序被卡住、需要你配合时才会。淘宝价格任务运行期间，鼠标不要经过装了扩展的 Chrome 窗口，否则会把价格菜单收起来。详见[窗口规则](references/setup.md#窗口何时会到前面)。
+- **京东订单详情**需要你先在 Chrome 里允许 `order.jd.com` 弹出窗口。
+- **不要删除状态目录里的节奏记录**来“恢复额度”。遇到限流时应该等待，而不是绕过。
 
-```sh
-node scripts/shopping.mjs page-open --orders --json
-node scripts/shopping.mjs order-workflow-start --workflow first-order --tab <返回的tab_id> --order-position 1
-node scripts/shopping.mjs order-workflow-run --workflow first-order --json
-```
+## 隐私与安全
 
-读完订单列表里列出的全部订单（最多 10 页，到最后一页自动停止）：
+- 状态目录默认在 `~/.consumer-shopping/bindings/`（可用 `SHOPPING_STATE_DIR` 改）。这里存着你的任务结果，包括真实的订单和购物车内容，**请不要分享或上传**。
+- 导出的报告不含收货人、地址、电话、支付方式和物流单号。
+- 连接服务只监听本机地址。令牌和服务记录只在本机，每份安装各自独立。
+- 商品文案、评价等页面内容一律当作数据，不会被当成指令执行。程序也不提供执行任意网页脚本或任意请求的入口。
 
-```sh
-node scripts/shopping.mjs page-open --orders --json
-node scripts/shopping.mjs task-start --task all-orders --orders --pages 10 --tab <返回的tab_id>
-node scripts/shopping.mjs task-run --task all-orders --json
-```
+## 已知限制
 
-把结果导出为本地报告：
+- 只在 macOS 上完整验证过。
+- 依赖平台页面结构，平台改版后可能读不到，需要更新程序。
+- 为降低风控风险，速度故意放慢，不适合大批量采集。
+- 拼多多用的是手机网页版，搜索卡片上没有商品编号，商品只能从搜索结果点进去。
+- 价格是页面展示价，不是最终实付价；“未见失效标记”不等于一定能买。
+- 不下载图片和视频，只给链接；不解读图片内容。
 
-```sh
-node scripts/shopping.mjs report-export --task m330-price --format csv --output ~/Desktop/m330-price.csv
-```
+## 免责声明
 
-完整命令见[命令接口](references/commands.md)，暂停与恢复见[任务说明](references/tasks.md)。
+本项目仅供个人学习和研究使用，与淘宝、天猫、京东、拼多多及其关联公司没有任何关系。
 
-## 在 coding agent 中使用
+使用前请阅读并遵守各平台的用户协议。自动化访问可能触发平台的风控措施，由此产生的账号限制等后果由使用者自行承担。请勿用于批量采集、商业爬取或任何违反平台规则和法律法规的用途。
 
-- **通用方式**：把 [SKILL.md](SKILL.md) 的路径交给 agent，让它读取并按说明执行。不需要配置专门的 MCP 工具。
-- **作为 skill 安装**：把目录放进 agent 的 skills 目录，例如 Claude Code 的 `~/.claude/skills/winston-shopper/`，再按上面的顺序准备；每份安装都有自己的本机配置，不复制令牌和服务记录。
-- **运行位置**：命令必须在 Chrome 和本机服务所在的机器上执行；连接服务只接受本机地址。只上传 Markdown 文件无法建立连接。
-
-复制时排除以下内容：
-
-- 所有 `node_modules/`、`.runtime/`、`.npm-cache/`；保留 `runtime/playwright-backend/` 下的 `package.json` 和锁文件，在目标机器重新安装依赖；
-- 状态目录，默认是 `~/.consumer-shopping/`。
-
-状态目录里有私人订单和购物车数据，不要分享。
-
-## 设计与依赖
-
-- 核心程序只使用 Node.js 内置库。
-- Playwright 连接依赖由 `runtime/playwright-backend/` 的清单和锁文件固定，使用 `@playwright/mcp`，不需要全局安装或给 agent 配置 MCP 工具。
-- 本机服务通过 Playwright 扩展使用所选 Chrome 资料里的登录状态。令牌只留在本机，扩展从商店单独安装。
-- 旧浏览器通道已删除；旧任务检查点和缓存原样保留，不自动迁移，见[旧结果说明](references/dedicated-browser.md)。
-
-## 测试
+## 开发
 
 ```sh
 node --test
 ```
 
-测试使用本地模拟服务、合成页面和临时子进程，不访问电商平台；需要允许测试进程监听本地临时端口。Node.js 22 和 24 都要通过，离线测试不代替真实扩展验收。
+测试使用合成页面和本地模拟服务，不访问任何电商平台。Node.js 22 和 24 都应通过。
 
-## 生成安装包
+目录结构：
 
-在开发仓库中运行（要求工作区已提交、没有未提交的修改）：
+| 目录 | 内容 |
+| --- | --- |
+| `SKILL.md` | 给 AI 助手看的入口与规则 |
+| `scripts/` | 命令行入口 |
+| `lib/` | 读取、任务、节奏、连接服务等核心逻辑 |
+| `references/` | 各项能力的详细说明 |
+| `runtime/playwright-backend/` | 连接服务依赖的清单和锁文件 |
+| `test/`、`test-support/` | 离线测试和模拟页面 |
+| `examples/` | 结果示例 |
 
-```sh
-node scripts/build-package.mjs --output ../dist
-```
+欢迎通过 [Issues](https://github.com/zt994451054/winston-shopper/issues) 反馈问题。报告问题时请不要贴出你的订单、地址或令牌。
 
-打包规则：
+更新到新版本的方法见[环境准备](references/setup.md#更新到新版本)。
 
-- 只收录 git 已提交、且在白名单内的文件；具体规则见 `lib/package-contents.mjs`，每次打包的文件见 `MANIFEST.json`。
-- 私人状态、已安装的依赖和开发历史不会进包。
-- 说明文档中指向包外开发记录的链接，会改成纯文字。
-- 任何文件里出现本机用户路径或手机号时，打包中止。
+## 许可证
 
-输出的 `winston-shopper/MANIFEST.json` 记录了来源提交和每个文件的 SHA-256，另外生成同名的 `.tar.gz` 压缩包。发布前要确认包里有 `runtime/playwright-backend/` 的清单和锁文件，并在新目录按[纯净环境验收](references/clean-install-acceptance.md)从头安装检查；旧安装包不能用作新版通道的安装验证。
-
-## 历史记录
-
-精简前的 README 和 SKILL.md 原文只保存在开发仓库的 README-HISTORY.md 和 SKILL-HISTORY.md 中，安装包不含这两个文件。
+[MIT](LICENSE) © [zt994451054](https://github.com/zt994451054)

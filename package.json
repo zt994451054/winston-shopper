@@ -1,9 +1,10 @@
 {
   "name": "winston-shopper",
-  "version": "2.0.17",
+  "version": "2.0.18",
   "private": true,
   "type": "module",
-  "description": "Agent-independent public shopping snapshots with bounded retries and resumable tasks",
+  "description": "Agent skill for read-only Taobao/Tmall, JD.com and Pinduoduo browsing in your own signed-in Chrome: search, product details, reviews, cart and orders, with human-paced, resumable tasks",
+  "license": "MIT",
   "repository": { "type": "git", "url": "https://github.com/zt994451054/winston-shopper.git" },
   "engines": { "node": ">=22.0.0" },
   "scripts": {

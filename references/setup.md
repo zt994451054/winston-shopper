@@ -171,7 +171,7 @@ node scripts/shopping.mjs bridge-stop
 
 ## 更新到新版本
 
-安装包来自 `package.json` 里 `repository` 写的 GitHub 仓库（私有仓库要用用户已登录的 `git` 或 `gh` 取得）。不要为了找来源去翻 shell 历史、其他 agent 的记录或别的目录；仓库取不到时问用户。
+安装包来自 `package.json` 里 `repository` 写的 GitHub 仓库（公开仓库，用 `git clone` 取得）。不要为了找来源去翻 shell 历史、其他 agent 的记录或别的目录；仓库取不到时问用户。
 
 1. 先确认没有未收尾的任务（`task-status`），再在本安装目录运行 `bridge-stop`。
 2. 把仓库克隆或下载到一个新的临时目录，看 `package.json` 的 `version`，核对 `MANIFEST.json` 里的文件和校验值。

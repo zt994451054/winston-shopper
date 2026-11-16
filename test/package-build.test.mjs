@@ -17,12 +17,12 @@ const PHONE = '138' + '12345678';
 const git = (cwd, ...args) => run('git', ['-c', 'user.name=Test', '-c', 'user.email=test@example.com', '-c', 'commit.gpgsign=false', ...args], { cwd });
 
 test('the package keeps the allowlisted skill files and leaves history, state and dependencies out', () => {
-  const tracked = ['SKILL.md', 'SKILL-HISTORY.md', 'README.md', 'README-HISTORY.md', 'package.json', '.gitignore',
+  const tracked = ['SKILL.md', 'SKILL-HISTORY.md', 'README.md', 'README.en.md', 'LICENSE', 'README-HISTORY.md', 'package.json', '.gitignore',
     'lib/cli.mjs', 'scripts/shopping.mjs', 'references/tasks.md', 'examples/data/a.json', 'test/a.test.mjs', 'test-support/f.mjs',
     'runtime/playwright-backend/package.json', 'runtime/playwright-backend/package-lock.json', 'runtime/playwright-backend/node_modules/x.js',
     'runtime/playwright-backend/.install-stamp.json', 'runtime/browser-backend/package.json', 'runtime/browser-backend/package-lock.json',
     '.runtime/state.json', '.runtime/pw-ext-token', 'notes.md'];
-  assert.deepEqual(selectPackageFiles(tracked), ['.gitignore', 'README.md', 'SKILL.md', 'examples/data/a.json', 'lib/cli.mjs', 'package.json',
+  assert.deepEqual(selectPackageFiles(tracked), ['.gitignore', 'LICENSE', 'README.en.md', 'README.md', 'SKILL.md', 'examples/data/a.json', 'lib/cli.mjs', 'package.json',
     'references/tasks.md', 'runtime/playwright-backend/package-lock.json', 'runtime/playwright-backend/package.json', 'scripts/shopping.mjs',
     'test-support/f.mjs', 'test/a.test.mjs']);
   for (const unsafe of ['../outside.md', '/etc/passwd', 'lib\\cli.mjs']) {

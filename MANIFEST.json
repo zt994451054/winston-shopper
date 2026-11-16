@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "name": "winston-shopper",
-  "version": "2.0.17",
-  "source_commit": "b83db46471d779727dd85cb1fd9a0ac4864b7cb3",
-  "built_at": "2026-11-14T02:48:33.913Z",
+  "version": "2.0.18",
+  "source_commit": "4d6409ad14f805efa6e38ab7388907f0579bad7b",
+  "built_at": "2026-11-16T06:12:38.160Z",
   "excludes": "Only committed files from the allowlist are included; private state, installed dependencies and development history are not.",
   "files": [
     {
@@ -12,9 +12,19 @@
       "sha256": "79f90b9e89a03b78fb319ade7fdfee852d45b2fe093358273452cbf4ac3157b4"
     },
     {
+      "path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "2f7cf3f5764799f90c06248d0d9a835d641916db328e7f55dbef02da1195e755"
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 10738,
+      "sha256": "8d053d92d07c90c729a13c07166dbd9bc788d93cbdbe001d7a72620cfa5edde1"
+    },
+    {
       "path": "README.md",
-      "bytes": 11504,
-      "sha256": "f1fff8a5ff3e37c15b4ff0421df639cc25c983f94f0d3e0ef9091bfbfd531d45"
+      "bytes": 10506,
+      "sha256": "56c0813250505e0f8dde3695786f5ca0abb331f846299f4a72d1e12abbd91598"
     },
     {
       "path": "SKILL.md",
@@ -615,8 +625,8 @@
     },
     {
       "path": "lib/package-contents.mjs",
-      "bytes": 3458,
-      "sha256": "cbfe62e18f5dff5acb2e02fca51896cf733be964942a844aacecb711e6d90718"
+      "bytes": 3485,
+      "sha256": "4426d366d66106bde901212e3dc2225e0227a3bb3838d84aad41a361974be2ca"
     },
     {
       "path": "lib/page-dom.mjs",
@@ -960,13 +970,13 @@
     },
     {
       "path": "package.json",
-      "bytes": 428,
-      "sha256": "7b54a3d27cb6e92835561e0c2e97f0c1aa4f8be0c8f9b61f445c410640ed8358"
+      "bytes": 548,
+      "sha256": "8c70b28c27f1f4d53a881000ddc6c3552e2deb04c6491ef17fc9378e93673b8f"
     },
     {
       "path": "references/capabilities.md",
       "bytes": 7935,
-      "sha256": "72941e68fc09b35776c274bd3bc70449308fcd1075437a3389cf61ff3cbdaa7d"
+      "sha256": "75b65992f82493696399fb43302ce0b790471936e0ed3c1e0fa949e3fa1aa855"
     },
     {
       "path": "references/cart-capabilities.md",
@@ -1152,8 +1162,8 @@
     },
     {
       "path": "references/setup.md",
-      "bytes": 15299,
-      "sha256": "de220e3b621dd30cfd0b7035f1919b6b28d08c7e966eb9bf4e3a3aa3e988bc7f"
+      "bytes": 15278,
+      "sha256": "a9bd1aa3db4400e82418ef88dff0eb9d49a8b22781ebda501c4fba6698728fbb"
     },
     {
       "path": "references/skill-acceptance.md",
@@ -1625,8 +1635,8 @@
     },
     {
       "path": "test/package-build.test.mjs",
-      "bytes": 8635,
-      "sha256": "3da186a587fd2066b54dc9ea169a73ffe1bc67f9687fd2be31afc21e75214ff0"
+      "bytes": 8689,
+      "sha256": "40e40a0ca233617426729556c95b2298b621fb00549493f9bd10660bb5607607"
     },
     {
       "path": "test/page-gap.test.mjs",
